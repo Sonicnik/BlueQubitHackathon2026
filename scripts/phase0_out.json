@@ -1,0 +1,257 @@
+[BQ-PYTHON-SDK][WARNING] - Beta version 0.19.0b1 of BlueQubit Python SDK is being used.
+[BQ-PYTHON-SDK][INFO] - Submitted: Job ID: zWzRl9Xh1gjur3od, device: cpu, run status: COMPLETED, created on: 2026-10-24 16:49:21 UTC, cost: $0.00, run time: 140 ms, queue time: 134 ms, num qubits: 4
+[BQ-PYTHON-SDK][INFO] - Submitted: Job ID: gwL8L8uBC5BYtZHS, device: cpu, run status: COMPLETED, created on: 2026-10-24 16:49:23 UTC, cost: $0.00, run time: 27 ms, queue time: 139 ms, num qubits: 4
+[BQ-PYTHON-SDK][INFO] - Submitted: Job ID: kuXXN3EII7ensu07, device: cpu, run status: COMPLETED, created on: 2026-10-24 16:49:24 UTC, cost: $0.00, run time: 26 ms, queue time: 129 ms, num qubits: 4
+[BQ-PYTHON-SDK][INFO] - Submitted: Job ID: GUmCsQ1juqGHfDFw, device: cpu, run status: COMPLETED, created on: 2026-10-24 16:49:26 UTC, cost: $0.00, run time: 27 ms, queue time: 113 ms, num qubits: 4
+{
+ "bluequbit": "0.19.0b1",
+ "S1_info": {
+  "n": 4,
+  "ops": {
+   "cz": 72,
+   "u3": 160,
+   "x": 2,
+   "z": 1
+  },
+  "d2q": 48
+ },
+ "S1": [
+  {
+   "q": 0,
+   "exact": -0.362192231587095,
+   "remote": -0.3621922593901457,
+   "cost": 0.0,
+   "est_cost": 0.0,
+   "job_id": "zWzRl9Xh1gjur3od"
+  },
+  {
+   "q": 1,
+   "exact": -0.23266741155521736,
+   "remote": -0.23266735629776267,
+   "cost": 0.0,
+   "est_cost": 0.0,
+   "job_id": "gwL8L8uBC5BYtZHS"
+  },
+  {
+   "q": 2,
+   "exact": 0.10250391698775653,
+   "remote": 0.10250411538796315,
+   "cost": 0.0,
+   "est_cost": 0.0,
+   "job_id": "kuXXN3EII7ensu07"
+  },
+  {
+   "q": 3,
+   "exact": -0.10937099877949069,
+   "remote": -0.10937093084751637,
+   "cost": 0.0,
+   "est_cost": 0.0,
+   "job_id": "GUmCsQ1juqGHfDFw"
+  }
+ ],
+ "Duke_S3_0": {
+  "n": 30,
+  "ops": {
+   "cz": 1568,
+   "u3": 3160,
+   "x": 2,
+   "z": 1
+  },
+  "d1q": 135,
+  "d2q": 128,
+  "cpu": {
+   "ms": 90125,
+   "cost": 0.0,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "gpu": {
+   "ms": 8400,
+   "cost": 0.2,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.cpu": {
+   "ms": 9710300,
+   "cost": 4.05,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.gpu": {
+   "ms": 3913400,
+   "cost": 4.35,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "pauli-path": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Device pauli-path requires the pauli_sum parameter to be specified."
+  }
+ },
+ "Duke_G1_0": {
+  "n": 30,
+  "ops": {
+   "cz": 5568,
+   "u3": 11256,
+   "x": 2,
+   "z": 1
+  },
+  "d1q": 389,
+  "d2q": 384,
+  "cpu": {
+   "ms": 218093,
+   "cost": 0.0,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "gpu": {
+   "ms": 13600,
+   "cost": 0.2,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.cpu": {
+   "ms": 31687100,
+   "cost": 13.21,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.gpu": {
+   "ms": 8545000,
+   "cost": 9.5,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "pauli-path": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Device pauli-path requires the pauli_sum parameter to be specified."
+  }
+ },
+ "Duke_G2_0": {
+  "n": 36,
+  "ops": {
+   "cz": 3780,
+   "u3": 7704,
+   "x": 2,
+   "z": 1
+  },
+  "d1q": 223,
+  "d2q": 216,
+  "cpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit contains more than 34 qubits, which is not supported for CPU backend. See https://app.bluequbit.io/docs for more details."
+  },
+  "gpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit num qubits (36) is too high for GPU backend"
+  },
+  "mps.cpu": {
+   "ms": 26091200,
+   "cost": 10.88,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.gpu": {
+   "ms": 7394700,
+   "cost": 8.22,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "pauli-path": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Device pauli-path requires the pauli_sum parameter to be specified."
+  }
+ },
+ "Duke_G3_0": {
+  "n": 36,
+  "ops": {
+   "cz": 2872,
+   "u3": 5732,
+   "x": 2,
+   "z": 1
+  },
+  "d1q": 199,
+  "d2q": 192,
+  "cpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit contains more than 34 qubits, which is not supported for CPU backend. See https://app.bluequbit.io/docs for more details."
+  },
+  "gpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit num qubits (36) is too high for GPU backend"
+  },
+  "mps.cpu": {
+   "ms": 20142400,
+   "cost": 8.4,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.gpu": {
+   "ms": 6155700,
+   "cost": 6.84,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "pauli-path": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Device pauli-path requires the pauli_sum parameter to be specified."
+  }
+ },
+ "Duke_G4_0": {
+  "n": 38,
+  "ops": {
+   "cz": 3024,
+   "u3": 6200,
+   "x": 2,
+   "z": 1
+  },
+  "d1q": 197,
+  "d2q": 192,
+  "cpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit contains more than 34 qubits, which is not supported for CPU backend. See https://app.bluequbit.io/docs for more details."
+  },
+  "gpu": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Circuit num qubits (38) is too high for GPU backend"
+  },
+  "mps.cpu": {
+   "ms": 22244700,
+   "cost": 9.27,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "mps.gpu": {
+   "ms": 6595800,
+   "cost": 7.33,
+   "warn": "This is just an estimate; the actual runtime may be less or more.",
+   "err": null
+  },
+  "pauli-path": {
+   "ms": null,
+   "cost": null,
+   "warn": null,
+   "err": "Device pauli-path requires the pauli_sum parameter to be specified."
+  }
+ }
+}

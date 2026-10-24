@@ -6,6 +6,8 @@ Revised October 24, 2026. Run the phases in order. Each phase ends with a check 
 
 Maximize the sum of corr² x points over S1 to S3 (100 each) and G1 to G4 (300, 600, 800, 1000). The event ends Sunday October 25, 11:30 a.m. ET. Freeze at 10:30 a.m. ET. Aim for about 20 hours of unattended refinement after the baseline exists.
 
+**Target change (Oct 24, ~1:30 p.m. ET, user decision):** this loop works on **G2 (600) and G4 (1,000) only**, with the full $27 cap on this account. A teammate's run covers S1 to S3, G1 and G3. S1 to S3 stay here as exact local references for scoring. G3 is optional if time and budget remain.
+
 ## Architecture
 
 BlueQubit runs the simulators remotely by ID. Our code runs on the user's Mac.
@@ -52,9 +54,9 @@ Build the protected parts. Compute exact S1, S2 values locally (statevector). At
 
 ### Phase 2: first strategy and baseline CSVs (about 1 h)
 
-Write `strategy.py` v1. Start cheap: `cpu` exact for S1 and S2; for S3 and G1 to G4 a first rung on `mps.cpu` or `pauli-path` chosen from `estimate` output, then a second rung at double the fidelity. Combine rungs by the simplest rule that works on the proxies. Produce a complete CSV for each of the seven problems with a method note.
+Write `strategy.py` v1. Start cheap: `cpu` exact for S1 and S2; for S3 and G1 to G4 a first rung on `mps.cpu` or `pauli-path` chosen from `estimate` output, then a second rung at double the fidelity. Combine rungs by the simplest rule that works on the proxies. Produce a complete CSV for each of the seven problems with a method note. *Narrowed by the target change: G2 and G4 only.*
 
-**Done when:** seven schema-valid CSVs exist in `candidates/`, S1 and S2 corr² are reported against exact values, and `STATUS.md` lists the CSVs ready for the user to submit.
+**Done when:** schema-valid G2 and G4 CSVs exist in `candidates/`, S1 to S3 corr² of the chosen methods are reported against exact values, and `STATUS.md` lists the CSVs ready for the user to submit.
 
 ### Phase 3: surrogate benchmark (about 1 h)
 

@@ -1,0 +1,86 @@
+{
+ "Duke_S3_0 mps.cpu {'mps_bond_dimension': 64}": {
+  "estimate_ms": 918800,
+  "estimated_cost": 39,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 mps.cpu {'mps_bond_dimension': 512}": {
+  "estimate_ms": 35514500,
+  "estimated_cost": 1480,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 mps.gpu {'mps_bond_dimension': 512}": {
+  "estimate_ms": 9346200,
+  "estimated_cost": 1039,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 mps.gpu {'mps_bond_dimension': 2048}": {
+  "estimate_ms": 103991700,
+  "estimated_cost": 11555,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 pauli-path {'pauli_path_truncation_threshold': 0.001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 20,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 pauli-path {'pauli_path_truncation_threshold': 0.0001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 20,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_S3_0 pauli-path.gpu {'pauli_path_truncation_threshold': 0.0001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 67,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 mps.cpu {'mps_bond_dimension': 64}": {
+  "estimate_ms": 1877800,
+  "estimated_cost": 79,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 mps.cpu {'mps_bond_dimension': 512}": {
+  "estimate_ms": 83779400,
+  "estimated_cost": 3491,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 mps.gpu {'mps_bond_dimension': 512}": {
+  "estimate_ms": 18949000,
+  "estimated_cost": 2106,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 mps.gpu {'mps_bond_dimension': 2048}": {
+  "estimate_ms": 244116200,
+  "estimated_cost": 27125,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 pauli-path {'pauli_path_truncation_threshold': 0.001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 20,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 pauli-path {'pauli_path_truncation_threshold': 0.0001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 20,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ },
+ "Duke_G4_0 pauli-path.gpu {'pauli_path_truncation_threshold': 0.0001}": {
+  "estimate_ms": 100,
+  "estimated_cost": 67,
+  "error_message": null,
+  "warning_message": "This is just an estimate; the actual runtime may be less or more."
+ }
+}

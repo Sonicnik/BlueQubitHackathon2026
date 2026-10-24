@@ -1,0 +1,102 @@
+{"t": 1792861032.381717, "key": "89fc88562210743332365250", "event": "committed", "cid": "Duke_S1_0", "device": "cpu", "options": null, "pauli_sum": [["IIIZ", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "phase1-adapter-check", "attempt": 1}
+{"t": 1792861032.865864, "key": "89fc88562210743332365250", "event": "submitted", "job_id": "4gtaZSn9wVsb8PbG"}
+{"t": 1792861038.052713, "key": "89fc88562210743332365250", "event": "completed", "value": -0.36219230348178355, "cost": 0.0}
+{"t": 1792861038.5190558, "key": "44272bff9b265187d3376d69", "event": "committed", "cid": "Duke_S1_1", "device": "cpu", "options": null, "pauli_sum": [["IIZI", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "phase1-adapter-check", "attempt": 1}
+{"t": 1792861039.157314, "key": "44272bff9b265187d3376d69", "event": "submitted", "job_id": "z5VwC2O0U0xDkNSI"}
+{"t": 1792861044.3487098, "key": "44272bff9b265187d3376d69", "event": "completed", "value": -0.23266737433512968, "cost": 0.0}
+{"t": 1792861044.668689, "key": "9ce5ce154be078e736cc8e35", "event": "committed", "cid": "Duke_S1_2", "device": "cpu", "options": null, "pauli_sum": [["IZII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "phase1-adapter-check", "attempt": 1}
+{"t": 1792861045.0760908, "key": "9ce5ce154be078e736cc8e35", "event": "submitted", "job_id": "eCcqomxiGxNK0qmj"}
+{"t": 1792861050.236694, "key": "9ce5ce154be078e736cc8e35", "event": "completed", "value": 0.10250410636312354, "cost": 0.0}
+{"t": 1792861050.572737, "key": "ed5396e2a7b5e3fa6111d7b1", "event": "committed", "cid": "Duke_S1_3", "device": "cpu", "options": null, "pauli_sum": [["ZIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "phase1-adapter-check", "attempt": 1}
+{"t": 1792861051.111514, "key": "ed5396e2a7b5e3fa6111d7b1", "event": "submitted", "job_id": "UPIrJc9cXdoRC9LO"}
+{"t": 1792861056.3401458, "key": "ed5396e2a7b5e3fa6111d7b1", "event": "completed", "value": -0.10937093084751637, "cost": 0.0}
+{"t": 1792861058.300709, "key": "5e8225493a0adbbd2d20545d", "event": "committed", "cid": "Duke_S3_0", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "phase1-s3-free-check", "attempt": 1}
+{"t": 1792861060.055821, "key": "5e8225493a0adbbd2d20545d", "event": "submitted", "job_id": "PpPXkKjbFLV5rPXM"}
+{"t": 1792861105.9802308, "key": "5e8225493a0adbbd2d20545d", "event": "completed", "value": 0.14413075175299472, "cost": 0.0}
+{"t": 1792861140.8487291, "key": "e661991beee666c2b67ad3d2", "event": "committed", "cid": "Duke_S3_1", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861142.97721, "key": "ab327063e49e2fe7d5026b60", "event": "committed", "cid": "Duke_S3_2", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861145.025751, "key": "6c8f1ad0d9e98f1859dd02b9", "event": "committed", "cid": "Duke_S3_3", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861148.156189, "key": "e16840494374d7dd119f684b", "event": "committed", "cid": "Duke_S3_4", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861148.1574872, "key": "e661991beee666c2b67ad3d2", "event": "submitted", "job_id": "FVTVTt28DKDUS0VK"}
+{"t": 1792861148.159307, "key": "ab327063e49e2fe7d5026b60", "event": "submitted", "job_id": "kyAxqFOmnzgqzGVV"}
+{"t": 1792861148.160723, "key": "6c8f1ad0d9e98f1859dd02b9", "event": "submitted", "job_id": "JqTjFv4LIntGLqM7"}
+{"t": 1792861150.719501, "key": "e16840494374d7dd119f684b", "event": "submitted", "job_id": "HI40YH4wA5gM7dvc"}
+{"t": 1792861189.0071669, "key": "e661991beee666c2b67ad3d2", "event": "completed", "value": -0.5382417007216166, "cost": 0.0}
+{"t": 1792861190.774394, "key": "de66c6f21c448e98f6b114eb", "event": "committed", "cid": "Duke_S3_5", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861191.707367, "key": "e16840494374d7dd119f684b", "event": "completed", "value": 0.10972916185759819, "cost": 0.0}
+{"t": 1792861193.248565, "key": "6076d292e8cb84a99f743f05", "event": "committed", "cid": "Duke_S3_6", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861193.2521741, "key": "de66c6f21c448e98f6b114eb", "event": "submitted", "job_id": "SluVpmVZYyeYBHT9"}
+{"t": 1792861195.3798919, "key": "6076d292e8cb84a99f743f05", "event": "submitted", "job_id": "CqwhCt7KpdC5cmRW"}
+{"t": 1792861199.395571, "key": "6c8f1ad0d9e98f1859dd02b9", "event": "completed", "value": -0.21713696772316057, "cost": 0.0}
+{"t": 1792861200.860534, "key": "ce109136ddc5f3ca24cc6432", "event": "committed", "cid": "Duke_S3_7", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861203.423008, "key": "ce109136ddc5f3ca24cc6432", "event": "submitted", "job_id": "gflMwVDA3VINLjyT"}
+{"t": 1792861204.40115, "key": "ab327063e49e2fe7d5026b60", "event": "completed", "value": 0.2127769482959429, "cost": 0.0}
+{"t": 1792861207.424311, "key": "3c0bc83ad4c484683b6936bb", "event": "committed", "cid": "Duke_S3_8", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861209.59452, "key": "3c0bc83ad4c484683b6936bb", "event": "submitted", "job_id": "CtU5FUcTUWiEZAjL"}
+{"t": 1792861241.553354, "key": "6076d292e8cb84a99f743f05", "event": "completed", "value": -0.14866919909430312, "cost": 0.0}
+{"t": 1792861243.081116, "key": "007938020c8f028520181566", "event": "committed", "cid": "Duke_S3_9", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861244.713512, "key": "007938020c8f028520181566", "event": "submitted", "job_id": "thmCSgc8eW7oEGfd"}
+{"t": 1792861254.4953, "key": "ce109136ddc5f3ca24cc6432", "event": "completed", "value": -0.5114818721845024, "cost": 0.0}
+{"t": 1792861256.935803, "key": "cb00ab0ce579145ef8cf49a0", "event": "committed", "cid": "Duke_S3_10", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861256.937226, "key": "de66c6f21c448e98f6b114eb", "event": "completed", "value": -0.14066402789567248, "cost": 0.0}
+{"t": 1792861256.9382951, "key": "3c0bc83ad4c484683b6936bb", "event": "completed", "value": 0.2610058547699903, "cost": 0.0}
+{"t": 1792861259.291711, "key": "0bfe5eff399c2faddf2496f4", "event": "committed", "cid": "Duke_S3_11", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861262.96595, "key": "84a78b4056f11ff2bf4667ee", "event": "committed", "cid": "Duke_S3_12", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861262.966785, "key": "cb00ab0ce579145ef8cf49a0", "event": "submitted", "job_id": "HMYXp3E8RqyGIwsX"}
+{"t": 1792861263.53198, "key": "0bfe5eff399c2faddf2496f4", "event": "submitted", "job_id": "OkpDYIInlYfg1O56"}
+{"t": 1792861264.778956, "key": "84a78b4056f11ff2bf4667ee", "event": "submitted", "job_id": "7ICYrmQU6OiIPEh3"}
+{"t": 1792861311.2546718, "key": "007938020c8f028520181566", "event": "completed", "value": 0.443852306569132, "cost": 0.0}
+{"t": 1792861313.831984, "key": "6424c62633075e8bb77ad289", "event": "committed", "cid": "Duke_S3_13", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861316.1483011, "key": "6424c62633075e8bb77ad289", "event": "submitted", "job_id": "5GOsRzKyFlYqDuXU"}
+{"t": 1792861317.4630961, "key": "cb00ab0ce579145ef8cf49a0", "event": "completed", "value": -0.10766703899012091, "cost": 0.0}
+{"t": 1792861318.385196, "key": "f94fe5178a7305a47f8fd9d4", "event": "committed", "cid": "Duke_S3_14", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861319.723289, "key": "f94fe5178a7305a47f8fd9d4", "event": "submitted", "job_id": "hNpl2p7n61a0GVnl"}
+{"t": 1792861330.052618, "key": "0bfe5eff399c2faddf2496f4", "event": "completed", "value": -0.30636922260085303, "cost": 0.0}
+{"t": 1792861331.0965078, "key": "56d315ad72ba2284c64c72f1", "event": "committed", "cid": "Duke_S3_15", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861331.327913, "key": "84a78b4056f11ff2bf4667ee", "event": "completed", "value": -0.6551399623394082, "cost": 0.0}
+{"t": 1792861333.6221912, "key": "19ac69b4ccf26c4cdd2c06ba", "event": "committed", "cid": "Duke_S3_16", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861333.714998, "key": "56d315ad72ba2284c64c72f1", "event": "submitted", "job_id": "Y80LcQdqOpDgTXiT"}
+{"t": 1792861335.949183, "key": "19ac69b4ccf26c4cdd2c06ba", "event": "submitted", "job_id": "idhvThqow0VBIdev"}
+{"t": 1792861370.9407208, "key": "f94fe5178a7305a47f8fd9d4", "event": "completed", "value": 0.02453009039648803, "cost": 0.0}
+{"t": 1792861373.233804, "key": "97054b9dc54eeba9cac860ca", "event": "committed", "cid": "Duke_S3_17", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861375.373122, "key": "97054b9dc54eeba9cac860ca", "event": "submitted", "job_id": "0Xr8PIgOB4AF006m"}
+{"t": 1792861390.029975, "key": "56d315ad72ba2284c64c72f1", "event": "completed", "value": 0.02797328806808041, "cost": 0.0}
+{"t": 1792861392.8172832, "key": "4478b82acd50f530c527feac", "event": "committed", "cid": "Duke_S3_18", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861392.961204, "key": "6424c62633075e8bb77ad289", "event": "completed", "value": -0.019312801998067137, "cost": 0.0}
+{"t": 1792861395.814572, "key": "2f093d8b7703e409690c825c", "event": "committed", "cid": "Duke_S3_19", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861396.44259, "key": "4478b82acd50f530c527feac", "event": "submitted", "job_id": "aEvWBukbUD9TbUNE"}
+{"t": 1792861398.5615091, "key": "2f093d8b7703e409690c825c", "event": "submitted", "job_id": "fdETd3IguIeZA1NE"}
+{"t": 1792861402.484679, "key": "19ac69b4ccf26c4cdd2c06ba", "event": "completed", "value": -0.6856292370150997, "cost": 0.0}
+{"t": 1792861405.316399, "key": "adbe0a6e633e2863567269da", "event": "committed", "cid": "Duke_S3_20", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861407.714852, "key": "adbe0a6e633e2863567269da", "event": "submitted", "job_id": "oBWsUdXdtTmAHa0x"}
+{"t": 1792861426.590343, "key": "97054b9dc54eeba9cac860ca", "event": "completed", "value": -0.8116624763013344, "cost": 0.0}
+{"t": 1792861429.275955, "key": "7318c11ceee0e57e34dad97d", "event": "committed", "cid": "Duke_S3_21", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861430.9825878, "key": "7318c11ceee0e57e34dad97d", "event": "submitted", "job_id": "BMz7nSb6w8deZdZW"}
+{"t": 1792861449.6979442, "key": "2f093d8b7703e409690c825c", "event": "completed", "value": 0.017755866797012507, "cost": 0.0}
+{"t": 1792861451.7358038, "key": "a394b3a43b3e74486f309814", "event": "committed", "cid": "Duke_S3_22", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861452.731524, "key": "4478b82acd50f530c527feac", "event": "completed", "value": 0.0010399465147783206, "cost": 0.0}
+{"t": 1792861454.916628, "key": "0113aadec9f6ff12b0892b45", "event": "committed", "cid": "Duke_S3_23", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861454.9189959, "key": "a394b3a43b3e74486f309814", "event": "submitted", "job_id": "j6V8IOkary1T4NyZ"}
+{"t": 1792861456.924851, "key": "0113aadec9f6ff12b0892b45", "event": "submitted", "job_id": "KMCj6yFVeIMCHyiP"}
+{"t": 1792861459.023683, "key": "adbe0a6e633e2863567269da", "event": "completed", "value": 0.04952062317990665, "cost": 0.0}
+{"t": 1792861462.0279338, "key": "f2639e8fc692ccbf3f533b56", "event": "committed", "cid": "Duke_S3_24", "device": "cpu", "options": null, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861464.1215758, "key": "f2639e8fc692ccbf3f533b56", "event": "submitted", "job_id": "trXxQ9sHEEWh23CL"}
+{"t": 1792861477.2096488, "key": "7318c11ceee0e57e34dad97d", "event": "completed", "value": 0.05374480243320007, "cost": 0.0}
+{"t": 1792861479.627647, "key": "981046168f40e4c554d790a1", "event": "committed", "cid": "Duke_S3_25", "device": "cpu", "options": null, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861481.205832, "key": "981046168f40e4c554d790a1", "event": "submitted", "job_id": "2DwS1VQG4DwE8a3b"}
+{"t": 1792861513.410656, "key": "0113aadec9f6ff12b0892b45", "event": "completed", "value": -0.4194764648534235, "cost": 0.0}
+{"t": 1792861516.3504288, "key": "8cb41080efc8992e67240ec2", "event": "committed", "cid": "Duke_S3_26", "device": "cpu", "options": null, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861516.351657, "key": "f2639e8fc692ccbf3f533b56", "event": "completed", "value": 0.06559881734106324, "cost": 0.0}
+{"t": 1792861518.123067, "key": "8bd80749291b58752ac0661c", "event": "committed", "cid": "Duke_S3_27", "device": "cpu", "options": null, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861518.1249988, "key": "8cb41080efc8992e67240ec2", "event": "submitted", "job_id": "Rhg9klHr9Nz5gnT3"}
+{"t": 1792861519.906263, "key": "8bd80749291b58752ac0661c", "event": "submitted", "job_id": "jxgmyO7J3TJD1oQh"}
+{"t": 1792861526.487107, "key": "a394b3a43b3e74486f309814", "event": "completed", "value": -0.6856291766878104, "cost": 0.0}
+{"t": 1792861528.2386959, "key": "2496103ad3418836e0deab8a", "event": "committed", "cid": "Duke_S3_28", "device": "cpu", "options": null, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861530.066802, "key": "2496103ad3418836e0deab8a", "event": "submitted", "job_id": "rZWQnBtoV6129c7u"}
+{"t": 1792861537.5063071, "key": "981046168f40e4c554d790a1", "event": "completed", "value": 0.35898427161879987, "cost": 0.0}
+{"t": 1792861539.039062, "key": "a33a7bdc236e7541c0a2c9a3", "event": "committed", "cid": "Duke_S3_29", "device": "cpu", "options": null, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-S3", "attempt": 1}
+{"t": 1792861542.7784781, "key": "a33a7bdc236e7541c0a2c9a3", "event": "submitted", "job_id": "4SrJBbZUPl2PX2IS"}
+{"t": 1792861571.4204109, "key": "8bd80749291b58752ac0661c", "event": "completed", "value": 0.9577957708631356, "cost": 0.0}
+{"t": 1792861584.715468, "key": "8cb41080efc8992e67240ec2", "event": "completed", "value": -0.17269800630388216, "cost": 0.0}
+{"t": 1792861591.4507551, "key": "2496103ad3418836e0deab8a", "event": "completed", "value": 0.9999999999995448, "cost": 0.0}
+{"t": 1792861604.875684, "key": "a33a7bdc236e7541c0a2c9a3", "event": "completed", "value": 0.1658023525104133, "cost": 0.0}

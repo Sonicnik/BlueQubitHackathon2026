@@ -15,7 +15,7 @@ Repeat until 10:30 a.m. ET on October 25 or the budget is exhausted:
 
 ## Priorities
 
-Spend and attention follow points: G4 (1,000), G3 (800), G2 (600), G1 (300), then the samples (100 each, nearly solved). Climb a cost ladder per circuit and stop climbing when successive rungs agree.
+Target: G4 (1,000) and G2 (600) only (see the target change in [PLAN.md](PLAN.md)); G3 only if budget and time remain. Climb a cost ladder per circuit and stop climbing when successive rungs agree.
 
 Consider, in roughly this order: MPS bond-dimension ladder with extrapolation; Pauli-path threshold ladder with extrapolation; choosing device per family; combining MPS and Pauli-path estimates; ranking-preserving post-processing (the score ignores scale and offset, so shape and sign matter most).
 
