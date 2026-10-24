@@ -3,6 +3,7 @@
   evaluate.py selfcheck               exact vs exact gives corr^2 = 1 for every truth file
   evaluate.py validate FILE.csv ...   schema check against kit/problems.json
   evaluate.py score FILE.csv ...      corr^2 and MAE against bench/truth (where truth exists)
+  evaluate.py benchmark               strategy.py on each surrogate family (remote, via the controller) vs exact
 """
 import csv
 import json
@@ -99,6 +100,20 @@ def main(argv):
                 line += f", corr2={r:.6f}, mae={mae:.2e}, points={r * PROBLEMS[c]['points']:.1f}"
             print(line)
         sys.exit(1 if bad else 0)
+    elif cmd == "benchmark":
+        import time
+        import strategy
+        from bench.surrogates.gen import load
+        from controller.client import Controller, Proxy
+
+        client = Proxy(Controller(poll=5))
+        for fam, circuit in strategy.SURROGATE_OF.items():
+            t0 = time.time()
+            ref = json.loads((ROOT / "bench/truth/surrogates" / f"{fam}.json").read_text())["values"]
+            pred = strategy.estimate(circuit, load(fam), client)
+            r, mae = score(pred, ref)
+            print(f"{fam} (proxy for {circuit}, {json.dumps(strategy.CONFIG[circuit])}): corr2={r:.4f} mae={mae:.4f} "
+                  f"time={time.time() - t0:.0f}s remaining=${client.remaining:.2f}", flush=True)
     else:
         sys.exit(__doc__)
 

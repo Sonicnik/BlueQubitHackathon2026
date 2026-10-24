@@ -35,8 +35,13 @@ class JobPending(Exception):
     """Job still running when the wait timed out; it stays outstanding in the ledger."""
 
 
-def config_key(cid, device, options=None, pauli_sum=None) -> str:
-    blob = json.dumps([cid, device, options or {}, pauli_sum], sort_keys=True)
+def config_key(cid, device, options=None, pauli_sum=None, circuit=None) -> str:
+    """circuit: optional QuantumCircuit for our own (non-hidden) circuits; cid is then just its name."""
+    src = None
+    if circuit is not None:
+        from qiskit import qasm2
+        src = hashlib.sha256(qasm2.dumps(circuit).encode()).hexdigest()
+    blob = json.dumps([cid, device, options or {}, pauli_sum] + ([src] if src else []), sort_keys=True)
     return hashlib.sha256(blob.encode()).hexdigest()[:24]
 
 
@@ -135,23 +140,24 @@ class Controller:
     def estimate(self, cid, device, options=None, pauli_sum=None):
         return self.backend.estimate(cid, device, options, pauli_sum)
 
-    def run(self, cid, device, options=None, pauli_sum=None, timeout=None, tag=None):
-        key = config_key(cid, device, options, pauli_sum)
+    def run(self, cid, device, options=None, pauli_sum=None, timeout=None, tag=None, circuit=None):
+        key = config_key(cid, device, options, pauli_sum, circuit)
+        target = cid if circuit is None else circuit
         with self._lock:
             r = self.state.get(key)
             if r and r["event"] == "completed":
                 return r["value"]
             outstanding = bool(r) and r["event"] in ("committed", "submitted")
             if not outstanding:
-                self._commit(key, cid, device, options, pauli_sum, tag, r)
+                self._commit(key, cid, device, options, pauli_sum, tag, r, target)
         if outstanding:
             return self._wait(key, timeout)
-        return self._submit(key, cid, device, options, pauli_sum, timeout)
+        return self._submit(key, target, device, options, pauli_sum, timeout)
 
-    def _commit(self, key, cid, device, options, pauli_sum, tag, r):
+    def _commit(self, key, cid, device, options, pauli_sum, tag, r, target=None):
         if r and r.get("attempt", 0) > RETRIES:
             raise JobFailed(f"{cid} {device} already failed {r['attempt']} times: {r.get('error')}")
-        est = self.backend.estimate(cid, device, options, pauli_sum)
+        est = self.backend.estimate(cid if target is None else target, device, options, pauli_sum)
         reserve = est * self._overrun(device)
         if self.spent() + reserve > self.cap + 1e-9:
             raise BudgetExceeded(f"{cid} {device} needs ${reserve:.2f}, remaining ${self.remaining():.2f}")
@@ -235,15 +241,15 @@ class Proxy:
     def estimate(self, cid, device, options=None, pauli_sum=None):
         return self.__c.estimate(cid, device, options, pauli_sum)
 
-    def run(self, cid, device, options=None, pauli_sum=None, timeout=None, tag=None):
-        return self.__c.run(cid, device, options, pauli_sum, timeout, tag)
+    def run(self, cid, device, options=None, pauli_sum=None, timeout=None, tag=None, circuit=None):
+        return self.__c.run(cid, device, options, pauli_sum, timeout, tag, circuit)
 
     def run_many(self, specs, timeout=None):
         return self.__c.run_many(specs, timeout)
 
-    def get(self, cid, device, options=None, pauli_sum=None):
+    def get(self, cid, device, options=None, pauli_sum=None, circuit=None):
         """Ledger record for a config, or None."""
-        return dict(self.__c.state.get(config_key(cid, device, options, pauli_sum)) or {}) or None
+        return dict(self.__c.state.get(config_key(cid, device, options, pauli_sum, circuit)) or {}) or None
 
     @property
     def remaining(self):

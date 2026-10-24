@@ -463,3 +463,123 @@
 {"t": 1792863468.347507, "key": "f29710ff0b7ac1650c201d38", "event": "completed", "value": 0.8081747606625582, "cost": 0.0}
 {"t": 1792863479.212044, "key": "bb1d8df4a4a4c33163727186", "event": "completed", "value": 0.9999999999999996, "cost": 0.0}
 {"t": 1792863489.842388, "key": "75ce444f9c9d1b842c31e44b", "event": "completed", "value": 0.9310689386803274, "cost": 0.0}
+{"t": 1792864420.502091, "key": "dcef8543517fade03f81ba35", "event": "committed", "cid": "chain20_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864422.2838368, "key": "05637fa8c89c2f51e808bac6", "event": "committed", "cid": "chain20_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864423.004162, "key": "178bd82e2f2f445310bf7db3", "event": "committed", "cid": "chain20_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864424.05868, "key": "a59ea7c961b68e3b9f7ec61d", "event": "committed", "cid": "chain20_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864424.060524, "key": "dcef8543517fade03f81ba35", "event": "submitted", "job_id": "gyX322DyBuXLokwN"}
+{"t": 1792864424.073288, "key": "05637fa8c89c2f51e808bac6", "event": "submitted", "job_id": "tS5zxl9rJuI2UjIf"}
+{"t": 1792864425.0415711, "key": "178bd82e2f2f445310bf7db3", "event": "submitted", "job_id": "RaLuoSPG5zkLxVuD"}
+{"t": 1792864425.4488242, "key": "a59ea7c961b68e3b9f7ec61d", "event": "submitted", "job_id": "oZH1SQdBQ0m3Q9Ys"}
+{"t": 1792864429.3344069, "key": "05637fa8c89c2f51e808bac6", "event": "completed", "value": 0.3467359602290381, "cost": 0.0}
+{"t": 1792864429.344327, "key": "dcef8543517fade03f81ba35", "event": "completed", "value": 0.30986086231947363, "cost": 0.0}
+{"t": 1792864430.203611, "key": "c467d8ce0be1af052aa43ffc", "event": "committed", "cid": "chain20_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864431.256706, "key": "8b21b12b4a4dd782a23e6698", "event": "committed", "cid": "chain20_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864431.258603, "key": "178bd82e2f2f445310bf7db3", "event": "completed", "value": 0.14604113936887933, "cost": 0.0}
+{"t": 1792864431.270099, "key": "c467d8ce0be1af052aa43ffc", "event": "submitted", "job_id": "qqeSAz4eJ2GZg9R5"}
+{"t": 1792864432.443472, "key": "17c8d3cc06339e9e346fe572", "event": "committed", "cid": "chain20_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864432.975203, "key": "8b21b12b4a4dd782a23e6698", "event": "submitted", "job_id": "JiF6udbEqQxCwfmz"}
+{"t": 1792864433.779949, "key": "17c8d3cc06339e9e346fe572", "event": "submitted", "job_id": "y3Qq7oMjmagOtvNe"}
+{"t": 1792864435.975065, "key": "a59ea7c961b68e3b9f7ec61d", "event": "completed", "value": -0.19315084895624735, "cost": 0.0}
+{"t": 1792864436.973332, "key": "d434331779240a9845acde68", "event": "committed", "cid": "chain20_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864438.1085691, "key": "d434331779240a9845acde68", "event": "submitted", "job_id": "9JpWey9OB5Xm56xT"}
+{"t": 1792864438.189456, "key": "8b21b12b4a4dd782a23e6698", "event": "completed", "value": -0.14227493546294345, "cost": 0.0}
+{"t": 1792864439.214558, "key": "28e85d76ce1617ca2393fe51", "event": "committed", "cid": "chain20_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864440.742233, "key": "28e85d76ce1617ca2393fe51", "event": "submitted", "job_id": "to3MT69MIUqgfJm5"}
+{"t": 1792864441.7715032, "key": "c467d8ce0be1af052aa43ffc", "event": "completed", "value": -0.03303678075885709, "cost": 0.0}
+{"t": 1792864443.437092, "key": "15454c364a5bed7877d3b2e5", "event": "committed", "cid": "chain20_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864443.4386702, "key": "d434331779240a9845acde68", "event": "completed", "value": -0.05485602111527272, "cost": 0.0}
+{"t": 1792864444.493896, "key": "cf6d2601d61f1a4779ede220", "event": "committed", "cid": "chain20_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864444.495167, "key": "17c8d3cc06339e9e346fe572", "event": "completed", "value": 0.011899446443442986, "cost": 0.0}
+{"t": 1792864445.882978, "key": "a0b6969f725ddfc101b94048", "event": "committed", "cid": "chain20_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864445.885102, "key": "15454c364a5bed7877d3b2e5", "event": "submitted", "job_id": "1OAS7Wt1DG8qWjrH"}
+{"t": 1792864445.8860428, "key": "cf6d2601d61f1a4779ede220", "event": "submitted", "job_id": "OLfpZw2MY0LUwwaX"}
+{"t": 1792864446.7556438, "key": "a0b6969f725ddfc101b94048", "event": "submitted", "job_id": "PpLBBe0R3TJX6J8q"}
+{"t": 1792864451.078882, "key": "28e85d76ce1617ca2393fe51", "event": "completed", "value": -0.01260082057388386, "cost": 0.0}
+{"t": 1792864451.644995, "key": "e872087029c55c42a85837f3", "event": "committed", "cid": "chain20_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864451.646809, "key": "15454c364a5bed7877d3b2e5", "event": "completed", "value": 0.010189180874500102, "cost": 0.0}
+{"t": 1792864452.2898638, "key": "237b32f7e879d3e568f8196a", "event": "committed", "cid": "chain20_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864453.900157, "key": "237b32f7e879d3e568f8196a", "event": "submitted", "job_id": "obIxOIsSoAJOTi4o"}
+{"t": 1792864454.225525, "key": "e872087029c55c42a85837f3", "event": "submitted", "job_id": "KobgUXCq8ndYHXZW"}
+{"t": 1792864456.328037, "key": "cf6d2601d61f1a4779ede220", "event": "completed", "value": -0.01621903141077253, "cost": 0.0}
+{"t": 1792864457.27551, "key": "a5a6360eef3ed46ef175d4f4", "event": "committed", "cid": "chain20_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864457.27679, "key": "a0b6969f725ddfc101b94048", "event": "completed", "value": -0.0015605820457143384, "cost": 0.0}
+{"t": 1792864458.5050821, "key": "cd3cd26e051ebf740133efb7", "event": "committed", "cid": "chain20_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864458.5072472, "key": "a5a6360eef3ed46ef175d4f4", "event": "submitted", "job_id": "ZZSz4Yy1GoL2MwYx"}
+{"t": 1792864459.166945, "key": "237b32f7e879d3e568f8196a", "event": "completed", "value": -0.058139557020209155, "cost": 0.0}
+{"t": 1792864459.8769631, "key": "122781eaa920fe0c74bf7df9", "event": "committed", "cid": "chain20_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864460.589499, "key": "cd3cd26e051ebf740133efb7", "event": "submitted", "job_id": "QZ5x6HEfQk8kbhCc"}
+{"t": 1792864461.078465, "key": "122781eaa920fe0c74bf7df9", "event": "submitted", "job_id": "8tdKpAsiMarHuElK"}
+{"t": 1792864465.135133, "key": "e872087029c55c42a85837f3", "event": "completed", "value": 0.00031049705993507466, "cost": 0.0}
+{"t": 1792864499.318879, "key": "f2381cc8526c5e3aed26fc14", "event": "committed", "cid": "chain20_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864499.320989, "key": "cd3cd26e051ebf740133efb7", "event": "completed", "value": -0.09886775916872985, "cost": 0.0}
+{"t": 1792864499.340747, "key": "122781eaa920fe0c74bf7df9", "event": "completed", "value": -0.15297213814423358, "cost": 0.0}
+{"t": 1792864499.403318, "key": "a5a6360eef3ed46ef175d4f4", "event": "completed", "value": -0.1497655214910737, "cost": 0.0}
+{"t": 1792864500.043326, "key": "da47531e2f559e028cc3b295", "event": "committed", "cid": "chain20_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864502.535955, "key": "f591e193731736980f2736b9", "event": "committed", "cid": "chain20_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792864502.5380921, "key": "f2381cc8526c5e3aed26fc14", "event": "submitted", "job_id": "ZG8AEi8DME39988L"}
+{"t": 1792864502.9848819, "key": "da47531e2f559e028cc3b295", "event": "submitted", "job_id": "gHeoJKT6dbsVPVUf"}
+{"t": 1792864503.688125, "key": "f591e193731736980f2736b9", "event": "submitted", "job_id": "nWj9Z8rqqHkU6ftv"}
+{"t": 1792864508.284725, "key": "da47531e2f559e028cc3b295", "event": "completed", "value": 0.39400614070427536, "cost": 0.0}
+{"t": 1792864513.0055318, "key": "f2381cc8526c5e3aed26fc14", "event": "completed", "value": 0.22134185828306113, "cost": 0.0}
+{"t": 1792864514.115072, "key": "f591e193731736980f2736b9", "event": "completed", "value": 0.7901987733580106, "cost": 0.0}
+{"t": 1792864515.57197, "key": "9c125cac26e996cd7d4a64a6", "event": "committed", "cid": "grid4x5_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864516.996438, "key": "077fd01cf37edd05d2967a58", "event": "committed", "cid": "grid4x5_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864523.757807, "key": "64d1f562faaa9593548ea0ac", "event": "committed", "cid": "grid4x5_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864525.1333, "key": "6a3d167f9ea788ae34315d81", "event": "committed", "cid": "grid4x5_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864525.134497, "key": "9c125cac26e996cd7d4a64a6", "event": "submitted", "job_id": "RvJXtqeW71ycm1yK"}
+{"t": 1792864525.153887, "key": "077fd01cf37edd05d2967a58", "event": "submitted", "job_id": "hsaDglBMfCTi0tEu"}
+{"t": 1792864525.1646981, "key": "64d1f562faaa9593548ea0ac", "event": "submitted", "job_id": "0jlSfauY35syIbwV"}
+{"t": 1792864525.268776, "key": "9c125cac26e996cd7d4a64a6", "event": "completed", "value": 0.09148121922698571, "cost": 0.0}
+{"t": 1792864526.4532611, "key": "db20a6f0db0ef5990921f643", "event": "committed", "cid": "grid4x5_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864526.454237, "key": "6a3d167f9ea788ae34315d81", "event": "submitted", "job_id": "9fSIfGY3GRvop3a4"}
+{"t": 1792864527.2796218, "key": "db20a6f0db0ef5990921f643", "event": "submitted", "job_id": "xqFfqXmoLOypzK5Q"}
+{"t": 1792864531.1601129, "key": "077fd01cf37edd05d2967a58", "event": "completed", "value": 0.062395777674031816, "cost": 0.0}
+{"t": 1792864532.4226391, "key": "509a233e9dc642748bff4a64", "event": "committed", "cid": "grid4x5_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864532.424149, "key": "6a3d167f9ea788ae34315d81", "event": "completed", "value": -0.11583643437446753, "cost": 0.0}
+{"t": 1792864538.502392, "key": "0b1815f5df73af39fd988f1d", "event": "committed", "cid": "grid4x5_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864538.503305, "key": "509a233e9dc642748bff4a64", "event": "submitted", "job_id": "EhZdSNr5xoCqq0Js"}
+{"t": 1792864538.5227861, "key": "db20a6f0db0ef5990921f643", "event": "completed", "value": 0.7478545884966278, "cost": 0.0}
+{"t": 1792864544.399039, "key": "c70ad19837094f0fb1a79b07", "event": "committed", "cid": "grid4x5_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864544.400395, "key": "509a233e9dc642748bff4a64", "event": "completed", "value": 0.04269254829778367, "cost": 0.0}
+{"t": 1792864544.43259, "key": "64d1f562faaa9593548ea0ac", "event": "completed", "value": 0.01383465261492953, "cost": 0.0}
+{"t": 1792864544.486287, "key": "0b1815f5df73af39fd988f1d", "event": "submitted", "job_id": "UfA9LXUw9wNMU43k"}
+{"t": 1792864545.8166661, "key": "c51273404e26b2bf2cb36574", "event": "committed", "cid": "grid4x5_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864550.1737092, "key": "84be94164af5a1d0583b3474", "event": "committed", "cid": "grid4x5_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864550.174724, "key": "c70ad19837094f0fb1a79b07", "event": "submitted", "job_id": "iDLHiXM7K201xEx9"}
+{"t": 1792864550.1872692, "key": "c51273404e26b2bf2cb36574", "event": "submitted", "job_id": "JMysFOp3caQ02GL5"}
+{"t": 1792864550.954433, "key": "84be94164af5a1d0583b3474", "event": "submitted", "job_id": "ql3em2QJ5RSQOVie"}
+{"t": 1792864554.982049, "key": "0b1815f5df73af39fd988f1d", "event": "completed", "value": -0.03722981712266666, "cost": 0.0}
+{"t": 1792864556.009527, "key": "f36c4ae9f32731eadedc00db", "event": "committed", "cid": "grid4x5_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864556.8959382, "key": "f36c4ae9f32731eadedc00db", "event": "submitted", "job_id": "333zCzxVYUON5GyF"}
+{"t": 1792864560.52035, "key": "c51273404e26b2bf2cb36574", "event": "completed", "value": 0.17335766108075473, "cost": 0.0}
+{"t": 1792864561.585314, "key": "9f76fdef1d317b399c248152", "event": "committed", "cid": "grid4x5_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864561.5864809, "key": "c70ad19837094f0fb1a79b07", "event": "completed", "value": 0.018361695834657972, "cost": 0.0}
+{"t": 1792864561.605758, "key": "84be94164af5a1d0583b3474", "event": "completed", "value": 0.8578652976382753, "cost": 0.0}
+{"t": 1792864562.755947, "key": "0df5ff8f3224144dccf1cf1c", "event": "committed", "cid": "grid4x5_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864563.2940218, "key": "dd9ff2721dc41bdc22413874", "event": "committed", "cid": "grid4x5_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864563.51458, "key": "9f76fdef1d317b399c248152", "event": "submitted", "job_id": "jjBOowOadhzEmNl8"}
+{"t": 1792864564.849196, "key": "dd9ff2721dc41bdc22413874", "event": "submitted", "job_id": "wksZAzAqYarYJCQp"}
+{"t": 1792864565.160813, "key": "0df5ff8f3224144dccf1cf1c", "event": "submitted", "job_id": "fh9WDZS16KETWK5f"}
+{"t": 1792864570.0946271, "key": "dd9ff2721dc41bdc22413874", "event": "completed", "value": 0.25084386243818735, "cost": 0.0}
+{"t": 1792864572.112858, "key": "47ee5f82db37e474f6aafcfb", "event": "committed", "cid": "grid4x5_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864572.4642618, "key": "f36c4ae9f32731eadedc00db", "event": "completed", "value": -0.037519857635856475, "cost": 0.0}
+{"t": 1792864573.5222762, "key": "0ed4f21a5ff1c33b5a1fdfbe", "event": "committed", "cid": "grid4x5_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864573.7625458, "key": "47ee5f82db37e474f6aafcfb", "event": "submitted", "job_id": "ZRorxdu0LSj5cPZJ"}
+{"t": 1792864575.358502, "key": "0ed4f21a5ff1c33b5a1fdfbe", "event": "submitted", "job_id": "E8PQ41CaUcm80GNF"}
+{"t": 1792864579.018962, "key": "9f76fdef1d317b399c248152", "event": "completed", "value": -0.05042700872917931, "cost": 0.0}
+{"t": 1792864579.878363, "key": "1482d1d2d3cfad928033611d", "event": "committed", "cid": "grid4x5_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864580.703373, "key": "0df5ff8f3224144dccf1cf1c", "event": "completed", "value": 0.1903611014519715, "cost": 0.0}
+{"t": 1792864581.305291, "key": "152a5b75c7163fe2903645fe", "event": "committed", "cid": "grid4x5_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864581.306057, "key": "1482d1d2d3cfad928033611d", "event": "submitted", "job_id": "FGcO4VmBZaOfD0ez"}
+{"t": 1792864582.1626291, "key": "152a5b75c7163fe2903645fe", "event": "submitted", "job_id": "0Ywt3hLcnViea1EY"}
+{"t": 1792864584.159969, "key": "47ee5f82db37e474f6aafcfb", "event": "completed", "value": 0.6105919215964909, "cost": 0.0}
+{"t": 1792864585.1686668, "key": "f8542f7ca494ade3edca2ba2", "event": "committed", "cid": "grid4x5_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864586.34723, "key": "f8542f7ca494ade3edca2ba2", "event": "submitted", "job_id": "IPf1nxhshu8fsJug"}
+{"t": 1792864590.946306, "key": "0ed4f21a5ff1c33b5a1fdfbe", "event": "completed", "value": -0.06017546815448975, "cost": 0.0}
+{"t": 1792864591.486463, "key": "a8c716655e1031df19f18dd8", "event": "committed", "cid": "grid4x5_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792864591.68035, "key": "1482d1d2d3cfad928033611d", "event": "completed", "value": 0.008989183974434524, "cost": 0.0}
+{"t": 1792864592.5257568, "key": "152a5b75c7163fe2903645fe", "event": "completed", "value": -0.03534345302637154, "cost": 0.0}
+{"t": 1792864593.6939971, "key": "a8c716655e1031df19f18dd8", "event": "submitted", "job_id": "gvoet2TwiTm7jBbp"}
+{"t": 1792864601.809011, "key": "f8542f7ca494ade3edca2ba2", "event": "completed", "value": 0.08213396970597099, "cost": 0.0}
+{"t": 1792864604.0422652, "key": "a8c716655e1031df19f18dd8", "event": "completed", "value": 0.7406888567647106, "cost": 0.0}

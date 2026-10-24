@@ -30,9 +30,20 @@ def zq(n, q):
     return [("I" * (n - 1 - q) + "Z" + "I" * q, 1.0)]  # q0 is the rightmost character
 
 
+# Benchmark surrogate -> the G circuit whose config it tests (bench/surrogates/gen.py FAMILIES).
+SURROGATE_OF = {"chain20": "G2", "grid4x5": "G4"}
+
+
 def predict(circuit: str, client) -> dict[str, float]:
-    n, cfg = N[circuit], CONFIG[circuit]
-    specs = [dict(cid=f"Duke_{circuit}_{q}", pauli_sum=zq(n, q), tag=f"{circuit}-{VERSION}", **cfg) for q in range(n)]
+    n = N[circuit]
+    return estimate(circuit, [(f"Duke_{circuit}_{q}", None, n, q) for q in range(n)], client)
+
+
+def estimate(circuit, items, client):
+    """items: [(name, QuantumCircuit or None for a hidden id, n, q)] run with CONFIG[circuit]. Returns {name: value}."""
+    cfg = CONFIG[circuit]
+    specs = [dict(cid=name, circuit=qc, pauli_sum=zq(n, q), tag=f"{circuit}-{VERSION}" + ("-bench" if qc else ""), **cfg)
+             for name, qc, n, q in items]
     vals = client.run_many(specs, timeout=6 * 3600)
     bad = {s["cid"]: repr(v) for s, v in zip(specs, vals) if not isinstance(v, float)}
     if bad:

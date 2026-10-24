@@ -1,0 +1,2 @@
+time	status	hypothesis	chain20_corr2	chain20_mae	grid4x5_corr2	grid4x5_mae	cost_usd	notes
+2026-10-24T14:10	baseline	strategy v1: mps.cpu chi=32 for G2 and G4	0.9854	0.0302	0.1291	0.2157	0.00	Phase 3 benchmark baseline; S2 corr2 1.00, S3 0.43 with same method

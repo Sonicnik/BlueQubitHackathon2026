@@ -112,6 +112,18 @@ class ControllerTests(unittest.TestCase):
             c.run("B", "pauli-path", timeout=0)
         self.assertAlmostEqual(c.remaining(), 10.0 - 1.0 - 1.0)  # B reserved at 2x its estimate
 
+    def test_own_circuit_keyed_by_content(self):
+        from qiskit import QuantumCircuit
+        fb = FakeBackend()
+        c = self.ctl(fb)
+        a, b = QuantumCircuit(2), QuantumCircuit(2)
+        b.x(0)
+        c.run("sur", "mps.cpu", circuit=a)
+        c.run("sur", "mps.cpu", circuit=a)
+        self.assertEqual(fb.submits, 1)
+        c.run("sur", "mps.cpu", circuit=b)  # same name, different circuit: new job
+        self.assertEqual(fb.submits, 2)
+
     def test_proxy_hides_controller(self):
         p = Proxy(self.ctl(FakeBackend()))
         self.assertFalse(hasattr(p, "backend") or hasattr(p, "bq"))

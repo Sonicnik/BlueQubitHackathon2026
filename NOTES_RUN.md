@@ -72,3 +72,18 @@ More MPS (per ID): S3 mps.cpu χ=512 $14.80; mps.gpu χ=512 $10.39; G4 mps.gpu �
 - Proxy check of the same remote method: S2 corr² 1.0000 (MAE 9e-4), S3 corr² 0.43 (MAE 0.26). The grid is where MPS fails.
 - Local qiskit-aer MPS (installed qiskit-aer 0.18.0 in `.venv`) on S2: corr² 0.36 / 0.85 / 0.84 / 0.96 / 0.999 at χ = 4 / 8 / 16 / 32 / 64. On the 30-qubit S3 it crashed with a BLAS `zgemm` parameter error.
 - `estimate_only` costs are not what's charged. They read high for MPS and low for pauli-path relative to the submit-time quote.
+
+## Phase 3 (2026-10-24, ~1:55 to 2:15 p.m. ET)
+
+- `bench/surrogates/gen.py`: Haar 2q echo circuits compiled to u3+cz, with the same echo order as the kit. Inverse cancellation is asserted on each generated U.
+  - `chain20`: 20 q, 10 layers, butterfly 10; mirrors G2's L = n/2 with a mid-chain butterfly.
+  - `grid4x5`: 20 q, 10 layers, butterfly 0. 16 layers on a 4×5 grid scrambles every value to ≤0.006, so 10 layers puts it in G4's regime (std 0.08, 80% within ±0.1).
+  - Exact truth comes from local Aer statevector and lives in `bench/truth/surrogates/` (locked again).
+- `evaluate.py benchmark` runs `strategy.estimate` remotely through the controller on the surrogates (remote MPS behaves differently from local), then scores corr² and MAE. First run took ~3 min at $0.00; cached reruns take ~2 s.
+- **Protected-file changes made for Phase 3:**
+  - `evaluate.py` gained the `benchmark` command.
+  - `controller/client.py` now takes `circuit=` (our own QuantumCircuit), keyed by a QASM hash. One new test, 9/9 pass.
+  - Everything is locked read-only again.
+- `strategy/checks.py` (program.md step 3) checks qubit mapping, a known S1 expectation and inverse cancellation. It passes.
+- Baseline benchmark (strategy v1, mps.cpu χ=32): chain20 corr² 0.985 (MAE 0.030), grid4x5 corr² 0.129 (MAE 0.216). Logged in `results.tsv`.
+- Caveat: surrogates are 20 q against 36 to 38 q on G. Benchmark gains are evidence, not proof, for G.
