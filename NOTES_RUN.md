@@ -64,3 +64,11 @@ More MPS (per ID): S3 mps.cpu χ=512 $14.80; mps.gpu χ=512 $10.39; G4 mps.gpu �
 - Locked read-only (`chmod -R a-w`): `controller/`, `evaluate.py`, `bench/truth/`, `kit/`. A test write was refused. `ledger/` stays writable for the controller (best effort: same Unix user). Phase 3 must unlock `evaluate.py` and `bench/truth/` once, to add the benchmark command and surrogate truth, then lock them again.
 - Target narrowed to G2 and G4 by the user (see PLAN.md). The team and account question is in QUESTIONS.md.
 - Ledger total after Phase 1: $0.00 (all jobs free).
+
+## Phase 2 (2026-10-24, ~1:15 to 1:45 p.m. ET)
+
+- Probes: G2_0 mps.cpu χ=32 gave 0.9996, G4_0 mps.cpu χ=32 gave 0.270, and G4_0 pauli-path 1e-3 gave exactly 0.0. All cost $0.00 and finished in under 48 s. The submit-time quote was $0.00 for MPS but **$25.00 and 100 h allowed** for pauli-path (QUESTIONS.md #2).
+- Baselines: G2 and G4 at mps.cpu χ=32, 74 jobs, all $0.00. CSVs are in `candidates/`.
+- Proxy check of the same remote method: S2 corr² 1.0000 (MAE 9e-4), S3 corr² 0.43 (MAE 0.26). The grid is where MPS fails.
+- Local qiskit-aer MPS (installed qiskit-aer 0.18.0 in `.venv`) on S2: corr² 0.36 / 0.85 / 0.84 / 0.96 / 0.999 at χ = 4 / 8 / 16 / 32 / 64. On the 30-qubit S3 it crashed with a BLAS `zgemm` parameter error.
+- `estimate_only` costs are not what's charged. They read high for MPS and low for pauli-path relative to the submit-time quote.

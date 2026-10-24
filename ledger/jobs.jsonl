@@ -100,3 +100,366 @@
 {"t": 1792861584.715468, "key": "8cb41080efc8992e67240ec2", "event": "completed", "value": -0.17269800630388216, "cost": 0.0}
 {"t": 1792861591.4507551, "key": "2496103ad3418836e0deab8a", "event": "completed", "value": 0.9999999999995448, "cost": 0.0}
 {"t": 1792861604.875684, "key": "a33a7bdc236e7541c0a2c9a3", "event": "completed", "value": 0.1658023525104133, "cost": 0.0}
+{"t": 1792862130.3896651, "key": "bbf6f6c86a3f3e3217b66706", "event": "committed", "cid": "Duke_G2_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "probe-cost", "attempt": 1}
+{"t": 1792862131.03056, "key": "e2afacd2a76859f313284606", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.001}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "probe-cost", "attempt": 1}
+{"t": 1792862132.458264, "key": "ac981977fdc4ce698d68d2b1", "event": "committed", "cid": "Duke_G4_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "probe-cost", "attempt": 1}
+{"t": 1792862133.326848, "key": "bbf6f6c86a3f3e3217b66706", "event": "submitted", "job_id": "5SJTI8DXe1AZtAKh"}
+{"t": 1792862133.642237, "key": "e2afacd2a76859f313284606", "event": "submitted", "job_id": "RVY2LylDiQ8iFc7i"}
+{"t": 1792862134.413034, "key": "ac981977fdc4ce698d68d2b1", "event": "submitted", "job_id": "lQh90RstdBvzgpfn"}
+{"t": 1792862143.499892, "key": "bbf6f6c86a3f3e3217b66706", "event": "completed", "value": 0.9996382065303816, "cost": 0.0}
+{"t": 1792862143.877682, "key": "e2afacd2a76859f313284606", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792862174.931969, "key": "ac981977fdc4ce698d68d2b1", "event": "completed", "value": 0.2702718713817646, "cost": 0.0}
+{"t": 1792862209.1240058, "key": "8783bc99df173a6a1163b0c7", "event": "committed", "cid": "Duke_G2_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862211.0737438, "key": "c07de07c8fa31ede08c29b9d", "event": "committed", "cid": "Duke_G2_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862212.605084, "key": "069b891834661d84498b2f58", "event": "committed", "cid": "Duke_G2_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862213.669019, "key": "6b02c7cfc39c72e6e2cc8a86", "event": "committed", "cid": "Duke_G2_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862213.6700811, "key": "8783bc99df173a6a1163b0c7", "event": "submitted", "job_id": "lB8lBw0K5X8CxgHR"}
+{"t": 1792862213.670992, "key": "c07de07c8fa31ede08c29b9d", "event": "submitted", "job_id": "TmEnPCK0GYDjN2Lq"}
+{"t": 1792862215.0451741, "key": "069b891834661d84498b2f58", "event": "submitted", "job_id": "8t5tWuojBq8wP5ho"}
+{"t": 1792862215.606022, "key": "6b02c7cfc39c72e6e2cc8a86", "event": "submitted", "job_id": "CNCRmq6703rtVLqU"}
+{"t": 1792862243.970335, "key": "c07de07c8fa31ede08c29b9d", "event": "completed", "value": 0.9787172857555245, "cost": 0.0}
+{"t": 1792862246.022857, "key": "bf7ded3f6c8d7ece775c7747", "event": "committed", "cid": "Duke_G2_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862246.024607, "key": "6b02c7cfc39c72e6e2cc8a86", "event": "completed", "value": 0.910042861764796, "cost": 0.0}
+{"t": 1792862248.224106, "key": "e4a61364c54c9d576ef283b8", "event": "committed", "cid": "Duke_G2_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862249.531542, "key": "bf7ded3f6c8d7ece775c7747", "event": "submitted", "job_id": "zwkV6FZGFUm1fNmJ"}
+{"t": 1792862250.409135, "key": "e4a61364c54c9d576ef283b8", "event": "submitted", "job_id": "sdWkyr6F9tmCLumE"}
+{"t": 1792862260.4544551, "key": "069b891834661d84498b2f58", "event": "completed", "value": 0.9868143232123595, "cost": 0.0}
+{"t": 1792862261.507529, "key": "d09cf19ef235baabf2e8a3ac", "event": "committed", "cid": "Duke_G2_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862263.912276, "key": "d09cf19ef235baabf2e8a3ac", "event": "submitted", "job_id": "8rsDei5Yl9shjB9c"}
+{"t": 1792862274.1839821, "key": "8783bc99df173a6a1163b0c7", "event": "completed", "value": 0.9994376796673372, "cost": 0.0}
+{"t": 1792862275.641682, "key": "1296051315541d5fe6821c54", "event": "committed", "cid": "Duke_G2_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862277.169475, "key": "1296051315541d5fe6821c54", "event": "submitted", "job_id": "9ifgoE2i8DEfAWe1"}
+{"t": 1792862279.095019, "key": "d09cf19ef235baabf2e8a3ac", "event": "completed", "value": 0.7715227627200089, "cost": 0.0}
+{"t": 1792862280.333297, "key": "173057bc8be96602599e4c8f", "event": "committed", "cid": "Duke_G2_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862280.6699982, "key": "e4a61364c54c9d576ef283b8", "event": "completed", "value": 0.766345225927488, "cost": 0.0}
+{"t": 1792862282.762476, "key": "f2a173e85b36a4a945c89684", "event": "committed", "cid": "Duke_G2_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862283.067691, "key": "173057bc8be96602599e4c8f", "event": "submitted", "job_id": "fdZHzAJprW5ofPmw"}
+{"t": 1792862284.553074, "key": "f2a173e85b36a4a945c89684", "event": "submitted", "job_id": "hKFeHOC13rmQHUiG"}
+{"t": 1792862294.905229, "key": "bf7ded3f6c8d7ece775c7747", "event": "completed", "value": 0.8707559363469934, "cost": 0.0}
+{"t": 1792862297.2823832, "key": "e1de60a0450c39c07f71fc94", "event": "committed", "cid": "Duke_G2_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862299.381, "key": "e1de60a0450c39c07f71fc94", "event": "submitted", "job_id": "1JbTOys6sXlxR3qy"}
+{"t": 1792862307.4302678, "key": "1296051315541d5fe6821c54", "event": "completed", "value": 0.564695893797655, "cost": 0.0}
+{"t": 1792862309.0104551, "key": "f9b052477691ac3bcb76abd9", "event": "committed", "cid": "Duke_G2_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862310.4780438, "key": "f9b052477691ac3bcb76abd9", "event": "submitted", "job_id": "ngOYdSWM5dsOwyYg"}
+{"t": 1792862313.386986, "key": "173057bc8be96602599e4c8f", "event": "completed", "value": 0.4944418435390379, "cost": 0.0}
+{"t": 1792862314.853766, "key": "5bd95e1495a41f54d20952aa", "event": "committed", "cid": "Duke_G2_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862314.855111, "key": "f2a173e85b36a4a945c89684", "event": "completed", "value": 0.41820997828075673, "cost": 0.0}
+{"t": 1792862316.289563, "key": "25334d8b12eb0d32666ecf23", "event": "committed", "cid": "Duke_G2_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862316.43462, "key": "5bd95e1495a41f54d20952aa", "event": "submitted", "job_id": "fgtzOWVYshzHDRm6"}
+{"t": 1792862318.341138, "key": "25334d8b12eb0d32666ecf23", "event": "submitted", "job_id": "Z1iHnzR3SNFPhnvi"}
+{"t": 1792862325.688985, "key": "f9b052477691ac3bcb76abd9", "event": "completed", "value": 0.004067330235667207, "cost": 0.0}
+{"t": 1792862327.255996, "key": "050fd6097f7e1ec70632d037", "event": "committed", "cid": "Duke_G2_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862329.4563131, "key": "050fd6097f7e1ec70632d037", "event": "submitted", "job_id": "9GqG7ON0IpVOTec3"}
+{"t": 1792862344.8538098, "key": "e1de60a0450c39c07f71fc94", "event": "completed", "value": 0.38846642884307275, "cost": 0.0}
+{"t": 1792862346.665208, "key": "e23e1beb0bf995188ad0fac2", "event": "committed", "cid": "Duke_G2_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862346.745623, "key": "5bd95e1495a41f54d20952aa", "event": "completed", "value": 0.07121732666977622, "cost": 0.0}
+{"t": 1792862350.39596, "key": "bed30d33d3dc7f6e07920b23", "event": "committed", "cid": "Duke_G2_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862351.263401, "key": "e23e1beb0bf995188ad0fac2", "event": "submitted", "job_id": "0BkbxMCj6CmFgojM"}
+{"t": 1792862353.991489, "key": "bed30d33d3dc7f6e07920b23", "event": "submitted", "job_id": "SLyb2E6AevzzEK9u"}
+{"t": 1792862366.054667, "key": "25334d8b12eb0d32666ecf23", "event": "completed", "value": -0.02387684704625217, "cost": 0.0}
+{"t": 1792862368.1531122, "key": "bf9d51875b0657691644a604", "event": "committed", "cid": "Duke_G2_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862370.125681, "key": "bf9d51875b0657691644a604", "event": "submitted", "job_id": "7pGmwI1nRVQK0cZi"}
+{"t": 1792862374.8794801, "key": "050fd6097f7e1ec70632d037", "event": "completed", "value": -0.0682280943574228, "cost": 0.0}
+{"t": 1792862377.347183, "key": "4cd418ddf733d2608c2ae011", "event": "committed", "cid": "Duke_G2_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862381.0089118, "key": "4cd418ddf733d2608c2ae011", "event": "submitted", "job_id": "XRn4KrNjmJJAihLX"}
+{"t": 1792862396.869171, "key": "e23e1beb0bf995188ad0fac2", "event": "completed", "value": 0.015116590045655626, "cost": 0.0}
+{"t": 1792862404.450763, "key": "baa3ec0daec186b2eab19fc3", "event": "committed", "cid": "Duke_G2_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862404.4552052, "key": "bed30d33d3dc7f6e07920b23", "event": "completed", "value": -0.005401244939204021, "cost": 0.0}
+{"t": 1792862405.9046001, "key": "0b1dd5e03aee9c4ecc03e021", "event": "committed", "cid": "Duke_G2_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862406.511329, "key": "baa3ec0daec186b2eab19fc3", "event": "submitted", "job_id": "4oHXf7z1lrz2cwch"}
+{"t": 1792862407.573534, "key": "0b1dd5e03aee9c4ecc03e021", "event": "submitted", "job_id": "sHzR7iRNL77JpWjG"}
+{"t": 1792862411.259207, "key": "4cd418ddf733d2608c2ae011", "event": "completed", "value": -0.012164708888750233, "cost": 0.0}
+{"t": 1792862412.9573162, "key": "1c1679eaa2223e568ab4ed09", "event": "committed", "cid": "Duke_G2_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862414.973879, "key": "1c1679eaa2223e568ab4ed09", "event": "submitted", "job_id": "jYfnq7FaJ1sz23Sg"}
+{"t": 1792862415.5113049, "key": "bf9d51875b0657691644a604", "event": "completed", "value": 0.007423917457945252, "cost": 0.0}
+{"t": 1792862416.956557, "key": "7c857498de27325031a8d752", "event": "committed", "cid": "Duke_G2_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862418.7483368, "key": "7c857498de27325031a8d752", "event": "submitted", "job_id": "bdXkAGiM6nNUq2UL"}
+{"t": 1792862436.83889, "key": "baa3ec0daec186b2eab19fc3", "event": "completed", "value": -0.0395079821890229, "cost": 0.0}
+{"t": 1792862440.358294, "key": "e5707f64a14244e8d4e98e55", "event": "committed", "cid": "Duke_G2_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862442.383479, "key": "e5707f64a14244e8d4e98e55", "event": "submitted", "job_id": "11Xjc3Yn598Rhoco"}
+{"t": 1792862445.2943082, "key": "1c1679eaa2223e568ab4ed09", "event": "completed", "value": 0.03262354618013121, "cost": 0.0}
+{"t": 1792862447.0641642, "key": "845671d28912296de0fc88b3", "event": "committed", "cid": "Duke_G2_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862448.4121978, "key": "845671d28912296de0fc88b3", "event": "submitted", "job_id": "OsnSqRITzROXdZjD"}
+{"t": 1792862449.017956, "key": "7c857498de27325031a8d752", "event": "completed", "value": 0.004467925075443279, "cost": 0.0}
+{"t": 1792862452.285032, "key": "46a9854148b331b44f1918b8", "event": "committed", "cid": "Duke_G2_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862453.111409, "key": "0b1dd5e03aee9c4ecc03e021", "event": "completed", "value": 0.0030478505272318974, "cost": 0.0}
+{"t": 1792862454.223837, "key": "730a1bcd88e89dfe0a07d71c", "event": "committed", "cid": "Duke_G2_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862454.4411242, "key": "46a9854148b331b44f1918b8", "event": "submitted", "job_id": "1WIi6WF2nK4qvG20"}
+{"t": 1792862456.107658, "key": "730a1bcd88e89dfe0a07d71c", "event": "submitted", "job_id": "LPWU7Y05ETIMdwpv"}
+{"t": 1792862472.630126, "key": "e5707f64a14244e8d4e98e55", "event": "completed", "value": 0.03601703515100001, "cost": 0.0}
+{"t": 1792862473.891113, "key": "06821f3f7b635678d151ef7e", "event": "committed", "cid": "Duke_G2_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862476.018828, "key": "06821f3f7b635678d151ef7e", "event": "submitted", "job_id": "r3fF4l4vQBqblIb6"}
+{"t": 1792862491.261291, "key": "06821f3f7b635678d151ef7e", "event": "completed", "value": 0.08820085454107807, "cost": 0.0}
+{"t": 1792862493.0478091, "key": "83cc764e3aea8461254b5034", "event": "committed", "cid": "Duke_G2_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862493.872292, "key": "845671d28912296de0fc88b3", "event": "completed", "value": 0.12941046144949536, "cost": 0.0}
+{"t": 1792862495.18549, "key": "8e5d2ab1b588857ce28d7125", "event": "committed", "cid": "Duke_G2_30", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862495.26938, "key": "83cc764e3aea8461254b5034", "event": "submitted", "job_id": "BfDxqy1rjcTNhFly"}
+{"t": 1792862497.238945, "key": "8e5d2ab1b588857ce28d7125", "event": "submitted", "job_id": "vBsIM7jbF6Y1SkGg"}
+{"t": 1792862499.8225589, "key": "46a9854148b331b44f1918b8", "event": "completed", "value": 0.1397660749356498, "cost": 0.0}
+{"t": 1792862501.559954, "key": "7db976f8becf66309fe1fb18", "event": "committed", "cid": "Duke_G2_31", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862501.5616572, "key": "730a1bcd88e89dfe0a07d71c", "event": "completed", "value": 0.2418098624942106, "cost": 0.0}
+{"t": 1792862503.4204009, "key": "277fc0c1b17111ad3ed1586b", "event": "committed", "cid": "Duke_G2_32", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862503.997119, "key": "7db976f8becf66309fe1fb18", "event": "submitted", "job_id": "RSb0TnFrSLZwsjlC"}
+{"t": 1792862505.517022, "key": "277fc0c1b17111ad3ed1586b", "event": "submitted", "job_id": "9m43t8rGOIhQCguL"}
+{"t": 1792862525.5393841, "key": "83cc764e3aea8461254b5034", "event": "completed", "value": 0.20383741440003675, "cost": 0.0}
+{"t": 1792862528.0573351, "key": "4e5e469a9c51322bbf657853", "event": "committed", "cid": "Duke_G2_33", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862528.058699, "key": "8e5d2ab1b588857ce28d7125", "event": "completed", "value": 0.5519245131257757, "cost": 0.0}
+{"t": 1792862529.941066, "key": "e88dd5f1ce734d6877ea9e2f", "event": "committed", "cid": "Duke_G2_34", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862531.338316, "key": "4e5e469a9c51322bbf657853", "event": "submitted", "job_id": "EYDMCTaaayO8Yari"}
+{"t": 1792862532.972973, "key": "e88dd5f1ce734d6877ea9e2f", "event": "submitted", "job_id": "GeMGHX86eCuU4H3H"}
+{"t": 1792862535.806247, "key": "277fc0c1b17111ad3ed1586b", "event": "completed", "value": 0.9186650896339659, "cost": 0.0}
+{"t": 1792862537.706833, "key": "9b2cecf172056354922895d4", "event": "committed", "cid": "Duke_G2_35", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.3, "est_reserved": 0.3, "tag": "G2-v1", "attempt": 1}
+{"t": 1792862539.4212182, "key": "9b2cecf172056354922895d4", "event": "submitted", "job_id": "R9wi6Hw1TbAqcrgT"}
+{"t": 1792862550.699907, "key": "7db976f8becf66309fe1fb18", "event": "completed", "value": 0.5516904172143094, "cost": 0.0}
+{"t": 1792862561.704276, "key": "4e5e469a9c51322bbf657853", "event": "completed", "value": 0.880724820152389, "cost": 0.0}
+{"t": 1792862563.420198, "key": "e88dd5f1ce734d6877ea9e2f", "event": "completed", "value": 0.9987419264991219, "cost": 0.0}
+{"t": 1792862569.691633, "key": "9b2cecf172056354922895d4", "event": "completed", "value": 0.9985233505072324, "cost": 0.0}
+{"t": 1792862570.4129431, "key": "f2b9077b66ae0c9e0714235d", "event": "committed", "cid": "Duke_G4_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862571.690702, "key": "2c39c5594d00ab384a802dcd", "event": "committed", "cid": "Duke_G4_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862572.863904, "key": "a66a4ecfd3ea15ca6113dcba", "event": "committed", "cid": "Duke_G4_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862574.219017, "key": "01c57e0961f6e68579678014", "event": "committed", "cid": "Duke_G4_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862574.219954, "key": "f2b9077b66ae0c9e0714235d", "event": "submitted", "job_id": "mDQaNYOJKBaj9HLd"}
+{"t": 1792862574.220883, "key": "2c39c5594d00ab384a802dcd", "event": "submitted", "job_id": "J0RbV8xRKJj8AmOn"}
+{"t": 1792862574.385401, "key": "a66a4ecfd3ea15ca6113dcba", "event": "submitted", "job_id": "hTaimfh50tzPMMIl"}
+{"t": 1792862575.9853141, "key": "01c57e0961f6e68579678014", "event": "submitted", "job_id": "Fqs4FRy5j6eFnUcp"}
+{"t": 1792862606.277427, "key": "01c57e0961f6e68579678014", "event": "completed", "value": 0.3319902426489636, "cost": 0.0}
+{"t": 1792862607.542628, "key": "c17cda36b317d17d5eaaba97", "event": "committed", "cid": "Duke_G4_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862608.965141, "key": "c17cda36b317d17d5eaaba97", "event": "submitted", "job_id": "6OwUjioGqaXjZiOW"}
+{"t": 1792862619.689489, "key": "2c39c5594d00ab384a802dcd", "event": "completed", "value": -0.1275057744897639, "cost": 0.0}
+{"t": 1792862620.670058, "key": "e8371ae862ff4f9dcf84791e", "event": "committed", "cid": "Duke_G4_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862620.67166, "key": "f2b9077b66ae0c9e0714235d", "event": "completed", "value": -0.0539170408366265, "cost": 0.0}
+{"t": 1792862621.96244, "key": "4a725e5706cf5c38f062aeaa", "event": "committed", "cid": "Duke_G4_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862622.970808, "key": "e8371ae862ff4f9dcf84791e", "event": "submitted", "job_id": "TQyERvNoEGuBp2fz"}
+{"t": 1792862623.718561, "key": "4a725e5706cf5c38f062aeaa", "event": "submitted", "job_id": "evT9gspJT4aGDFKj"}
+{"t": 1792862634.921342, "key": "a66a4ecfd3ea15ca6113dcba", "event": "completed", "value": 0.021664748856594616, "cost": 0.0}
+{"t": 1792862636.196277, "key": "7dbf77d8fdc02e38ec565095", "event": "committed", "cid": "Duke_G4_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862637.462862, "key": "7dbf77d8fdc02e38ec565095", "event": "submitted", "job_id": "YA8lBrjSd1Ji4vQq"}
+{"t": 1792862654.42793, "key": "c17cda36b317d17d5eaaba97", "event": "completed", "value": 0.3037074953922593, "cost": 0.0}
+{"t": 1792862655.334841, "key": "8b29b52ec785f169589f3300", "event": "committed", "cid": "Duke_G4_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862657.085904, "key": "8b29b52ec785f169589f3300", "event": "submitted", "job_id": "yxmxyoh1U3Z3HjhW"}
+{"t": 1792862669.110345, "key": "4a725e5706cf5c38f062aeaa", "event": "completed", "value": 0.05143093577979393, "cost": 0.0}
+{"t": 1792862669.816513, "key": "ebe048b8fe8977b15c4e0a6f", "event": "committed", "cid": "Duke_G4_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862671.523798, "key": "ebe048b8fe8977b15c4e0a6f", "event": "submitted", "job_id": "1IcMovOZGyvV0QzO"}
+{"t": 1792862672.327848, "key": "8b29b52ec785f169589f3300", "event": "completed", "value": 0.3701143125688055, "cost": 0.0}
+{"t": 1792862673.5734699, "key": "67f00e57916b0d9b920bb490", "event": "committed", "cid": "Duke_G4_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862675.4285052, "key": "67f00e57916b0d9b920bb490", "event": "submitted", "job_id": "p2BUc5CGzDeK7Nky"}
+{"t": 1792862683.444871, "key": "e8371ae862ff4f9dcf84791e", "event": "completed", "value": 0.040328284912797864, "cost": 0.0}
+{"t": 1792862684.631944, "key": "7ed761a42e6a8171f07e6d57", "event": "committed", "cid": "Duke_G4_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862686.42557, "key": "7ed761a42e6a8171f07e6d57", "event": "submitted", "job_id": "0nre78a2JtnCdDJ9"}
+{"t": 1792862697.939363, "key": "7dbf77d8fdc02e38ec565095", "event": "completed", "value": 0.23425449495226064, "cost": 0.0}
+{"t": 1792862699.020812, "key": "da4122f9fbd6ee12d454b5ff", "event": "committed", "cid": "Duke_G4_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862700.403956, "key": "da4122f9fbd6ee12d454b5ff", "event": "submitted", "job_id": "L0PYNA898ukxotZO"}
+{"t": 1792862715.653611, "key": "da4122f9fbd6ee12d454b5ff", "event": "completed", "value": 0.37297174697823593, "cost": 0.0}
+{"t": 1792862716.99105, "key": "1c9511b5735d045514a95e75", "event": "committed", "cid": "Duke_G4_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862716.992575, "key": "ebe048b8fe8977b15c4e0a6f", "event": "completed", "value": 0.5326641194549878, "cost": 0.0}
+{"t": 1792862718.910443, "key": "80c1452ed61797ece8435cd5", "event": "committed", "cid": "Duke_G4_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862718.911718, "key": "1c9511b5735d045514a95e75", "event": "submitted", "job_id": "GZvsoMNnL4yDcH1A"}
+{"t": 1792862720.6775029, "key": "80c1452ed61797ece8435cd5", "event": "submitted", "job_id": "J7YovUn6hbRUqxIO"}
+{"t": 1792862720.907862, "key": "67f00e57916b0d9b920bb490", "event": "completed", "value": 0.7258613376846598, "cost": 0.0}
+{"t": 1792862721.545744, "key": "84f1d60db434536bd788615d", "event": "committed", "cid": "Duke_G4_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862722.587958, "key": "84f1d60db434536bd788615d", "event": "submitted", "job_id": "YEJNQPTDbG0gxpAX"}
+{"t": 1792862746.909889, "key": "7ed761a42e6a8171f07e6d57", "event": "completed", "value": 0.47656869319562284, "cost": 0.0}
+{"t": 1792862747.843041, "key": "b4a3b2973eb9c1ea3e7075b3", "event": "committed", "cid": "Duke_G4_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862748.84366, "key": "b4a3b2973eb9c1ea3e7075b3", "event": "submitted", "job_id": "7SHOaaFFJh3Lkf5B"}
+{"t": 1792862753.063573, "key": "84f1d60db434536bd788615d", "event": "completed", "value": 0.26836553720426737, "cost": 0.0}
+{"t": 1792862754.073635, "key": "8c710d95e6db88f9cbe5cc57", "event": "committed", "cid": "Duke_G4_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862755.895621, "key": "8c710d95e6db88f9cbe5cc57", "event": "submitted", "job_id": "KPJtizMEZoh7InNE"}
+{"t": 1792862771.073011, "key": "8c710d95e6db88f9cbe5cc57", "event": "completed", "value": 0.18750767972040772, "cost": 0.0}
+{"t": 1792862772.286933, "key": "95300d8d51503a9e190ff644", "event": "committed", "cid": "Duke_G4_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862774.027839, "key": "95300d8d51503a9e190ff644", "event": "submitted", "job_id": "WxCLCDy7Mqc8lvST"}
+{"t": 1792862779.497647, "key": "1c9511b5735d045514a95e75", "event": "completed", "value": 0.47702245455600434, "cost": 0.0}
+{"t": 1792862780.53212, "key": "fce87d52a1882520bddec235", "event": "committed", "cid": "Duke_G4_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862781.182038, "key": "80c1452ed61797ece8435cd5", "event": "completed", "value": 0.6219784869230947, "cost": 0.0}
+{"t": 1792862782.730763, "key": "9f1f5cd9ad81e8dc804c9f53", "event": "committed", "cid": "Duke_G4_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862782.732667, "key": "fce87d52a1882520bddec235", "event": "submitted", "job_id": "MTn47Nj8fRaDNUGi"}
+{"t": 1792862783.928053, "key": "9f1f5cd9ad81e8dc804c9f53", "event": "submitted", "job_id": "LGxSYQV11XveEWD5"}
+{"t": 1792862809.399387, "key": "b4a3b2973eb9c1ea3e7075b3", "event": "completed", "value": 0.6717038489894638, "cost": 0.0}
+{"t": 1792862810.7390919, "key": "78999d3002b8b22e97014891", "event": "committed", "cid": "Duke_G4_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862812.164405, "key": "78999d3002b8b22e97014891", "event": "submitted", "job_id": "JRB1hLNz9y2RHIex"}
+{"t": 1792862816.5296268, "key": "fce87d52a1882520bddec235", "event": "completed", "value": -0.09415574797656404, "cost": 0.0}
+{"t": 1792862817.6495712, "key": "2bdb014a418b2cdc32044a90", "event": "committed", "cid": "Duke_G4_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862818.9794781, "key": "2bdb014a418b2cdc32044a90", "event": "submitted", "job_id": "JWHzRaXXbHriPkOs"}
+{"t": 1792862834.595265, "key": "95300d8d51503a9e190ff644", "event": "completed", "value": 0.2881005630508814, "cost": 0.0}
+{"t": 1792862835.6376388, "key": "a93dcdbec553802c2b368f69", "event": "committed", "cid": "Duke_G4_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862836.8442152, "key": "a93dcdbec553802c2b368f69", "event": "submitted", "job_id": "VQMK6T9gdq2s2iEk"}
+{"t": 1792862844.436768, "key": "9f1f5cd9ad81e8dc804c9f53", "event": "completed", "value": -0.07355656603148444, "cost": 0.0}
+{"t": 1792862846.117016, "key": "be16f34f408b8684a46d9998", "event": "committed", "cid": "Duke_G4_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862847.8164191, "key": "be16f34f408b8684a46d9998", "event": "submitted", "job_id": "sh52HVkvUM8GdB42"}
+{"t": 1792862864.3700638, "key": "2bdb014a418b2cdc32044a90", "event": "completed", "value": 0.8562761774261436, "cost": 0.0}
+{"t": 1792862865.64127, "key": "96a8013865359bce3d78f03d", "event": "committed", "cid": "Duke_G4_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862866.9055302, "key": "96a8013865359bce3d78f03d", "event": "submitted", "job_id": "r0q3Rm5TdYqJ0uJ6"}
+{"t": 1792862883.548322, "key": "a93dcdbec553802c2b368f69", "event": "completed", "value": 0.46501541914950717, "cost": 0.0}
+{"t": 1792862884.6599889, "key": "35baaa7b67b0ab27728a8db6", "event": "committed", "cid": "Duke_G4_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862886.828115, "key": "35baaa7b67b0ab27728a8db6", "event": "submitted", "job_id": "SWTNOahMb2um5TBj"}
+{"t": 1792862891.327195, "key": "78999d3002b8b22e97014891", "event": "completed", "value": 0.8243148746166916, "cost": 0.0}
+{"t": 1792862893.423931, "key": "2f6458aa3713377418fe0b13", "event": "committed", "cid": "Duke_G4_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862895.372463, "key": "2f6458aa3713377418fe0b13", "event": "submitted", "job_id": "607666h9RCU4afxm"}
+{"t": 1792862895.640247, "key": "be16f34f408b8684a46d9998", "event": "completed", "value": 0.4928950365531461, "cost": 0.0}
+{"t": 1792862896.651972, "key": "812d8a6fb706494dec96edf3", "event": "committed", "cid": "Duke_G4_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862897.9881852, "key": "812d8a6fb706494dec96edf3", "event": "submitted", "job_id": "AwhFFfCZoUfedALn"}
+{"t": 1792862932.232642, "key": "35baaa7b67b0ab27728a8db6", "event": "completed", "value": 0.7690133371728551, "cost": 0.0}
+{"t": 1792862933.473391, "key": "a31be0c03bf99f86b6351f99", "event": "committed", "cid": "Duke_G4_30", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862935.151325, "key": "a31be0c03bf99f86b6351f99", "event": "submitted", "job_id": "99aO6XnV5JkMOXLO"}
+{"t": 1792862940.797886, "key": "2f6458aa3713377418fe0b13", "event": "completed", "value": 0.8859976935808143, "cost": 0.0}
+{"t": 1792862941.809227, "key": "6ebe7491aea46bab4248590b", "event": "committed", "cid": "Duke_G4_31", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862942.490819, "key": "96a8013865359bce3d78f03d", "event": "completed", "value": 0.771454622505803, "cost": 0.0}
+{"t": 1792862943.75895, "key": "78749ccf58198aaf4bed424c", "event": "committed", "cid": "Duke_G4_32", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862943.759857, "key": "6ebe7491aea46bab4248590b", "event": "submitted", "job_id": "55dTgaNCLTGDuUFB"}
+{"t": 1792862946.269456, "key": "78749ccf58198aaf4bed424c", "event": "submitted", "job_id": "PkttCSUJl4DDNYke"}
+{"t": 1792862958.514828, "key": "812d8a6fb706494dec96edf3", "event": "completed", "value": 0.9246452485083224, "cost": 0.0}
+{"t": 1792862960.389814, "key": "e0caeeaca7a4a8ed59ff9222", "event": "committed", "cid": "Duke_G4_33", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862960.390392, "key": "6ebe7491aea46bab4248590b", "event": "completed", "value": 0.7970990955865356, "cost": 0.0}
+{"t": 1792862961.707932, "key": "1bedef6acf75d6cf147431f0", "event": "committed", "cid": "Duke_G4_34", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862963.2341099, "key": "1bedef6acf75d6cf147431f0", "event": "submitted", "job_id": "25VNjr1a77DVFmN1"}
+{"t": 1792862963.682301, "key": "e0caeeaca7a4a8ed59ff9222", "event": "submitted", "job_id": "Z5M3adIJPoUHEeg5"}
+{"t": 1792862978.6767302, "key": "1bedef6acf75d6cf147431f0", "event": "completed", "value": 0.8315774270045845, "cost": 0.0}
+{"t": 1792862979.731879, "key": "3113ec971e380afc3c51c61a", "event": "committed", "cid": "Duke_G4_35", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862979.7341282, "key": "e0caeeaca7a4a8ed59ff9222", "event": "completed", "value": 0.6424700885397497, "cost": 0.0}
+{"t": 1792862981.372921, "key": "dca3d80358dedb544ec8c89e", "event": "committed", "cid": "Duke_G4_36", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862981.5093682, "key": "3113ec971e380afc3c51c61a", "event": "submitted", "job_id": "j2RzhtgvCId44C2t"}
+{"t": 1792862983.142905, "key": "dca3d80358dedb544ec8c89e", "event": "submitted", "job_id": "IZxWW6qLeeS3mdd8"}
+{"t": 1792862995.668779, "key": "a31be0c03bf99f86b6351f99", "event": "completed", "value": 0.7452674932698824, "cost": 0.0}
+{"t": 1792862997.2845771, "key": "d68e89f01612b3da07b60af4", "event": "committed", "cid": "Duke_G4_37", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1", "attempt": 1}
+{"t": 1792862999.180107, "key": "d68e89f01612b3da07b60af4", "event": "submitted", "job_id": "98RqMaBJbgHch1mc"}
+{"t": 1792862999.9421382, "key": "3113ec971e380afc3c51c61a", "event": "completed", "value": 0.7887005084821278, "cost": 0.0}
+{"t": 1792863006.753341, "key": "78749ccf58198aaf4bed424c", "event": "completed", "value": 0.6679260767663401, "cost": 0.0}
+{"t": 1792863028.600638, "key": "dca3d80358dedb544ec8c89e", "event": "completed", "value": 0.9599477501512036, "cost": 0.0}
+{"t": 1792863029.6311092, "key": "d68e89f01612b3da07b60af4", "event": "completed", "value": 0.957061422530096, "cost": 0.0}
+{"t": 1792863159.4922051, "key": "419c119efbf7ae99e417367b", "event": "committed", "cid": "Duke_S2_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863160.3649018, "key": "1a7760df3f01ab4b013aebf5", "event": "committed", "cid": "Duke_S2_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863160.9878342, "key": "f0bc623045f7229a6531d2e0", "event": "committed", "cid": "Duke_S2_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863161.375257, "key": "7628f3727d09177a247a7500", "event": "committed", "cid": "Duke_S2_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863161.376132, "key": "419c119efbf7ae99e417367b", "event": "submitted", "job_id": "ip41G9JEJxlBIBx7"}
+{"t": 1792863161.376858, "key": "1a7760df3f01ab4b013aebf5", "event": "submitted", "job_id": "W6kuRUkk3pAnDUS2"}
+{"t": 1792863161.9118772, "key": "f0bc623045f7229a6531d2e0", "event": "submitted", "job_id": "bVkZIjSrVkAZGjJ3"}
+{"t": 1792863162.165975, "key": "7628f3727d09177a247a7500", "event": "submitted", "job_id": "uTowkGVSQEtbE4hl"}
+{"t": 1792863171.543655, "key": "1a7760df3f01ab4b013aebf5", "event": "completed", "value": 0.07520691337994688, "cost": 0.0}
+{"t": 1792863171.919209, "key": "12688ce6284d9be914f461a4", "event": "committed", "cid": "Duke_S2_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863171.9195788, "key": "419c119efbf7ae99e417367b", "event": "completed", "value": -0.04366477787482231, "cost": 0.0}
+{"t": 1792863172.616073, "key": "be953a06098661d21c40aaea", "event": "committed", "cid": "Duke_S2_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863172.617007, "key": "f0bc623045f7229a6531d2e0", "event": "completed", "value": -0.012465426962512745, "cost": 0.0}
+{"t": 1792863172.618161, "key": "7628f3727d09177a247a7500", "event": "completed", "value": 0.0440689037240442, "cost": 0.0}
+{"t": 1792863173.043961, "key": "2f0e764768f97ba19b76b9c8", "event": "committed", "cid": "Duke_S2_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863173.452696, "key": "627b0de9674a1ee113b0a29f", "event": "committed", "cid": "Duke_S2_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863173.454478, "key": "12688ce6284d9be914f461a4", "event": "submitted", "job_id": "jiIOpz6ltZZTulkn"}
+{"t": 1792863173.456408, "key": "be953a06098661d21c40aaea", "event": "submitted", "job_id": "uduSnR6eXhgZM62n"}
+{"t": 1792863173.742697, "key": "2f0e764768f97ba19b76b9c8", "event": "submitted", "job_id": "QsVGSA4J8Hk2lk4U"}
+{"t": 1792863174.673734, "key": "627b0de9674a1ee113b0a29f", "event": "submitted", "job_id": "s8H360sEUeFYGzTH"}
+{"t": 1792863183.648638, "key": "be953a06098661d21c40aaea", "event": "completed", "value": 0.04762136959897112, "cost": 0.0}
+{"t": 1792863184.111477, "key": "24375ba6fd86fd269a02ac68", "event": "committed", "cid": "Duke_S2_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863184.112788, "key": "12688ce6284d9be914f461a4", "event": "completed", "value": -0.08300862370948955, "cost": 0.0}
+{"t": 1792863184.113879, "key": "2f0e764768f97ba19b76b9c8", "event": "completed", "value": -0.03904620455899921, "cost": 0.0}
+{"t": 1792863184.658506, "key": "faf044070abf3ff224b9f1ee", "event": "committed", "cid": "Duke_S2_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863185.071153, "key": "5feddf173db4717b9d028838", "event": "committed", "cid": "Duke_S2_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863185.072046, "key": "627b0de9674a1ee113b0a29f", "event": "completed", "value": -0.13699612131231023, "cost": 0.0}
+{"t": 1792863185.072824, "key": "24375ba6fd86fd269a02ac68", "event": "submitted", "job_id": "9fHHp4zHgDryZIZG"}
+{"t": 1792863185.490991, "key": "c6717e6ebecd230913e1652f", "event": "committed", "cid": "Duke_S2_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863185.492357, "key": "faf044070abf3ff224b9f1ee", "event": "submitted", "job_id": "35hhHxmmE7xsYfDj"}
+{"t": 1792863185.98281, "key": "5feddf173db4717b9d028838", "event": "submitted", "job_id": "K75O5Pubp79BE57z"}
+{"t": 1792863187.034955, "key": "c6717e6ebecd230913e1652f", "event": "submitted", "job_id": "QEH0CEvWkWSK1Tna"}
+{"t": 1792863195.26859, "key": "24375ba6fd86fd269a02ac68", "event": "completed", "value": 0.1089556432066725, "cost": 0.0}
+{"t": 1792863195.6633868, "key": "272aff6aefd280af6efe1c8b", "event": "committed", "cid": "Duke_S2_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863195.665591, "key": "faf044070abf3ff224b9f1ee", "event": "completed", "value": 0.06770852122355858, "cost": 0.0}
+{"t": 1792863196.4671721, "key": "54b0a50286bae4e700ed1299", "event": "committed", "cid": "Duke_S2_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863196.468134, "key": "5feddf173db4717b9d028838", "event": "completed", "value": 0.5847670665062596, "cost": 0.0}
+{"t": 1792863196.469075, "key": "272aff6aefd280af6efe1c8b", "event": "submitted", "job_id": "mDzAWaMYxpoy3BYv"}
+{"t": 1792863197.539708, "key": "9700548382aedca6e503d3f4", "event": "committed", "cid": "Duke_S2_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863197.540333, "key": "54b0a50286bae4e700ed1299", "event": "submitted", "job_id": "NoQZHyyoUsfszRy2"}
+{"t": 1792863197.541245, "key": "c6717e6ebecd230913e1652f", "event": "completed", "value": 0.6108765195583882, "cost": 0.0}
+{"t": 1792863197.891399, "key": "ab741ee2147a91a1f51af7c5", "event": "committed", "cid": "Duke_S2_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S2-mps32", "attempt": 1}
+{"t": 1792863198.766585, "key": "9700548382aedca6e503d3f4", "event": "submitted", "job_id": "AqvRwVrDU6vp0iCy"}
+{"t": 1792863199.613761, "key": "ab741ee2147a91a1f51af7c5", "event": "submitted", "job_id": "2rjMMdfYsnivOvjd"}
+{"t": 1792863206.667413, "key": "272aff6aefd280af6efe1c8b", "event": "completed", "value": 1.0, "cost": 0.0}
+{"t": 1792863207.718566, "key": "54b0a50286bae4e700ed1299", "event": "completed", "value": 1.0, "cost": 0.0}
+{"t": 1792863209.048084, "key": "9700548382aedca6e503d3f4", "event": "completed", "value": 1.0000000000000004, "cost": 0.0}
+{"t": 1792863209.7881181, "key": "ab741ee2147a91a1f51af7c5", "event": "completed", "value": 0.9999999999999996, "cost": 0.0}
+{"t": 1792863210.3573859, "key": "c31bcb1658e7b913cdf8c580", "event": "committed", "cid": "Duke_S3_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863210.748018, "key": "e32d95c7ad04c5fcbdcf9a91", "event": "committed", "cid": "Duke_S3_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863211.354759, "key": "fbea94c587c6f5b92b7e9f2c", "event": "committed", "cid": "Duke_S3_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863212.8298051, "key": "af43ee934bde68a707e14a69", "event": "committed", "cid": "Duke_S3_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863212.830959, "key": "e32d95c7ad04c5fcbdcf9a91", "event": "submitted", "job_id": "H35m60QRoxWyRSZg"}
+{"t": 1792863212.8318589, "key": "c31bcb1658e7b913cdf8c580", "event": "submitted", "job_id": "ZO0aTF7G0qR6WeqR"}
+{"t": 1792863213.099575, "key": "fbea94c587c6f5b92b7e9f2c", "event": "submitted", "job_id": "LfvRNt5azFkMTg5P"}
+{"t": 1792863213.8060212, "key": "af43ee934bde68a707e14a69", "event": "submitted", "job_id": "LbES1EaJ5o7Ofo7v"}
+{"t": 1792863223.369059, "key": "fbea94c587c6f5b92b7e9f2c", "event": "completed", "value": -3.206841900720544e-05, "cost": 0.0}
+{"t": 1792863223.731797, "key": "bc136dc2fb4215b02973a519", "event": "committed", "cid": "Duke_S3_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863224.682817, "key": "bc136dc2fb4215b02973a519", "event": "submitted", "job_id": "GmGzH7GqT4D7lFA3"}
+{"t": 1792863234.877141, "key": "bc136dc2fb4215b02973a519", "event": "completed", "value": 0.051452248604198225, "cost": 0.0}
+{"t": 1792863235.398914, "key": "3c0959c228f23c770c0ff2d7", "event": "committed", "cid": "Duke_S3_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863236.315567, "key": "3c0959c228f23c770c0ff2d7", "event": "submitted", "job_id": "9DL6eztxRjVuagGC"}
+{"t": 1792863243.2690618, "key": "c31bcb1658e7b913cdf8c580", "event": "completed", "value": 0.004147012561749206, "cost": 0.0}
+{"t": 1792863243.649163, "key": "ba15b255093869e34f80fea7", "event": "committed", "cid": "Duke_S3_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863244.300127, "key": "ba15b255093869e34f80fea7", "event": "submitted", "job_id": "estLkNf7r0jKr37r"}
+{"t": 1792863253.4583879, "key": "e32d95c7ad04c5fcbdcf9a91", "event": "completed", "value": -0.0004455614307055136, "cost": 0.0}
+{"t": 1792863253.978692, "key": "61eb833a8e507292a9434406", "event": "committed", "cid": "Duke_S3_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863254.2769809, "key": "af43ee934bde68a707e14a69", "event": "completed", "value": -2.0704585274104256e-07, "cost": 0.0}
+{"t": 1792863255.369283, "key": "428e2adf98b96ed30c8888a9", "event": "committed", "cid": "Duke_S3_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863255.370433, "key": "ba15b255093869e34f80fea7", "event": "completed", "value": -0.0027696634059568284, "cost": 0.0}
+{"t": 1792863255.37218, "key": "61eb833a8e507292a9434406", "event": "submitted", "job_id": "AkOO2HI2opWcgbz2"}
+{"t": 1792863256.23753, "key": "3bd025b433b80fcb755cebc9", "event": "committed", "cid": "Duke_S3_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863256.2386649, "key": "428e2adf98b96ed30c8888a9", "event": "submitted", "job_id": "4A2V8Gxbl2c7rvna"}
+{"t": 1792863257.811244, "key": "3bd025b433b80fcb755cebc9", "event": "submitted", "job_id": "LyWM7xWu4rVsFojq"}
+{"t": 1792863266.525101, "key": "428e2adf98b96ed30c8888a9", "event": "completed", "value": 4.086678667155417e-17, "cost": 0.0}
+{"t": 1792863267.084359, "key": "b5eabeb9c24ad7f5c1d96eb3", "event": "committed", "cid": "Duke_S3_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863295.944463, "key": "61eb833a8e507292a9434406", "event": "completed", "value": -0.018598846602877514, "cost": 0.0}
+{"t": 1792863296.4757419, "key": "53f05371d1f1e748fb6535ee", "event": "committed", "cid": "Duke_S3_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863297.127041, "key": "53f05371d1f1e748fb6535ee", "event": "submitted", "job_id": "YOKbir4cRo4FQXQr"}
+{"t": 1792863307.2922041, "key": "53f05371d1f1e748fb6535ee", "event": "completed", "value": -2.5513047301892742e-17, "cost": 0.0}
+{"t": 1792863308.5221, "key": "76d8eed24cef40da75039702", "event": "committed", "cid": "Duke_S3_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863308.523233, "key": "3c0959c228f23c770c0ff2d7", "event": "completed", "value": -6.933074551968809e-05, "cost": 0.0}
+{"t": 1792863308.524713, "key": "3bd025b433b80fcb755cebc9", "event": "completed", "value": -0.0010217703914268846, "cost": 0.0}
+{"t": 1792863308.9146261, "key": "c8d46678011f91eb98a724cf", "event": "committed", "cid": "Duke_S3_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863309.472338, "key": "a4fdc254c14fc8407f73e108", "event": "committed", "cid": "Duke_S3_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863309.473529, "key": "b5eabeb9c24ad7f5c1d96eb3", "event": "submitted", "job_id": "zNieUTtWWTv5pbxi"}
+{"t": 1792863309.475086, "key": "76d8eed24cef40da75039702", "event": "submitted", "job_id": "kYyd1oiLLWvl4SI6"}
+{"t": 1792863310.101113, "key": "c8d46678011f91eb98a724cf", "event": "submitted", "job_id": "uO5VRz1PhK0okgP9"}
+{"t": 1792863310.764779, "key": "a4fdc254c14fc8407f73e108", "event": "submitted", "job_id": "H5p6nzrt5uVsFO1j"}
+{"t": 1792863319.678911, "key": "b5eabeb9c24ad7f5c1d96eb3", "event": "completed", "value": 1.1571331425563498e-05, "cost": 0.0}
+{"t": 1792863320.092077, "key": "0e5504dffdc794e753ee8b69", "event": "committed", "cid": "Duke_S3_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863320.920434, "key": "0e5504dffdc794e753ee8b69", "event": "submitted", "job_id": "aoYaeQH0Ranxisl5"}
+{"t": 1792863351.8274949, "key": "a4fdc254c14fc8407f73e108", "event": "completed", "value": 8.026784397270403e-06, "cost": 0.0}
+{"t": 1792863352.353226, "key": "6b0f18b3cd3d26dce1329c7c", "event": "committed", "cid": "Duke_S3_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863353.554581, "key": "6b0f18b3cd3d26dce1329c7c", "event": "submitted", "job_id": "SnsnDZcyWFgvdLZG"}
+{"t": 1792863360.043515, "key": "c8d46678011f91eb98a724cf", "event": "completed", "value": 0.0010549720025986786, "cost": 0.0}
+{"t": 1792863360.723781, "key": "c28eafb7d9768ff24994b817", "event": "committed", "cid": "Duke_S3_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863360.7256808, "key": "76d8eed24cef40da75039702", "event": "completed", "value": 0.017782711953257917, "cost": 0.0}
+{"t": 1792863361.195849, "key": "70b17d5f7ab2c736d87631fe", "event": "committed", "cid": "Duke_S3_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863361.445413, "key": "0e5504dffdc794e753ee8b69", "event": "completed", "value": 2.086885723420272e-15, "cost": 0.0}
+{"t": 1792863362.0398889, "key": "af7b3aef3ac6d3f4a9bfd0c4", "event": "committed", "cid": "Duke_S3_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863362.040517, "key": "c28eafb7d9768ff24994b817", "event": "submitted", "job_id": "RBrKKiw8qSp8lEl4"}
+{"t": 1792863362.207434, "key": "70b17d5f7ab2c736d87631fe", "event": "submitted", "job_id": "lEFKVRH7AHDDFUQt"}
+{"t": 1792863363.0213451, "key": "af7b3aef3ac6d3f4a9bfd0c4", "event": "submitted", "job_id": "I1rIHYGeZwpuQjxg"}
+{"t": 1792863363.7871842, "key": "6b0f18b3cd3d26dce1329c7c", "event": "completed", "value": -0.1254543084546219, "cost": 0.0}
+{"t": 1792863364.847002, "key": "f0aacfe79afe6df91ceda7dd", "event": "committed", "cid": "Duke_S3_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863366.110722, "key": "f0aacfe79afe6df91ceda7dd", "event": "submitted", "job_id": "UL9vc6uq9tlAr467"}
+{"t": 1792863372.413572, "key": "70b17d5f7ab2c736d87631fe", "event": "completed", "value": 0.003695543699390598, "cost": 0.0}
+{"t": 1792863373.348028, "key": "0214cc86511f2d37d5ae7e90", "event": "committed", "cid": "Duke_S3_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863373.349845, "key": "af7b3aef3ac6d3f4a9bfd0c4", "event": "completed", "value": -0.008217698874325236, "cost": 0.0}
+{"t": 1792863373.9051971, "key": "58fcc87fe9118d30132bd24d", "event": "committed", "cid": "Duke_S3_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863374.204824, "key": "0214cc86511f2d37d5ae7e90", "event": "submitted", "job_id": "Dqpu6Iwt2UcGvpub"}
+{"t": 1792863375.120023, "key": "58fcc87fe9118d30132bd24d", "event": "submitted", "job_id": "brO4gnCCXDiv64AZ"}
+{"t": 1792863384.4377658, "key": "0214cc86511f2d37d5ae7e90", "event": "completed", "value": -1.2963216220857716e-05, "cost": 0.0}
+{"t": 1792863384.879008, "key": "38f1d9ec4f5f24a7c823956d", "event": "committed", "cid": "Duke_S3_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863385.850006, "key": "38f1d9ec4f5f24a7c823956d", "event": "submitted", "job_id": "a0f7GHNXqMtMPLNG"}
+{"t": 1792863413.0885708, "key": "c28eafb7d9768ff24994b817", "event": "completed", "value": -0.9999998172337617, "cost": 0.0}
+{"t": 1792863413.52815, "key": "3a390bec6280593b45887bfd", "event": "committed", "cid": "Duke_S3_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863414.292586, "key": "3a390bec6280593b45887bfd", "event": "submitted", "job_id": "pQyQx4mUX5XMUPLJ"}
+{"t": 1792863416.8110878, "key": "f0aacfe79afe6df91ceda7dd", "event": "completed", "value": -0.0038428216050530543, "cost": 0.0}
+{"t": 1792863417.225738, "key": "dd2a93f8294f533c816dc7b4", "event": "committed", "cid": "Duke_S3_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863418.134202, "key": "dd2a93f8294f533c816dc7b4", "event": "submitted", "job_id": "fwCgCC5Qt7r4BYTZ"}
+{"t": 1792863424.662848, "key": "3a390bec6280593b45887bfd", "event": "completed", "value": 0.872656073486778, "cost": 0.0}
+{"t": 1792863425.846185, "key": "f1285cecfcfcb3f38bc3fed5", "event": "committed", "cid": "Duke_S3_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863425.847154, "key": "58fcc87fe9118d30132bd24d", "event": "completed", "value": -0.0005682549979008587, "cost": 0.0}
+{"t": 1792863426.6590312, "key": "f29710ff0b7ac1650c201d38", "event": "committed", "cid": "Duke_S3_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863426.6614258, "key": "f1285cecfcfcb3f38bc3fed5", "event": "submitted", "job_id": "ZDWC8WqfybwBAqIf"}
+{"t": 1792863427.789987, "key": "f29710ff0b7ac1650c201d38", "event": "submitted", "job_id": "xx02iHAOu8Spi7QM"}
+{"t": 1792863436.489296, "key": "38f1d9ec4f5f24a7c823956d", "event": "completed", "value": -0.0016209658227870738, "cost": 0.0}
+{"t": 1792863437.171937, "key": "bb1d8df4a4a4c33163727186", "event": "committed", "cid": "Duke_S3_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863438.712501, "key": "bb1d8df4a4a4c33163727186", "event": "submitted", "job_id": "kQXK90o2QOwzDLid"}
+{"t": 1792863446.935053, "key": "f1285cecfcfcb3f38bc3fed5", "event": "completed", "value": -0.030488139110640033, "cost": 0.0}
+{"t": 1792863447.8353548, "key": "75ce444f9c9d1b842c31e44b", "event": "committed", "cid": "Duke_S3_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "proxy-S3-mps32", "attempt": 1}
+{"t": 1792863449.2800782, "key": "75ce444f9c9d1b842c31e44b", "event": "submitted", "job_id": "c9X3TzLYAxDcG5TS"}
+{"t": 1792863458.693975, "key": "dd2a93f8294f533c816dc7b4", "event": "completed", "value": 0.0873323160397031, "cost": 0.0}
+{"t": 1792863468.347507, "key": "f29710ff0b7ac1650c201d38", "event": "completed", "value": 0.8081747606625582, "cost": 0.0}
+{"t": 1792863479.212044, "key": "bb1d8df4a4a4c33163727186", "event": "completed", "value": 0.9999999999999996, "cost": 0.0}
+{"t": 1792863489.842388, "key": "75ce444f9c9d1b842c31e44b", "event": "completed", "value": 0.9310689386803274, "cost": 0.0}
