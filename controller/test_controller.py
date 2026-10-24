@@ -10,9 +10,9 @@ from controller.client import BudgetExceeded, Controller, JobPending, Proxy
 
 
 class FakeBackend:
-    def __init__(self, cost=1.0, polls_until_done=0):
-        self.cost, self.polls_until_done = cost, polls_until_done
-        self.jobs, self.submits = {}, 0
+    def __init__(self, cost=1.0, polls_until_done=0, quote=0.0):
+        self.cost, self.polls_until_done, self.quote = cost, polls_until_done, quote
+        self.jobs, self.submits, self.cancelled = {}, 0, []
 
     def estimate(self, cid, device, options, pauli_sum):
         return self.cost
@@ -21,10 +21,16 @@ class FakeBackend:
         self.submits += 1
         jid = f"job{self.submits}"
         self.jobs[jid] = {"name": name, "polls": 0, "value": 0.5}
-        return jid
+        return jid, self.quote
+
+    def cancel(self, job_id):
+        self.cancelled.append(job_id)
+        self.jobs[job_id]["cancelled"] = True
 
     def get(self, job_id):
         j = self.jobs[job_id]
+        if j.get("cancelled"):
+            return {"job_id": job_id, "status": "CANCELED", "cost": 0.0, "value": None, "error": None, "name": j["name"]}
         j["polls"] += 1
         done = j["polls"] > self.polls_until_done
         return {"job_id": job_id, "status": "COMPLETED" if done else "RUNNING", "cost": self.cost if done else 0.0,
@@ -123,6 +129,22 @@ class ControllerTests(unittest.TestCase):
         self.assertEqual(fb.submits, 1)
         c.run("sur", "mps.cpu", circuit=b)  # same name, different circuit: new job
         self.assertEqual(fb.submits, 2)
+
+    def test_submit_quote_over_cap_cancels_job(self):
+        fb = FakeBackend(cost=0.2, quote=25.0)  # estimate_only says $0.20, the platform quotes $25 at submit
+        c = self.ctl(fb, cap=10.0)
+        with self.assertRaises(BudgetExceeded):
+            c.run("G4", "pauli-path")
+        self.assertEqual(fb.cancelled, ["job1"])
+        self.assertAlmostEqual(c.remaining(), 10.0)  # cancelled at $0, reservation released
+
+    def test_submit_quote_raises_reservation(self):
+        fb = FakeBackend(cost=0.2, quote=3.0, polls_until_done=10**9)
+        c = self.ctl(fb, cap=10.0)
+        with self.assertRaises(JobPending):
+            c.run("G4", "pauli-path", timeout=0)
+        self.assertEqual(fb.cancelled, [])
+        self.assertAlmostEqual(c.remaining(), 7.0)  # reserved at the $3 quote, not the $0.20 estimate
 
     def test_proxy_hides_controller(self):
         p = Proxy(self.ctl(FakeBackend()))

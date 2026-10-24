@@ -3,7 +3,7 @@
 Echo (as in the kit QASM): U, x b, U^dagger, z q, U, x b, U^dagger. U = L brickwork layers of Haar 2q gates,
 each compiled to u3+cz (3 CZ), like the samples. Layers cycle through the layout's edge matchings.
 
-  .venv/bin/python -m bench.surrogates.gen     writes bench/surrogates/<family>/*.qasm and bench/truth/surrogates/<family>.json
+  .venv/bin/python -m bench.surrogates.gen [family ...]    writes bench/surrogates/<family>/*.qasm and bench/truth/surrogates/<family>.json
 """
 import json
 from pathlib import Path
@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 FAMILIES = {
     "chain20": ("chain", 20, 10, 10),
     "grid4x5": ("grid", (4, 5), 10, 0),
+    "grid4x6": ("grid", (4, 6), 10, 0),  # H0: larger G4 proxy; 12 layers gives identical values (extra layers miss qubit 0)
 }
 
 
@@ -74,8 +75,10 @@ def load(family):
 
 
 if __name__ == "__main__":
+    import sys
     import time
-    for fam, (layout, size, layers, b) in FAMILIES.items():
+    for fam in sys.argv[1:] or FAMILIES:
+        layout, size, layers, b = FAMILIES[fam]
         t0 = time.time()
         u, n = build_u(layout, size, layers, seed=sum(map(ord, fam)))
         uu = u.compose(u.inverse())  # inverse cancellation check: U U^dagger leaves |0...0>, so <Z_q> = 1

@@ -1,2 +1,4 @@
 time	status	hypothesis	chain20_corr2	chain20_mae	grid4x5_corr2	grid4x5_mae	cost_usd	notes
 2026-10-24T14:10	baseline	strategy v1: mps.cpu chi=32 for G2 and G4	0.9854	0.0302	0.1291	0.2157	0.00	Phase 3 benchmark baseline; S2 corr2 1.00, S3 0.43 with same method
+2026-10-24T14:55	baseline	H0: add grid4x6 surrogate (24 q, 10 layers); strategy v1 unchanged	0.9854	0.0302	0.1291	0.2157	0.00	grid4x6 corr2=0.4724 mae=0.2999 (new column-less family, see notes)
+2026-10-24T14:55	probe	G4_0 / G2_18 mps.cpu chi ladder (pre-H3 cost probe)					0.00	G4_0: chi32 0.270, chi64 0.098, chi128 0.058 (shrinking toward G4 regime); G2_18: chi64 -0.008, chi128 -0.003; all $0, submit quote $0

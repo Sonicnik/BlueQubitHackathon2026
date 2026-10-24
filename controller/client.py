@@ -71,7 +71,13 @@ class BQBackend:
                              pauli_sum=pauli_sum, options=options)
         except BQJobNotCompleteError as e:
             raise JobFailed(f"{e.run_status}: {e.error_message}") from None
-        return jr.job_id
+        return jr.job_id, jr.estimated_cost or 0.0  # submit-time quote (USD), can far exceed estimate_only
+
+    def cancel(self, job_id):
+        try:
+            self.bq.cancel(job_id)
+        except Exception:  # already terminal, or cancel timed out; the reconcile below records the real state
+            pass
 
     @staticmethod
     def _view(jr):
@@ -169,7 +175,7 @@ class Controller:
         last = None
         for _ in range(RETRIES + 1):
             try:
-                job_id = self.backend.submit(cid, device, options, pauli_sum, key)
+                job_id, quote = self.backend.submit(cid, device, options, pauli_sum, key)
                 break
             except Exception as e:  # network or platform refusal; nothing was charged
                 last = e
@@ -177,8 +183,24 @@ class Controller:
         else:
             self._append({"key": key, "event": "failed", "cost": 0.0, "error": str(last)})
             raise JobFailed(str(last))
-        self._append({"key": key, "event": "submitted", "job_id": job_id})
+        self._append({"key": key, "event": "submitted", "job_id": job_id, "quote": quote})
+        self._apply_quote(key, quote)
         return self._wait(key, timeout)
+
+    def _apply_quote(self, key, quote):
+        """Raise the reservation to the platform's submit-time quote; cancel at once if that crosses the cap."""
+        with self._lock:
+            r = self.state[key]
+            if quote <= r.get("est_reserved", 0.0):
+                return
+            if self.spent() - r.get("est_reserved", 0.0) + quote <= self.cap + 1e-9:
+                self._append({"key": key, "event": "submitted", "est_reserved": quote})
+                return
+        self.backend.cancel(r["job_id"])
+        j = self.backend.get(r["job_id"])
+        self._append({"key": key, "event": "failed", "cost": j["cost"],
+                      "error": f"cancelled: submit quote ${quote:.2f} would cross the cap ({j['status']})"})
+        raise BudgetExceeded(f"{r['cid']} {r['device']} quoted ${quote:.2f} at submit; cancelled")
 
     def _wait(self, key, timeout):
         start = time.time()

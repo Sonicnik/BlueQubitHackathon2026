@@ -31,7 +31,7 @@ def zq(n, q):
 
 
 # Benchmark surrogate -> the G circuit whose config it tests (bench/surrogates/gen.py FAMILIES).
-SURROGATE_OF = {"chain20": "G2", "grid4x5": "G4"}
+SURROGATE_OF = {"chain20": "G2", "grid4x5": "G4", "grid4x6": "G4"}
 
 
 def predict(circuit: str, client) -> dict[str, float]:

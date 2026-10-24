@@ -87,3 +87,13 @@ More MPS (per ID): S3 mps.cpu χ=512 $14.80; mps.gpu χ=512 $10.39; G4 mps.gpu �
 - `strategy/checks.py` (program.md step 3) checks qubit mapping, a known S1 expectation and inverse cancellation. It passes.
 - Baseline benchmark (strategy v1, mps.cpu χ=32): chain20 corr² 0.985 (MAE 0.030), grid4x5 corr² 0.129 (MAE 0.216). Logged in `results.tsv`.
 - Caveat: surrogates are 20 q against 36 to 38 q on G. Benchmark gains are evidence, not proof, for G.
+
+## Phase 4, H0 (2026-10-24, ~2:35 to 2:55 p.m. ET)
+
+- Platform scores reported by the user: G2_v1 342/600 (corr² 0.57) and G4_v1 0/1000. Recorded in `ledger/submissions.tsv`. The chain20 proxy (0.985) overstated G2.
+- **Controller fix (approved, QUESTIONS.md #2):** `BQBackend.submit` now returns the submit-time `estimated_cost`. `Controller._apply_quote` raises the reservation to that quote. If the quote would cross the cap, it cancels the job, records the real cancelled cost and raises `BudgetExceeded`. There's a new `BQBackend.cancel`, and two tests (11/11 pass). The controller is locked again.
+  - Consequence: a $25 Pauli-path quote reserves $25, so only one such job can be in flight under the $27 cap.
+- **New surrogate `grid4x6`:** 24 q, Haar, 10 layers, butterfly 0. Values std ≈ 0.08, 86% within ±0.1. Exact truth (local Aer) is in `bench/truth/surrogates/grid4x6.json`. This was a one-time unlock to add the file; it's locked again.
+  - 12 layers give values identical to 10, because the extra layers never touch qubit 0 and cancel in U† X₀ U. Expect the same depth saving on G4 (butterfly 0).
+- Benchmark (strategy v1, mps.cpu χ=32): chain20 0.985, grid4x5 0.129, **grid4x6 0.472** (MAE 0.300). 24 jobs, $0, max submit quote $0.
+- MPS χ probe on G4_0: 0.270 / 0.098 / 0.058 at χ = 32 / 64 / 128. Values shrink toward G4's ±0.1 regime as χ grows. All $0.

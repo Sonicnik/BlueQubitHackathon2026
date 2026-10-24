@@ -17,7 +17,9 @@ Repeat until 10:30 a.m. ET on October 25 or the budget is exhausted:
 
 Target: G4 (1,000) and G2 (600) only (see the target change in [PLAN.md](PLAN.md)); G3 only if budget and time remain. Climb a cost ladder per circuit and stop climbing when successive rungs agree.
 
-Consider, in roughly this order: MPS bond-dimension ladder with extrapolation; Pauli-path threshold ladder with extrapolation; choosing device per family; combining MPS and Pauli-path estimates; ranking-preserving post-processing (the score ignores scale and offset, so shape and sign matter most).
+G4 first. Take hypotheses from [research/g4_hypotheses.md](research/g4_hypotheses.md) in its stated order: H0 (controller fix and a larger Haar-grid surrogate), then H1 to H5. Each hypothesis there names its test and a completion criterion. Calibrate on surrogates before spending on G4. Cost and time ladders for G2 follow after the G4 pilots, starting with a chi=64 rung.
+
+Throughout: choose the device per family, and prefer ranking-preserving post-processing (the score ignores scale and offset, so shape and sign matter most).
 
 ## Keep a candidate ready
 
