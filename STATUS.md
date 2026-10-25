@@ -1,5 +1,7 @@
 # Status: final handover
 
+**Update 11:00 a.m. ET:** G4_v4 (pauli-path.gpu 1e-4, level 3) scored 136/1000, below v3's 267. The best G4 submission stays v3 (267). Spend $15.67 of the $30 cap.
+
 Updated 2026-10-25, 10:05 a.m. ET (freeze 10:30, submissions close 11:30). Spend: **$8.20 actual** of the $27 cap (GPU jobs at $0.20; every CPU job was $0). Outstanding jobs: none.
 
 ## Submit these
