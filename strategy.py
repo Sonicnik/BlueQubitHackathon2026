@@ -38,7 +38,7 @@ def zq(n, q):
 
 
 # Benchmark surrogate -> the G circuit whose config it tests (bench/surrogates/gen.py FAMILIES).
-SURROGATE_OF = {"chain20": "G2", "chain30": "G2", "grid4x5": "G4", "grid4x6": "G4"}
+SURROGATE_OF = {"chain20": "G2", "chain30": "G2", "grid4x5": "G4", "grid4x6": "G4", "grid4x7": "G4"}
 
 
 def predict(circuit: str, client) -> dict[str, float]:
@@ -51,7 +51,7 @@ def estimate(circuit, items, client, cfg=None):
     cfg = cfg or CONFIG[circuit]
     specs = [dict(cid=name, circuit=qc, pauli_sum=zq(n, q), tag=f"{circuit}-{VERSION[circuit]}" + ("-bench" if qc else ""), **cfg)
              for name, qc, n, q in items]
-    if cfg["device"].startswith("pauli-path") or (circuit in SERIAL and items and items[0][1] is None):  # each job is quoted ~$25 at submit, so the cap admits one at a time
+    if cfg["device"].endswith(".gpu"):  # platform runs one GPU job at a time  # each job is quoted ~$25 at submit, so the cap admits one at a time
         vals = []
         for sp in specs:
             try:
