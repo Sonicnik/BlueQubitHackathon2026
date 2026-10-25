@@ -37,6 +37,7 @@ class FakeBackend:
                 "value": j["value"] if done else None, "error": None, "name": j["name"]}
 
     def find_by_name(self, name, since):
+        assert isinstance(since, (int, float))  # controller passes epoch seconds; BQBackend converts for the SDK
         for jid, j in self.jobs.items():
             if j["name"] == name:
                 return {"job_id": jid}

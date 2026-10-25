@@ -667,3 +667,1008 @@
 {"t": 1792867294.0523489, "key": "7b1f79b02e7f8cdf352941cf", "event": "completed", "value": 0.6965089204144111, "cost": 0.0}
 {"t": 1792867295.4793751, "key": "ef7b7cc02e8f484b04439a38", "event": "completed", "value": 0.857614778426563, "cost": 0.0}
 {"t": 1792867296.691425, "key": "eee5553ac1fa5eb6be6312dd", "event": "completed", "value": 0.5196093465535984, "cost": 0.0}
+{"t": 1792867976.694478, "key": "b0c825d5ed72edb4de815d49", "event": "committed", "cid": "grid4x5_9", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "H1-probe", "attempt": 1}
+{"t": 1792867987.410431, "key": "b0c825d5ed72edb4de815d49", "event": "submitted", "job_id": "wRez7fB86hsD8Pu9", "quote": 25.0}
+{"t": 1792867987.411157, "key": "b0c825d5ed72edb4de815d49", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868002.9002821, "key": "b0c825d5ed72edb4de815d49", "event": "completed", "value": 0.10583860782394025, "cost": 0.0}
+{"t": 1792868039.04302, "key": "fc2175ce3843c42ca9b58298", "event": "committed", "cid": "grid4x5_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868040.063995, "key": "041d34a6dea17ecaeb099a2d", "event": "committed", "cid": "grid4x5_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868041.638035, "key": "e3a06acdbabf00e421c0ea7f", "event": "committed", "cid": "grid4x5_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868042.22456, "key": "576668ac950c2b43f49865fc", "event": "committed", "cid": "grid4x5_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868042.2257988, "key": "fc2175ce3843c42ca9b58298", "event": "submitted", "job_id": "eBbKnCxliRupmAw5", "quote": 0.0}
+{"t": 1792868042.23915, "key": "041d34a6dea17ecaeb099a2d", "event": "submitted", "job_id": "TY1b1O1ZfeNhAbge", "quote": 0.0}
+{"t": 1792868043.493783, "key": "e3a06acdbabf00e421c0ea7f", "event": "submitted", "job_id": "XMBgzlQZgxrv6P3f", "quote": 0.0}
+{"t": 1792868043.635653, "key": "576668ac950c2b43f49865fc", "event": "submitted", "job_id": "Ai2XolJh2EBqSrhZ", "quote": 0.0}
+{"t": 1792868050.8474429, "key": "f637bd4fadf23ad12119cac7", "event": "committed", "cid": "grid4x5_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868061.008929, "key": "f637bd4fadf23ad12119cac7", "event": "submitted", "job_id": "kQKqGWkX2jwnzt2V", "quote": 25.0}
+{"t": 1792868061.0101252, "key": "f637bd4fadf23ad12119cac7", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868081.656031, "key": "f637bd4fadf23ad12119cac7", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792868083.293529, "key": "fc2175ce3843c42ca9b58298", "event": "completed", "value": 0.03425490714993125, "cost": 0.0}
+{"t": 1792868085.705986, "key": "47b4a95c91a6a60831b10c5e", "event": "committed", "cid": "grid4x5_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868086.6864388, "key": "47b4a95c91a6a60831b10c5e", "event": "submitted", "job_id": "J4n54z3qpSgG5ZRb", "quote": 0.0}
+{"t": 1792868089.932468, "key": "576668ac950c2b43f49865fc", "event": "completed", "value": -0.09942902477703955, "cost": 0.0}
+{"t": 1792868091.510307, "key": "59433688882113af305084e9", "event": "committed", "cid": "grid4x5_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868092.218632, "key": "59433688882113af305084e9", "event": "submitted", "job_id": "x90PX6NpPaSGWCle", "quote": 0.0}
+{"t": 1792868102.698773, "key": "e2ef8eafe6a91f531f7ebe5c", "event": "committed", "cid": "grid4x5_1", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868112.963031, "key": "e2ef8eafe6a91f531f7ebe5c", "event": "submitted", "job_id": "KQPQHYFnhYD6pelO", "quote": 25.0}
+{"t": 1792868112.964819, "key": "e2ef8eafe6a91f531f7ebe5c", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868114.516305, "key": "041d34a6dea17ecaeb099a2d", "event": "completed", "value": 0.058468704199221094, "cost": 0.0}
+{"t": 1792868115.365428, "key": "26696753b7e4dcde979e725b", "event": "committed", "cid": "grid4x5_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868117.455592, "key": "26696753b7e4dcde979e725b", "event": "submitted", "job_id": "bLEn6KKuYwCWG1Oo", "quote": 0.0}
+{"t": 1792868120.7164109, "key": "e3a06acdbabf00e421c0ea7f", "event": "completed", "value": 0.03442943309585366, "cost": 0.0}
+{"t": 1792868122.4656372, "key": "fa0880319c7a0423c9d76501", "event": "committed", "cid": "grid4x5_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868123.4119098, "key": "fa0880319c7a0423c9d76501", "event": "submitted", "job_id": "nIRWP77PPIOPN3EL", "quote": 0.0}
+{"t": 1792868128.4527512, "key": "e2ef8eafe6a91f531f7ebe5c", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792868136.613975, "key": "4b0891a6128765622c6d719e", "event": "committed", "cid": "grid4x5_2", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868143.3642051, "key": "47b4a95c91a6a60831b10c5e", "event": "completed", "value": 0.6476462910249253, "cost": 0.0}
+{"t": 1792868145.928299, "key": "9d990a287d55dbf691fdff7e", "event": "committed", "cid": "grid4x5_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868146.930578, "key": "9d990a287d55dbf691fdff7e", "event": "submitted", "job_id": "iFXx7JnYHwjTXk92", "quote": 0.0}
+{"t": 1792868158.061589, "key": "4b0891a6128765622c6d719e", "event": "submitted", "job_id": "9m6JRKgJC6Zcayr2", "quote": 25.0}
+{"t": 1792868158.06262, "key": "4b0891a6128765622c6d719e", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868174.488814, "key": "59433688882113af305084e9", "event": "completed", "value": 0.025766616074310297, "cost": 0.0}
+{"t": 1792868175.062655, "key": "2f43f9b4f001b1765340975e", "event": "committed", "cid": "grid4x5_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868176.0041862, "key": "2f43f9b4f001b1765340975e", "event": "submitted", "job_id": "u2vOFLPuztds8SLo", "quote": 0.0}
+{"t": 1792868178.642566, "key": "4b0891a6128765622c6d719e", "event": "completed", "value": 0.0015170077595579794, "cost": 0.0}
+{"t": 1792868187.994089, "key": "9d990a287d55dbf691fdff7e", "event": "completed", "value": 0.06950249272680808, "cost": 0.0}
+{"t": 1792868188.9092858, "key": "730fe6d1342c7d0cc59ccd57", "event": "committed", "cid": "grid4x5_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868189.406592, "key": "26696753b7e4dcde979e725b", "event": "completed", "value": -0.011895972483861761, "cost": 0.0}
+{"t": 1792868190.477252, "key": "6a02161aaccafd586b67eef1", "event": "committed", "cid": "grid4x5_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868190.4786491, "key": "730fe6d1342c7d0cc59ccd57", "event": "submitted", "job_id": "bA64Cw77bI5wrkr6", "quote": 0.0}
+{"t": 1792868191.333786, "key": "6a02161aaccafd586b67eef1", "event": "submitted", "job_id": "6j6G8OMxmQhehvqL", "quote": 0.0}
+{"t": 1792868203.656667, "key": "636676bd494d0509e5d6ddbd", "event": "committed", "cid": "grid4x5_3", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868229.0772989, "key": "636676bd494d0509e5d6ddbd", "event": "submitted", "job_id": "iglIxGYBmUN5UP1l", "quote": 25.0}
+{"t": 1792868229.079019, "key": "636676bd494d0509e5d6ddbd", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868232.421676, "key": "2f43f9b4f001b1765340975e", "event": "completed", "value": 0.6916680797714345, "cost": 0.0}
+{"t": 1792868233.05425, "key": "0a1c0d3fd603cce1492da207", "event": "committed", "cid": "grid4x5_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868233.99232, "key": "0a1c0d3fd603cce1492da207", "event": "submitted", "job_id": "tl9PsblXx6LPA7dB", "quote": 0.0}
+{"t": 1792868235.2935371, "key": "6a02161aaccafd586b67eef1", "event": "completed", "value": -0.05093996981673745, "cost": 0.0}
+{"t": 1792868236.463219, "key": "4173d8a6ae4c96531d5e1f28", "event": "committed", "cid": "grid4x5_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868237.356103, "key": "4173d8a6ae4c96531d5e1f28", "event": "submitted", "job_id": "pR7vrJgmcm9sdbDY", "quote": 0.0}
+{"t": 1792868241.4596312, "key": "fa0880319c7a0423c9d76501", "event": "completed", "value": -0.022529176234873553, "cost": 0.0}
+{"t": 1792868242.382304, "key": "6cb01e14168be9a77febe8fa", "event": "committed", "cid": "grid4x5_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868244.829115, "key": "6cb01e14168be9a77febe8fa", "event": "submitted", "job_id": "Qki1d30JTYcuy244", "quote": 0.0}
+{"t": 1792868249.723961, "key": "636676bd494d0509e5d6ddbd", "event": "completed", "value": 0.0023142116102973487, "cost": 0.0}
+{"t": 1792868267.047013, "key": "5bd9a5b6bd766906cf7fcd09", "event": "committed", "cid": "grid4x5_4", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868267.435165, "key": "730fe6d1342c7d0cc59ccd57", "event": "completed", "value": -0.08144861906418073, "cost": 0.0}
+{"t": 1792868268.072761, "key": "a196cd5a37a6e66fb33049c1", "event": "committed", "cid": "grid4x5_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868269.766767, "key": "a196cd5a37a6e66fb33049c1", "event": "submitted", "job_id": "VGRvAO8qW1wCqLk0", "quote": 0.0}
+{"t": 1792868275.0050108, "key": "0a1c0d3fd603cce1492da207", "event": "completed", "value": 0.0349124001675903, "cost": 0.0}
+{"t": 1792868277.010342, "key": "8d29d4767b02fdee9d22d7d8", "event": "committed", "cid": "grid4x5_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868277.92656, "key": "8d29d4767b02fdee9d22d7d8", "event": "submitted", "job_id": "gat5D7vuvn9QTjkR", "quote": 0.0}
+{"t": 1792868288.250792, "key": "5bd9a5b6bd766906cf7fcd09", "event": "submitted", "job_id": "OWSaynWVxRcCKjMs", "quote": 25.0}
+{"t": 1792868288.2518919, "key": "5bd9a5b6bd766906cf7fcd09", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868293.866413, "key": "4173d8a6ae4c96531d5e1f28", "event": "completed", "value": 0.004601080014962841, "cost": 0.0}
+{"t": 1792868294.813069, "key": "231ec93074e98a5c4bd9af07", "event": "committed", "cid": "grid4x5_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868295.613781, "key": "231ec93074e98a5c4bd9af07", "event": "submitted", "job_id": "7OYY3Jc1WRAaNCr4", "quote": 0.0}
+{"t": 1792868306.349579, "key": "6cb01e14168be9a77febe8fa", "event": "completed", "value": 0.3246607718696317, "cost": 0.0}
+{"t": 1792868307.44166, "key": "f80a0aee67c41fdfe4ce27aa", "event": "committed", "cid": "grid4x5_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868308.816871, "key": "5bd9a5b6bd766906cf7fcd09", "event": "completed", "value": 0.03827412004630818, "cost": 0.0}
+{"t": 1792868308.963485, "key": "f80a0aee67c41fdfe4ce27aa", "event": "submitted", "job_id": "ty2IrDLawYOtgeaq", "quote": 0.0}
+{"t": 1792868327.568314, "key": "42b1c206c74175e60da2c6db", "event": "committed", "cid": "grid4x5_5", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868346.734897, "key": "a196cd5a37a6e66fb33049c1", "event": "completed", "value": -0.05089034452371496, "cost": 0.0}
+{"t": 1792868347.365321, "key": "5f876fa69c2946ba09ae92a3", "event": "committed", "cid": "grid4x5_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868347.3670468, "key": "231ec93074e98a5c4bd9af07", "event": "completed", "value": -0.06758068585992938, "cost": 0.0}
+{"t": 1792868348.367887, "key": "5f876fa69c2946ba09ae92a3", "event": "submitted", "job_id": "3YgA8cbN4B1Av0LC", "quote": 0.0}
+{"t": 1792868348.909482, "key": "42b1c206c74175e60da2c6db", "event": "submitted", "job_id": "esQ0f2YVWLNLXKqI", "quote": 25.0}
+{"t": 1792868348.910336, "key": "42b1c206c74175e60da2c6db", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868350.109184, "key": "f80a0aee67c41fdfe4ce27aa", "event": "completed", "value": -0.012221163923220268, "cost": 0.0}
+{"t": 1792868359.925667, "key": "8d29d4767b02fdee9d22d7d8", "event": "completed", "value": -0.03185025358822797, "cost": 0.0}
+{"t": 1792868364.4111722, "key": "42b1c206c74175e60da2c6db", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792868375.6210382, "key": "17f7f554e6c35f91403c0f39", "event": "committed", "cid": "grid4x5_6", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868379.318363, "key": "5f876fa69c2946ba09ae92a3", "event": "completed", "value": 0.5236733494496334, "cost": 0.0}
+{"t": 1792868380.5233831, "key": "ac642b1209d1957158a56dfd", "event": "committed", "cid": "grid4x6_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868381.510924, "key": "adc1f85431aec739f4523937", "event": "committed", "cid": "grid4x6_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868383.424191, "key": "7d5b94dc034c8bc356dfe7bf", "event": "committed", "cid": "grid4x6_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868385.044113, "key": "913626a631ca18887d60f084", "event": "committed", "cid": "grid4x6_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868385.045078, "key": "ac642b1209d1957158a56dfd", "event": "submitted", "job_id": "UoWZ1WIV1QcnXdWY", "quote": 0.0}
+{"t": 1792868385.065974, "key": "adc1f85431aec739f4523937", "event": "submitted", "job_id": "RABnDn9RK0JpPyCP", "quote": 0.0}
+{"t": 1792868385.206798, "key": "7d5b94dc034c8bc356dfe7bf", "event": "submitted", "job_id": "QTYoxj5UcXMoAStg", "quote": 0.0}
+{"t": 1792868386.3220758, "key": "913626a631ca18887d60f084", "event": "submitted", "job_id": "W2hNzveqGusHkuz5", "quote": 0.0}
+{"t": 1792868387.337814, "key": "17f7f554e6c35f91403c0f39", "event": "submitted", "job_id": "eppAbxLsRC9zmLxS", "quote": 25.0}
+{"t": 1792868387.33954, "key": "17f7f554e6c35f91403c0f39", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868407.924735, "key": "17f7f554e6c35f91403c0f39", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792868427.8286972, "key": "819b2ad31ff4ffde99aa9c5c", "event": "committed", "cid": "grid4x5_7", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868441.694782, "key": "ac642b1209d1957158a56dfd", "event": "completed", "value": -0.02531386250480673, "cost": 0.0}
+{"t": 1792868441.777786, "key": "adc1f85431aec739f4523937", "event": "completed", "value": 0.11601782994010659, "cost": 0.0}
+{"t": 1792868442.782329, "key": "47b53f0fb01800a54ddcbd7a", "event": "committed", "cid": "grid4x6_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868443.609914, "key": "ec40926b6bda39dd982e455b", "event": "committed", "cid": "grid4x6_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868443.812615, "key": "47b53f0fb01800a54ddcbd7a", "event": "submitted", "job_id": "XeLeJKUhDtY9GPcm", "quote": 0.0}
+{"t": 1792868444.783135, "key": "ec40926b6bda39dd982e455b", "event": "submitted", "job_id": "xm1q0vsyyuQPdJOl", "quote": 0.0}
+{"t": 1792868448.0177002, "key": "913626a631ca18887d60f084", "event": "completed", "value": 0.0052891748658669266, "cost": 0.0}
+{"t": 1792868449.681418, "key": "60788f07e4009b229436b443", "event": "committed", "cid": "grid4x6_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868451.662372, "key": "819b2ad31ff4ffde99aa9c5c", "event": "submitted", "job_id": "rxFz3UXHuGK5WCIw", "quote": 25.0}
+{"t": 1792868451.663491, "key": "819b2ad31ff4ffde99aa9c5c", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868452.153439, "key": "60788f07e4009b229436b443", "event": "submitted", "job_id": "JmBaFqSsfMeGby7p", "quote": 0.0}
+{"t": 1792868467.164257, "key": "819b2ad31ff4ffde99aa9c5c", "event": "completed", "value": 2.1900024306784386e-06, "cost": 0.0}
+{"t": 1792868490.371486, "key": "47b53f0fb01800a54ddcbd7a", "event": "completed", "value": 0.2601628069482585, "cost": 0.0}
+{"t": 1792868493.678581, "key": "476ea12c7bc145d8151d71e2", "event": "committed", "cid": "grid4x5_8", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868498.544327, "key": "41def89cadcf226bb9803a1e", "event": "committed", "cid": "grid4x6_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868498.54565, "key": "ec40926b6bda39dd982e455b", "event": "completed", "value": 0.14420467530075187, "cost": 0.0}
+{"t": 1792868498.552226, "key": "7d5b94dc034c8bc356dfe7bf", "event": "completed", "value": 0.00933948118001711, "cost": 0.0}
+{"t": 1792868499.5209558, "key": "bb01d8bfcb652b098d0ad9a6", "event": "committed", "cid": "grid4x6_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868500.502553, "key": "f6bdf2bea76c459daf39a231", "event": "committed", "cid": "grid4x6_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868500.504087, "key": "41def89cadcf226bb9803a1e", "event": "submitted", "job_id": "rePeCd8ZZtQMh9Nb", "quote": 0.0}
+{"t": 1792868501.3787808, "key": "f6bdf2bea76c459daf39a231", "event": "submitted", "job_id": "3MmspVyqYZ7CwdZD", "quote": 0.0}
+{"t": 1792868504.002526, "key": "bb01d8bfcb652b098d0ad9a6", "event": "submitted", "job_id": "ENgf402n4hrsn3jl", "quote": 0.0}
+{"t": 1792868509.249815, "key": "60788f07e4009b229436b443", "event": "completed", "value": 0.0314136796841738, "cost": 0.0}
+{"t": 1792868509.869215, "key": "2c31c1bd70d6e2a798a107ba", "event": "committed", "cid": "grid4x6_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868513.583928, "key": "2c31c1bd70d6e2a798a107ba", "event": "submitted", "job_id": "58r84CZxaZWoPfTo", "quote": 0.0}
+{"t": 1792868541.227791, "key": "476ea12c7bc145d8151d71e2", "event": "submitted", "job_id": "HYByDR2xKHRfo2f0", "quote": 25.0}
+{"t": 1792868541.229196, "key": "476ea12c7bc145d8151d71e2", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868561.7962902, "key": "476ea12c7bc145d8151d71e2", "event": "completed", "value": 0.01169072459890021, "cost": 0.0}
+{"t": 1792868571.924097, "key": "a6c1c731d5edc98de852895f", "event": "committed", "cid": "grid4x5_10", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868583.692702, "key": "a6c1c731d5edc98de852895f", "event": "submitted", "job_id": "CCyvHNsvPdqSF02r", "quote": 25.0}
+{"t": 1792868583.694292, "key": "a6c1c731d5edc98de852895f", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868595.8691468, "key": "2c31c1bd70d6e2a798a107ba", "event": "completed", "value": 0.4859016587075308, "cost": 0.0}
+{"t": 1792868596.508193, "key": "9b7fc52eef72af3a55868114", "event": "committed", "cid": "grid4x6_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868598.4809768, "key": "9b7fc52eef72af3a55868114", "event": "submitted", "job_id": "xwyOao8EU0qkXWRn", "quote": 0.0}
+{"t": 1792868609.577864, "key": "41def89cadcf226bb9803a1e", "event": "completed", "value": 0.1034989055224573, "cost": 0.0}
+{"t": 1792868610.200584, "key": "b69a610e2adccebfaa7f8185", "event": "committed", "cid": "grid4x6_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868611.13151, "key": "b69a610e2adccebfaa7f8185", "event": "submitted", "job_id": "E99HkuQE2FKucUa4", "quote": 0.0}
+{"t": 1792868611.644574, "key": "bb01d8bfcb652b098d0ad9a6", "event": "completed", "value": -0.11317979943789057, "cost": 0.0}
+{"t": 1792868612.786199, "key": "75c0ecd322960a0209784745", "event": "committed", "cid": "grid4x6_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868614.235518, "key": "f6bdf2bea76c459daf39a231", "event": "completed", "value": -0.0006928745152181895, "cost": 0.0}
+{"t": 1792868614.491495, "key": "a6c1c731d5edc98de852895f", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792868615.161684, "key": "f88edb4c5906de6372b70c16", "event": "committed", "cid": "grid4x6_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868615.163418, "key": "75c0ecd322960a0209784745", "event": "submitted", "job_id": "jEssJd6lvODxuRps", "quote": 0.0}
+{"t": 1792868616.585921, "key": "f88edb4c5906de6372b70c16", "event": "submitted", "job_id": "5bvpvviQGMI1XZHM", "quote": 0.0}
+{"t": 1792868634.73757, "key": "ac283b278e70e39fa555420a", "event": "committed", "cid": "grid4x5_11", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868643.80532, "key": "ac283b278e70e39fa555420a", "event": "submitted", "job_id": "m37l9gMJnIlgCT8f", "quote": 25.0}
+{"t": 1792868643.8061051, "key": "ac283b278e70e39fa555420a", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868664.515148, "key": "ac283b278e70e39fa555420a", "event": "completed", "value": -0.00047976283843083036, "cost": 0.0}
+{"t": 1792868687.418817, "key": "75c0ecd322960a0209784745", "event": "completed", "value": 0.04691565773839695, "cost": 0.0}
+{"t": 1792868692.4526699, "key": "1f17c35719b4c6719b4b6585", "event": "committed", "cid": "grid4x6_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868692.454444, "key": "f88edb4c5906de6372b70c16", "event": "completed", "value": 0.4098752152732238, "cost": 0.0}
+{"t": 1792868693.389648, "key": "712baec59d59e1ad52399a82", "event": "committed", "cid": "grid4x6_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868694.392446, "key": "712baec59d59e1ad52399a82", "event": "submitted", "job_id": "wNMVLlibiVPY6qbL", "quote": 0.0}
+{"t": 1792868696.28955, "key": "9b7fc52eef72af3a55868114", "event": "completed", "value": 0.16267351336623234, "cost": 0.0}
+{"t": 1792868697.142445, "key": "869ef362bb43652ce719eaed", "event": "committed", "cid": "grid4x6_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868697.8741162, "key": "869ef362bb43652ce719eaed", "event": "submitted", "job_id": "ACOGcE9giweIOZ9B", "quote": 0.0}
+{"t": 1792868698.353384, "key": "1f17c35719b4c6719b4b6585", "event": "submitted", "job_id": "GSo262LqQfoO1u28", "quote": 0.0}
+{"t": 1792868728.1876748, "key": "c1d7e4e3a81d4cdc5266fbb1", "event": "committed", "cid": "grid4x5_12", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868729.453197, "key": "b69a610e2adccebfaa7f8185", "event": "completed", "value": 0.00554234683852424, "cost": 0.0}
+{"t": 1792868730.10144, "key": "4814d6105e7eeff26de928e3", "event": "committed", "cid": "grid4x6_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868731.882369, "key": "4814d6105e7eeff26de928e3", "event": "submitted", "job_id": "1XshH9LjtaYQG7lD", "quote": 0.0}
+{"t": 1792868739.0786262, "key": "c1d7e4e3a81d4cdc5266fbb1", "event": "submitted", "job_id": "skyEqvho2Hc5tUtp", "quote": 25.0}
+{"t": 1792868739.080004, "key": "c1d7e4e3a81d4cdc5266fbb1", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868746.100733, "key": "712baec59d59e1ad52399a82", "event": "completed", "value": 0.5643532854415566, "cost": 0.0}
+{"t": 1792868747.39109, "key": "8f4a5983ac90a623a8931da5", "event": "committed", "cid": "grid4x6_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868749.072306, "key": "8f4a5983ac90a623a8931da5", "event": "submitted", "job_id": "ZpBEfd4gFHmzqfvo", "quote": 0.0}
+{"t": 1792868775.447594, "key": "1f17c35719b4c6719b4b6585", "event": "completed", "value": 0.11933261676396828, "cost": 0.0}
+{"t": 1792868777.0554051, "key": "af6404d1d9ffcc4ebbdeea9c", "event": "committed", "cid": "grid4x6_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868778.844379, "key": "af6404d1d9ffcc4ebbdeea9c", "event": "submitted", "job_id": "2NhwqDg5ZfaUjbWp", "quote": 0.0}
+{"t": 1792868780.304134, "key": "c1d7e4e3a81d4cdc5266fbb1", "event": "completed", "value": -0.0037837471666667694, "cost": 0.0}
+{"t": 1792868790.3445702, "key": "869ef362bb43652ce719eaed", "event": "completed", "value": 0.6927867915267161, "cost": 0.0}
+{"t": 1792868792.9867918, "key": "9a679007769470cde4d0c67a", "event": "committed", "cid": "grid4x6_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868793.9324648, "key": "9a679007769470cde4d0c67a", "event": "submitted", "job_id": "U9Hmlhu6VqE1Ysu6", "quote": 0.0}
+{"t": 1792868803.048691, "key": "1f678ca82178ec51aa34a3ee", "event": "committed", "cid": "grid4x5_13", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868824.031231, "key": "1f678ca82178ec51aa34a3ee", "event": "submitted", "job_id": "qe3r6BnIG3n4D244", "quote": 25.0}
+{"t": 1792868824.03235, "key": "1f678ca82178ec51aa34a3ee", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868836.1464489, "key": "8f4a5983ac90a623a8931da5", "event": "completed", "value": -0.06602337052204911, "cost": 0.0}
+{"t": 1792868840.819159, "key": "f98e9fe2a2862a8c041baa25", "event": "committed", "cid": "grid4x6_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868842.054903, "key": "f98e9fe2a2862a8c041baa25", "event": "submitted", "job_id": "msHLpKSFqWaf4t7q", "quote": 0.0}
+{"t": 1792868844.9742668, "key": "1f678ca82178ec51aa34a3ee", "event": "completed", "value": -0.006622421234403043, "cost": 0.0}
+{"t": 1792868845.8760672, "key": "af6404d1d9ffcc4ebbdeea9c", "event": "completed", "value": 0.5558631230739932, "cost": 0.0}
+{"t": 1792868846.9066072, "key": "647c80deca5d7d98b1290e5c", "event": "committed", "cid": "grid4x6_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.27, "est_reserved": 0.27, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868847.8304582, "key": "647c80deca5d7d98b1290e5c", "event": "submitted", "job_id": "rrHpEFDaFpCygM1e", "quote": 0.0}
+{"t": 1792868854.328297, "key": "4ff404bba5cf2094a31a4250", "event": "committed", "cid": "grid4x5_14", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868865.9570282, "key": "4ff404bba5cf2094a31a4250", "event": "submitted", "job_id": "Q8WsSqiqJATlNGnS", "quote": 25.0}
+{"t": 1792868865.958038, "key": "4ff404bba5cf2094a31a4250", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868866.086317, "key": "4814d6105e7eeff26de928e3", "event": "completed", "value": -0.16040187341505038, "cost": 0.0}
+{"t": 1792868881.494543, "key": "4ff404bba5cf2094a31a4250", "event": "completed", "value": 0.002935054309536665, "cost": 0.0}
+{"t": 1792868888.472244, "key": "f98e9fe2a2862a8c041baa25", "event": "completed", "value": 0.8020743755070143, "cost": 0.0}
+{"t": 1792868897.7842932, "key": "7143748c240c1e0890790c3d", "event": "committed", "cid": "grid4x5_15", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868907.057823, "key": "9a679007769470cde4d0c67a", "event": "completed", "value": 0.31746719714869953, "cost": 0.0}
+{"t": 1792868907.258632, "key": "7143748c240c1e0890790c3d", "event": "submitted", "job_id": "5XxExn4ZgqyPqfOO", "quote": 25.0}
+{"t": 1792868907.2595232, "key": "7143748c240c1e0890790c3d", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792868930.124, "key": "647c80deca5d7d98b1290e5c", "event": "completed", "value": 0.7736636222952856, "cost": 0.0}
+{"t": 1792868932.083831, "key": "6b7ff506c6bdbde0c77950b6", "event": "committed", "cid": "grid4x5_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868932.9553769, "key": "bae62e36561a2aa3af34e801", "event": "committed", "cid": "grid4x5_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868932.999254, "key": "7143748c240c1e0890790c3d", "event": "completed", "value": -0.00035475684549684654, "cost": 0.0}
+{"t": 1792868934.2203588, "key": "22661eb90e3c13a8e65565f7", "event": "committed", "cid": "grid4x5_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868934.7933161, "key": "6b7ff506c6bdbde0c77950b6", "event": "submitted", "job_id": "dW69fb9HnfZlanVg", "quote": 0.57}
+{"t": 1792868934.8385391, "key": "bae62e36561a2aa3af34e801", "event": "submitted", "job_id": "WNIgbP5n4Ds41ZoR", "quote": 0.57}
+{"t": 1792868935.715916, "key": "22661eb90e3c13a8e65565f7", "event": "submitted", "job_id": "T0su3edje7pOxdU8", "quote": 0.57}
+{"t": 1792868953.60042, "key": "164233959e0195c467bd9c81", "event": "committed", "cid": "grid4x5_16", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792868962.603476, "key": "164233959e0195c467bd9c81", "event": "submitted", "job_id": "PVPc2EIeYXreNFTJ", "quote": 25.0}
+{"t": 1792868962.604684, "key": "164233959e0195c467bd9c81", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869003.9358258, "key": "164233959e0195c467bd9c81", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792869012.039718, "key": "6b7ff506c6bdbde0c77950b6", "event": "completed", "value": 0.02631572531033994, "cost": 0.0}
+{"t": 1792869017.081183, "key": "bae62e36561a2aa3af34e801", "event": "completed", "value": 0.032611169413597145, "cost": 0.0}
+{"t": 1792869018.332443, "key": "22661eb90e3c13a8e65565f7", "event": "completed", "value": -0.10148235426019422, "cost": 0.0}
+{"t": 1792869040.371003, "key": "128072a2d0532559cd0b7cd2", "event": "committed", "cid": "grid4x5_17", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869068.424646, "key": "128072a2d0532559cd0b7cd2", "event": "submitted", "job_id": "Z2QuojfhgAqmuEcm", "quote": 25.0}
+{"t": 1792869068.425966, "key": "128072a2d0532559cd0b7cd2", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869089.114934, "key": "128072a2d0532559cd0b7cd2", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792869102.033252, "key": "b50fadcd1824fed59b308b22", "event": "committed", "cid": "grid4x5_18", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869112.763362, "key": "b50fadcd1824fed59b308b22", "event": "submitted", "job_id": "2KhNBaBKax6fa5yM", "quote": 25.0}
+{"t": 1792869112.765036, "key": "b50fadcd1824fed59b308b22", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869148.750317, "key": "b50fadcd1824fed59b308b22", "event": "completed", "value": -0.0003036850206488091, "cost": 0.0}
+{"t": 1792869166.499671, "key": "bacf940f819d26cbaccc6d6b", "event": "committed", "cid": "grid4x5_19", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869175.112948, "key": "bacf940f819d26cbaccc6d6b", "event": "submitted", "job_id": "fKOsTYV5hhpVMtt9", "quote": 25.0}
+{"t": 1792869175.113861, "key": "bacf940f819d26cbaccc6d6b", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869195.6589901, "key": "bacf940f819d26cbaccc6d6b", "event": "completed", "value": 0.00583717369365082, "cost": 0.0}
+{"t": 1792869237.700841, "key": "c58c72420a17263d7a75e1d7", "event": "committed", "cid": "grid4x5_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869266.713265, "key": "c58c72420a17263d7a75e1d7", "event": "submitted", "job_id": "W5lEOBe98xS6692m", "quote": 25.0}
+{"t": 1792869266.714265, "key": "c58c72420a17263d7a75e1d7", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869420.39597, "key": "c58c72420a17263d7a75e1d7", "event": "completed", "value": 0.0033229934823010045, "cost": 0.0}
+{"t": 1792869432.747762, "key": "055ed6a35379fd1cc37f41fb", "event": "committed", "cid": "grid4x5_1", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869448.391625, "key": "055ed6a35379fd1cc37f41fb", "event": "submitted", "job_id": "lvGThlrV7qR74EjQ", "quote": 25.0}
+{"t": 1792869448.3927748, "key": "055ed6a35379fd1cc37f41fb", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869596.7455869, "key": "055ed6a35379fd1cc37f41fb", "event": "completed", "value": 0.00046654210025284673, "cost": 0.0}
+{"t": 1792869612.4545732, "key": "12fe49c7734eb75a18abe8e9", "event": "committed", "cid": "grid4x5_2", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869627.106218, "key": "12fe49c7734eb75a18abe8e9", "event": "submitted", "job_id": "XZKq3hTLJkSGjEFs", "quote": 25.0}
+{"t": 1792869627.1074402, "key": "12fe49c7734eb75a18abe8e9", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869755.065637, "key": "12fe49c7734eb75a18abe8e9", "event": "completed", "value": -0.0005471261592535999, "cost": 0.0}
+{"t": 1792869768.4906912, "key": "499202c29b60d4a8f70cf20c", "event": "committed", "cid": "grid4x5_3", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869796.389963, "key": "499202c29b60d4a8f70cf20c", "event": "submitted", "job_id": "LDuRJELt6qe0tSII", "quote": 25.0}
+{"t": 1792869796.3917131, "key": "499202c29b60d4a8f70cf20c", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792869939.630346, "key": "499202c29b60d4a8f70cf20c", "event": "completed", "value": 0.009399771987273832, "cost": 0.0}
+{"t": 1792869968.684692, "key": "3bf6405ecdd712c0f95249c0", "event": "committed", "cid": "grid4x5_4", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792869986.61885, "key": "3bf6405ecdd712c0f95249c0", "event": "submitted", "job_id": "ZvTiwhp8F6Os4JVp", "quote": 25.0}
+{"t": 1792869986.620506, "key": "3bf6405ecdd712c0f95249c0", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870104.77699, "key": "3bf6405ecdd712c0f95249c0", "event": "completed", "value": 0.08682606702061119, "cost": 0.0}
+{"t": 1792870121.481641, "key": "b1e0df2c340efa9afc5eddb3", "event": "committed", "cid": "grid4x5_5", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870137.2078981, "key": "b1e0df2c340efa9afc5eddb3", "event": "submitted", "job_id": "Emniv53I3xEqQjtT", "quote": 25.0}
+{"t": 1792870137.209381, "key": "b1e0df2c340efa9afc5eddb3", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870224.955013, "key": "dbff241475986ea760df355f", "event": "committed", "cid": "chain30_0", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870227.456304, "key": "f94f315a0f9e2d03f063d66c", "event": "committed", "cid": "chain30_2", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870230.520253, "key": "4709f3a6ab342a713f3a5388", "event": "committed", "cid": "chain30_1", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870232.6331918, "key": "42d0392a81f308cda4c43e7c", "event": "committed", "cid": "chain30_3", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870232.6349099, "key": "dbff241475986ea760df355f", "event": "submitted", "job_id": "DmbwFvTWUi1JhIp5", "quote": 0.0}
+{"t": 1792870232.653666, "key": "f94f315a0f9e2d03f063d66c", "event": "submitted", "job_id": "ydEmBuXlCAdnF3ok", "quote": 0.0}
+{"t": 1792870232.798126, "key": "4709f3a6ab342a713f3a5388", "event": "submitted", "job_id": "LdcHmxF3wzn7fUyJ", "quote": 0.0}
+{"t": 1792870235.059058, "key": "42d0392a81f308cda4c43e7c", "event": "submitted", "job_id": "oMju7WxzRcQonFs9", "quote": 0.0}
+{"t": 1792870273.2896361, "key": "dbff241475986ea760df355f", "event": "completed", "value": 0.9100798261580566, "cost": 0.0}
+{"t": 1792870276.001837, "key": "eccf4cd08b8ee3617e3967cd", "event": "committed", "cid": "chain30_4", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870276.003111, "key": "4709f3a6ab342a713f3a5388", "event": "completed", "value": 0.7758517467110341, "cost": 0.0}
+{"t": 1792870276.0163279, "key": "42d0392a81f308cda4c43e7c", "event": "completed", "value": 0.2690291913327036, "cost": 0.0}
+{"t": 1792870278.101611, "key": "8d90a8016365d9f731567f2e", "event": "committed", "cid": "chain30_5", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870282.246083, "key": "655ca4e188d0fcac842e9390", "event": "committed", "cid": "chain30_6", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870282.247447, "key": "eccf4cd08b8ee3617e3967cd", "event": "submitted", "job_id": "STVvFdoeZ299XDYc", "quote": 0.0}
+{"t": 1792870282.248053, "key": "8d90a8016365d9f731567f2e", "event": "submitted", "job_id": "AFsmQ4v6XcixPLo2", "quote": 0.0}
+{"t": 1792870283.8135612, "key": "f94f315a0f9e2d03f063d66c", "event": "completed", "value": 0.20080970485991095, "cost": 0.0}
+{"t": 1792870286.83037, "key": "5d176466aa6527ccbdd3ecf0", "event": "committed", "cid": "chain30_7", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870286.83181, "key": "655ca4e188d0fcac842e9390", "event": "submitted", "job_id": "6czDSRi4VzoUrSvs", "quote": 0.0}
+{"t": 1792870289.757088, "key": "5d176466aa6527ccbdd3ecf0", "event": "submitted", "job_id": "MV3HRGyF9TaHlhxo", "quote": 0.0}
+{"t": 1792870296.053791, "key": "9e7603e6ce6204d3ef7df940", "event": "committed", "cid": "Duke_G4_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792870296.963049, "key": "b1e0df2c340efa9afc5eddb3", "event": "completed", "value": -0.0008514685411064424, "cost": 0.0}
+{"t": 1792870298.300857, "key": "9e7603e6ce6204d3ef7df940", "event": "submitted", "job_id": "8lg58epquqX17eM1", "quote": 0.79}
+{"t": 1792870309.168025, "key": "452707db3a12bd92724db4ce", "event": "committed", "cid": "grid4x5_6", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870322.966966, "key": "8d90a8016365d9f731567f2e", "event": "completed", "value": 0.0002312418747353885, "cost": 0.0}
+{"t": 1792870325.537947, "key": "160ceb7de818d6819918fa40", "event": "committed", "cid": "chain30_8", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870329.951995, "key": "160ceb7de818d6819918fa40", "event": "submitted", "job_id": "KMNYVDqzglus9yvY", "quote": 0.0}
+{"t": 1792870330.4455428, "key": "5d176466aa6527ccbdd3ecf0", "event": "completed", "value": -0.04381376817512128, "cost": 0.0}
+{"t": 1792870330.6437051, "key": "452707db3a12bd92724db4ce", "event": "submitted", "job_id": "rTpa0xqH3edthq2i", "quote": 25.0}
+{"t": 1792870330.6442418, "key": "452707db3a12bd92724db4ce", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870332.427583, "key": "008accfdcd4e25b5e50d3f75", "event": "committed", "cid": "chain30_9", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870333.098353, "key": "eccf4cd08b8ee3617e3967cd", "event": "completed", "value": 0.09040185208937046, "cost": 0.0}
+{"t": 1792870335.4030552, "key": "22e3cb8832186543489d0cf0", "event": "committed", "cid": "chain30_10", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870335.7625432, "key": "008accfdcd4e25b5e50d3f75", "event": "submitted", "job_id": "QdYSuAmWk9sdrkro", "quote": 0.0}
+{"t": 1792870337.5346339, "key": "22e3cb8832186543489d0cf0", "event": "submitted", "job_id": "h94GY7B4RzmYjN2D", "quote": 0.0}
+{"t": 1792870337.639938, "key": "655ca4e188d0fcac842e9390", "event": "completed", "value": -0.0012168828140830053, "cost": 0.0}
+{"t": 1792870340.1081889, "key": "0073e3b81a149950b372ba21", "event": "committed", "cid": "chain30_11", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870378.9305558, "key": "0073e3b81a149950b372ba21", "event": "failed", "cost": 0.0, "error": "HACKATHON_PARALLEL_JOBS_LIMIT: Hackathon limit: you can run at most 5 SMALL2 job(s) at the same time, and you already have 5 pending or running. Wait for one to finish, then resubmit."}
+{"t": 1792870382.2761111, "key": "34aacc38ea44188efda970f3", "event": "committed", "cid": "chain30_12", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870382.277174, "key": "160ceb7de818d6819918fa40", "event": "completed", "value": -0.006913992895062899, "cost": 0.0}
+{"t": 1792870385.008203, "key": "e5c84c0a0b17bf25d7dff37a", "event": "committed", "cid": "chain30_13", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870385.0093188, "key": "34aacc38ea44188efda970f3", "event": "submitted", "job_id": "AGiv2nEd7AcmjPQI", "quote": 0.0}
+{"t": 1792870386.7899299, "key": "008accfdcd4e25b5e50d3f75", "event": "completed", "value": -0.012910890857102621, "cost": 0.0}
+{"t": 1792870389.471327, "key": "32892499d1d289209a2e5fcb", "event": "committed", "cid": "chain30_14", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870389.4730098, "key": "22e3cb8832186543489d0cf0", "event": "completed", "value": -0.005129902015782195, "cost": 0.0}
+{"t": 1792870389.4787579, "key": "e5c84c0a0b17bf25d7dff37a", "event": "submitted", "job_id": "07QmxuXUpj6xcwgV", "quote": 0.0}
+{"t": 1792870392.018548, "key": "741b154371be7526ba569915", "event": "committed", "cid": "chain30_15", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870392.019716, "key": "32892499d1d289209a2e5fcb", "event": "submitted", "job_id": "3UBFL4g4E6G7UgZO", "quote": 0.0}
+{"t": 1792870429.06129, "key": "741b154371be7526ba569915", "event": "failed", "cost": 0.0, "error": "HACKATHON_PARALLEL_JOBS_LIMIT: Hackathon limit: you can run at most 5 SMALL2 job(s) at the same time, and you already have 5 pending or running. Wait for one to finish, then resubmit."}
+{"t": 1792870433.5054028, "key": "8acdb841be5816174c37cccd", "event": "committed", "cid": "chain30_16", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870435.812918, "key": "34aacc38ea44188efda970f3", "event": "completed", "value": 0.0016799756863495727, "cost": 0.0}
+{"t": 1792870439.2954628, "key": "9b7f502db4931620958c3e15", "event": "committed", "cid": "chain30_17", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870439.296436, "key": "8acdb841be5816174c37cccd", "event": "submitted", "job_id": "VrxeXkKFdrzS3Sqr", "quote": 0.0}
+{"t": 1792870440.442336, "key": "e5c84c0a0b17bf25d7dff37a", "event": "completed", "value": 0.0006948691025362441, "cost": 0.0}
+{"t": 1792870442.914342, "key": "f248453ecf509215c8ba678a", "event": "committed", "cid": "chain30_18", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870442.9162571, "key": "9b7f502db4931620958c3e15", "event": "submitted", "job_id": "s1aM3YY5xwRAdMbR", "quote": 0.0}
+{"t": 1792870442.941488, "key": "32892499d1d289209a2e5fcb", "event": "completed", "value": 0.0015102177090076413, "cost": 0.0}
+{"t": 1792870445.384131, "key": "095844dddc4a0c9c17954e54", "event": "committed", "cid": "chain30_19", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870445.656257, "key": "f248453ecf509215c8ba678a", "event": "submitted", "job_id": "SOVh1aidxrPX0VfA", "quote": 0.0}
+{"t": 1792870468.7945, "key": "452707db3a12bd92724db4ce", "event": "completed", "value": 0.0006759043300239923, "cost": 0.0}
+{"t": 1792870475.056442, "key": "095844dddc4a0c9c17954e54", "event": "submitted", "job_id": "1W9SjCFP9jF4XkPz", "quote": 0.0}
+{"t": 1792870486.252854, "key": "89e882d5a192c1190b86e770", "event": "committed", "cid": "grid4x5_7", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870490.201855, "key": "8acdb841be5816174c37cccd", "event": "completed", "value": -0.005930035093659952, "cost": 0.0}
+{"t": 1792870494.2612622, "key": "c4938efb873f8b6fd65826fa", "event": "committed", "cid": "chain30_20", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870494.262208, "key": "9b7f502db4931620958c3e15", "event": "completed", "value": -0.0014699580596252554, "cost": 0.0}
+{"t": 1792870496.401598, "key": "0eb67169ee718366b5fb7dac", "event": "committed", "cid": "chain30_21", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870496.40304, "key": "c4938efb873f8b6fd65826fa", "event": "submitted", "job_id": "zvaU3l55gUp6Sgj9", "quote": 0.0}
+{"t": 1792870496.478266, "key": "f248453ecf509215c8ba678a", "event": "completed", "value": 0.0035278112461884473, "cost": 0.0}
+{"t": 1792870498.972117, "key": "9cb558e4d7a6f83d8c4c6637", "event": "committed", "cid": "chain30_22", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870499.224041, "key": "0eb67169ee718366b5fb7dac", "event": "submitted", "job_id": "N4gywXqX5AHBjW1t", "quote": 0.0}
+{"t": 1792870501.811553, "key": "89e882d5a192c1190b86e770", "event": "submitted", "job_id": "rfCZ8rKXHu6OFXSU", "quote": 25.0}
+{"t": 1792870501.8121548, "key": "89e882d5a192c1190b86e770", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870525.868334, "key": "095844dddc4a0c9c17954e54", "event": "completed", "value": -0.0040278525203181655, "cost": 0.0}
+{"t": 1792870528.1214159, "key": "e570a56438b9457b883c2e14", "event": "committed", "cid": "chain30_23", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870528.450154, "key": "9cb558e4d7a6f83d8c4c6637", "event": "submitted", "job_id": "qVqTDfKhQUWpeLsj", "quote": 0.0}
+{"t": 1792870539.9409542, "key": "0eb67169ee718366b5fb7dac", "event": "completed", "value": -0.0028917450075417535, "cost": 0.0}
+{"t": 1792870543.167503, "key": "709786fb8aaebd3fbdc52873", "event": "committed", "cid": "chain30_24", "device": "cpu", "options": null, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870543.168604, "key": "e570a56438b9457b883c2e14", "event": "submitted", "job_id": "Tq5iLNRLqG6eP6MP", "quote": 0.0}
+{"t": 1792870546.732992, "key": "709786fb8aaebd3fbdc52873", "event": "submitted", "job_id": "mq6Oe6fQHq5X613c", "quote": 0.0}
+{"t": 1792870547.319673, "key": "c4938efb873f8b6fd65826fa", "event": "completed", "value": -0.059720074450522936, "cost": 0.0}
+{"t": 1792870549.388011, "key": "0c5e038ccdde4d8653500f5c", "event": "committed", "cid": "chain30_25", "device": "cpu", "options": null, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870577.829917, "key": "0c5e038ccdde4d8653500f5c", "event": "submitted", "job_id": "kJuvaLZp4N0gdFdz", "quote": 0.0}
+{"t": 1792870579.176959, "key": "9cb558e4d7a6f83d8c4c6637", "event": "completed", "value": -0.04330734725773874, "cost": 0.0}
+{"t": 1792870581.362498, "key": "5765fdc356839922bcf1e096", "event": "committed", "cid": "chain30_26", "device": "cpu", "options": null, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870587.340269, "key": "709786fb8aaebd3fbdc52873", "event": "completed", "value": 0.07761467549120563, "cost": 0.0}
+{"t": 1792870590.05683, "key": "01ebf30da74de21249594ffa", "event": "committed", "cid": "chain30_27", "device": "cpu", "options": null, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870593.3078542, "key": "01ebf30da74de21249594ffa", "event": "submitted", "job_id": "MKih4Pxlrk3tuciy", "quote": 0.0}
+{"t": 1792870593.99523, "key": "e570a56438b9457b883c2e14", "event": "completed", "value": 0.0472750420683152, "cost": 0.0}
+{"t": 1792870596.640218, "key": "a34472368e30b3c39f71a514", "event": "committed", "cid": "chain30_28", "device": "cpu", "options": null, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870597.2486029, "key": "5765fdc356839922bcf1e096", "event": "submitted", "job_id": "bbs7X64Qz8ABE55O", "quote": 0.0}
+{"t": 1792870628.673505, "key": "0c5e038ccdde4d8653500f5c", "event": "completed", "value": 0.004832524253519605, "cost": 0.0}
+{"t": 1792870629.886165, "key": "89e882d5a192c1190b86e770", "event": "completed", "value": -0.004118919638093096, "cost": 0.0}
+{"t": 1792870630.733994, "key": "94aa32c49f86ad17cea60789", "event": "committed", "cid": "chain30_29", "device": "cpu", "options": null, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 1}
+{"t": 1792870633.587303, "key": "94aa32c49f86ad17cea60789", "event": "submitted", "job_id": "SefK1wAEIlp6JikS", "quote": 0.0}
+{"t": 1792870634.446311, "key": "a34472368e30b3c39f71a514", "event": "failed", "cost": 0.0, "error": "HACKATHON_PARALLEL_JOBS_LIMIT: Hackathon limit: you can run at most 5 SMALL2 job(s) at the same time, and you already have 5 pending or running. Wait for one to finish, then resubmit."}
+{"t": 1792870637.87982, "key": "5765fdc356839922bcf1e096", "event": "completed", "value": 0.43343994735788866, "cost": 0.0}
+{"t": 1792870644.0792892, "key": "01ebf30da74de21249594ffa", "event": "completed", "value": 0.5624123771949628, "cost": 0.0}
+{"t": 1792870645.893147, "key": "9a6a2ad68936a8247df4f742", "event": "committed", "cid": "grid4x5_8", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870658.0205781, "key": "9a6a2ad68936a8247df4f742", "event": "submitted", "job_id": "jwvJfBGIjowSWLOe", "quote": 25.0}
+{"t": 1792870658.021046, "key": "9a6a2ad68936a8247df4f742", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870660.828501, "key": "9e7603e6ce6204d3ef7df940", "event": "completed", "value": 0.007231963662245508, "cost": 0.0}
+{"t": 1792870662.8623328, "key": "a90b835132305f7c16d89d9c", "event": "committed", "cid": "Duke_G4_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792870665.011551, "key": "a90b835132305f7c16d89d9c", "event": "submitted", "job_id": "lQAq0f9McYyBw7dw", "quote": 0.79}
+{"t": 1792870674.217053, "key": "94aa32c49f86ad17cea60789", "event": "completed", "value": 0.770638558925936, "cost": 0.0}
+{"t": 1792870775.897059, "key": "9a6a2ad68936a8247df4f742", "event": "completed", "value": 0.01927080459627103, "cost": 0.0}
+{"t": 1792870791.1239161, "key": "5e0c525ba093039afc4b5522", "event": "committed", "cid": "grid4x5_9", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870810.885333, "key": "5e0c525ba093039afc4b5522", "event": "submitted", "job_id": "rGzMdsAcCWbXQTvU", "quote": 25.0}
+{"t": 1792870810.886282, "key": "5e0c525ba093039afc4b5522", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792870939.028917, "key": "5e0c525ba093039afc4b5522", "event": "completed", "value": 0.2004012988717417, "cost": 0.0}
+{"t": 1792870958.014978, "key": "5a1fae6bee31bd9b3de4668c", "event": "committed", "cid": "grid4x5_10", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792870983.802819, "key": "5a1fae6bee31bd9b3de4668c", "event": "submitted", "job_id": "nIki321VZeE3LWQH", "quote": 25.0}
+{"t": 1792870983.804132, "key": "5a1fae6bee31bd9b3de4668c", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871042.826695, "key": "a90b835132305f7c16d89d9c", "event": "completed", "value": -0.08819891709567898, "cost": 0.0}
+{"t": 1792871043.938036, "key": "c846a36fef5e4bc9efb95ad6", "event": "committed", "cid": "Duke_G4_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792871045.928361, "key": "c846a36fef5e4bc9efb95ad6", "event": "submitted", "job_id": "pW2ooX9yfBvTwiNO", "quote": 0.79}
+{"t": 1792871132.124578, "key": "5a1fae6bee31bd9b3de4668c", "event": "completed", "value": -0.0015557495487261996, "cost": 0.0}
+{"t": 1792871145.162931, "key": "fef52eb62ec31e3f262147e5", "event": "committed", "cid": "grid4x5_11", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871158.9768472, "key": "fef52eb62ec31e3f262147e5", "event": "submitted", "job_id": "PHPblPWCMLlF9HbR", "quote": 25.0}
+{"t": 1792871158.978899, "key": "fef52eb62ec31e3f262147e5", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871222.494831, "key": "0073e3b81a149950b372ba21", "event": "committed", "cid": "chain30_11", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 2}
+{"t": 1792871227.388412, "key": "741b154371be7526ba569915", "event": "committed", "cid": "chain30_15", "device": "cpu", "options": null, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 2}
+{"t": 1792871227.415752, "key": "0073e3b81a149950b372ba21", "event": "submitted", "job_id": "o1ectoFT5LgRfSdk", "quote": 0.0}
+{"t": 1792871230.5678122, "key": "a34472368e30b3c39f71a514", "event": "committed", "cid": "chain30_28", "device": "cpu", "options": null, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.0, "est_reserved": 0.0, "tag": "truth-chain30", "attempt": 2}
+{"t": 1792871230.569532, "key": "741b154371be7526ba569915", "event": "submitted", "job_id": "AnBIJ3wrugjvor1h", "quote": 0.0}
+{"t": 1792871233.591509, "key": "a34472368e30b3c39f71a514", "event": "submitted", "job_id": "CIsYKNXPTxk0kLkl", "quote": 0.0}
+{"t": 1792871257.4874592, "key": "c846a36fef5e4bc9efb95ad6", "event": "completed", "value": 0.027981561441777155, "cost": 0.0}
+{"t": 1792871259.353686, "key": "3fda68140ee3d93628e49fc9", "event": "committed", "cid": "Duke_G4_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792871260.906518, "key": "3fda68140ee3d93628e49fc9", "event": "submitted", "job_id": "DQOvhCTlsRC8Bf1M", "quote": 0.79}
+{"t": 1792871274.652195, "key": "a34472368e30b3c39f71a514", "event": "completed", "value": 0.7422206991852791, "cost": 0.0}
+{"t": 1792871281.8310232, "key": "fef52eb62ec31e3f262147e5", "event": "completed", "value": -0.002508040789388115, "cost": 0.0}
+{"t": 1792871289.564397, "key": "0073e3b81a149950b372ba21", "event": "completed", "value": -0.004106149517830318, "cost": 0.0}
+{"t": 1792871301.757498, "key": "741b154371be7526ba569915", "event": "completed", "value": 2.0307119431588697e-05, "cost": 0.0}
+{"t": 1792871303.693985, "key": "5f425f4049ef89bb8ce275e5", "event": "committed", "cid": "grid4x5_12", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871321.340262, "key": "5f425f4049ef89bb8ce275e5", "event": "submitted", "job_id": "0Ss0XBHWldgi9vuO", "quote": 25.0}
+{"t": 1792871321.342279, "key": "5f425f4049ef89bb8ce275e5", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871454.579305, "key": "5f425f4049ef89bb8ce275e5", "event": "completed", "value": -0.00803085005246167, "cost": 0.0}
+{"t": 1792871457.348477, "key": "3fda68140ee3d93628e49fc9", "event": "completed", "value": 0.493042313104424, "cost": 0.0}
+{"t": 1792871458.518243, "key": "eacada66534d6b580476fff1", "event": "committed", "cid": "Duke_G4_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792871460.392585, "key": "eacada66534d6b580476fff1", "event": "submitted", "job_id": "hUAIqtStKUmevuFk", "quote": 0.79}
+{"t": 1792871471.483367, "key": "e19559f48e62757ca0798a4f", "event": "committed", "cid": "grid4x5_13", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871485.684567, "key": "e19559f48e62757ca0798a4f", "event": "submitted", "job_id": "lNkjTOoT4tXFZMWh", "quote": 25.0}
+{"t": 1792871485.686097, "key": "e19559f48e62757ca0798a4f", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871603.4718761, "key": "e19559f48e62757ca0798a4f", "event": "completed", "value": -0.008463078990500722, "cost": 0.0}
+{"t": 1792871616.545971, "key": "cb4cdd8b4247cf4f25b86af7", "event": "committed", "cid": "grid4x5_14", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871638.931623, "key": "cb4cdd8b4247cf4f25b86af7", "event": "submitted", "job_id": "wDdGA2Brcbb7AtvE", "quote": 25.0}
+{"t": 1792871638.933813, "key": "cb4cdd8b4247cf4f25b86af7", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871787.35851, "key": "cb4cdd8b4247cf4f25b86af7", "event": "completed", "value": 0.011562273606554416, "cost": 0.0}
+{"t": 1792871802.490031, "key": "52db2b8ef84d74b943dc21b8", "event": "committed", "cid": "grid4x5_15", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871807.766583, "key": "eacada66534d6b580476fff1", "event": "completed", "value": 0.2633812999139875, "cost": 0.0}
+{"t": 1792871809.276154, "key": "446490d070e572f0b3aee6be", "event": "committed", "cid": "Duke_G4_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792871810.751391, "key": "446490d070e572f0b3aee6be", "event": "submitted", "job_id": "4OOk3Gums0QfxFC4", "quote": 0.79}
+{"t": 1792871819.566519, "key": "52db2b8ef84d74b943dc21b8", "event": "submitted", "job_id": "xnQtw213sTLeKm1b", "quote": 25.0}
+{"t": 1792871819.56848, "key": "52db2b8ef84d74b943dc21b8", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792871957.892117, "key": "52db2b8ef84d74b943dc21b8", "event": "completed", "value": -0.0005119431620667083, "cost": 0.0}
+{"t": 1792871974.820241, "key": "8ab4bedc387873bbfaa1e6dd", "event": "committed", "cid": "grid4x5_16", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792871992.509332, "key": "8ab4bedc387873bbfaa1e6dd", "event": "submitted", "job_id": "bemiFk1pgWWrl1xG", "quote": 25.0}
+{"t": 1792871992.511287, "key": "8ab4bedc387873bbfaa1e6dd", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792872136.002996, "key": "8ab4bedc387873bbfaa1e6dd", "event": "completed", "value": 0.0005949720285887549, "cost": 0.0}
+{"t": 1792872148.886752, "key": "64a6b8575261bb5470124aab", "event": "committed", "cid": "grid4x5_17", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792872173.652996, "key": "446490d070e572f0b3aee6be", "event": "completed", "value": 0.018419083645127593, "cost": 0.0}
+{"t": 1792872174.283914, "key": "64a6b8575261bb5470124aab", "event": "submitted", "job_id": "1EkikLMnenDPIb0u", "quote": 25.0}
+{"t": 1792872174.284787, "key": "64a6b8575261bb5470124aab", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792872174.752832, "key": "01c667a7be42045d18bfb4eb", "event": "committed", "cid": "Duke_G4_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792872176.025866, "key": "01c667a7be42045d18bfb4eb", "event": "submitted", "job_id": "pMs3RrhZTJMJAQI1", "quote": 0.79}
+{"t": 1792872302.339395, "key": "64a6b8575261bb5470124aab", "event": "completed", "value": 0.0008569369142297351, "cost": 0.0}
+{"t": 1792872329.483, "key": "93a6e3687dfb71111e87e315", "event": "committed", "cid": "grid4x5_18", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792872345.698818, "key": "93a6e3687dfb71111e87e315", "event": "submitted", "job_id": "OpGImqtcIeOVYyE2", "quote": 25.0}
+{"t": 1792872345.7008011, "key": "93a6e3687dfb71111e87e315", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792872387.635583, "key": "01c667a7be42045d18bfb4eb", "event": "completed", "value": 0.04979817217321476, "cost": 0.0}
+{"t": 1792872388.704036, "key": "3a9490fd1e416f1037011475", "event": "committed", "cid": "Duke_G4_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792872390.7451258, "key": "3a9490fd1e416f1037011475", "event": "submitted", "job_id": "7AlMI65tbAUymS2e", "quote": 0.79}
+{"t": 1792872463.4552069, "key": "93a6e3687dfb71111e87e315", "event": "completed", "value": -0.0001077784327774256, "cost": 0.0}
+{"t": 1792872482.6101298, "key": "ae6dfea8025dc6178a868c08", "event": "committed", "cid": "grid4x5_19", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-v1-bench", "attempt": 1}
+{"t": 1792872499.270678, "key": "ae6dfea8025dc6178a868c08", "event": "submitted", "job_id": "ubc80B5OMa9fXazO", "quote": 25.0}
+{"t": 1792872499.2718441, "key": "ae6dfea8025dc6178a868c08", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792872617.2020411, "key": "ae6dfea8025dc6178a868c08", "event": "completed", "value": 0.012457016723137197, "cost": 0.0}
+{"t": 1792872625.776243, "key": "bde3ffb8c1f49f5f4228c951", "event": "committed", "cid": "grid4x5_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872626.722962, "key": "f21e3b4f7a01ea93a82b958b", "event": "committed", "cid": "grid4x5_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872627.802142, "key": "b35c44c77d267295bf47088d", "event": "committed", "cid": "grid4x5_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872628.553853, "key": "ae5d7baf3354a46ec361bffc", "event": "committed", "cid": "grid4x5_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872628.555922, "key": "bde3ffb8c1f49f5f4228c951", "event": "submitted", "job_id": "vjJHBK5tyZH5j16V", "quote": 0.57}
+{"t": 1792872628.5772061, "key": "f21e3b4f7a01ea93a82b958b", "event": "submitted", "job_id": "yb86U8dPtQ7WR1ml", "quote": 0.57}
+{"t": 1792872628.73537, "key": "b35c44c77d267295bf47088d", "event": "submitted", "job_id": "NZvEqbUg7Ad3783W", "quote": 0.57}
+{"t": 1792872629.578978, "key": "ae5d7baf3354a46ec361bffc", "event": "submitted", "job_id": "39gxeZ6AD9BDFksg", "quote": 0.57}
+{"t": 1792872690.1954932, "key": "f21e3b4f7a01ea93a82b958b", "event": "completed", "value": 0.49982828631203735, "cost": 0.0}
+{"t": 1792872690.838281, "key": "1e6e34abb20931285281233f", "event": "committed", "cid": "grid4x5_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872691.6505249, "key": "1e6e34abb20931285281233f", "event": "submitted", "job_id": "HP8XXZljel6piaIH", "quote": 0.57}
+{"t": 1792872695.32583, "key": "bde3ffb8c1f49f5f4228c951", "event": "completed", "value": 0.009692595063106955, "cost": 0.0}
+{"t": 1792872696.938119, "key": "acd44fd08a5a534b75ba1ae4", "event": "committed", "cid": "grid4x5_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872697.5969532, "key": "acd44fd08a5a534b75ba1ae4", "event": "submitted", "job_id": "YiPFCEmCIQxYaS0g", "quote": 0.57}
+{"t": 1792872710.9050298, "key": "b35c44c77d267295bf47088d", "event": "completed", "value": 0.014303493794716704, "cost": 0.0}
+{"t": 1792872712.125474, "key": "889f199c6ffa000598108d75", "event": "committed", "cid": "grid4x5_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872712.126912, "key": "ae5d7baf3354a46ec361bffc", "event": "completed", "value": -0.008613573946372473, "cost": 0.0}
+{"t": 1792872713.148223, "key": "32e3aba787222b126ccc8001", "event": "committed", "cid": "grid4x5_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872713.1509068, "key": "889f199c6ffa000598108d75", "event": "submitted", "job_id": "8ar0Ir3G329FJFJj", "quote": 0.57}
+{"t": 1792872713.9526012, "key": "32e3aba787222b126ccc8001", "event": "submitted", "job_id": "mupav4NpWvyqvfJP", "quote": 0.57}
+{"t": 1792872744.09684, "key": "889f199c6ffa000598108d75", "event": "completed", "value": 0.551896792756686, "cost": 0.0}
+{"t": 1792872745.2151911, "key": "d3494203894b8f8a6deef407", "event": "committed", "cid": "grid4x5_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872746.273349, "key": "d3494203894b8f8a6deef407", "event": "submitted", "job_id": "5RhLJ4fVSZ4zeUQq", "quote": 0.57}
+{"t": 1792872768.501384, "key": "3a9490fd1e416f1037011475", "event": "completed", "value": 0.15193898573824857, "cost": 0.0}
+{"t": 1792872769.661391, "key": "9abfd6d3b2195d61e5fab7c6", "event": "committed", "cid": "Duke_G4_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792872771.355436, "key": "9abfd6d3b2195d61e5fab7c6", "event": "submitted", "job_id": "vLXYUJw6MgJaqL33", "quote": 0.79}
+{"t": 1792872810.543707, "key": "acd44fd08a5a534b75ba1ae4", "event": "completed", "value": -0.0016201271498792321, "cost": 0.0}
+{"t": 1792872811.36162, "key": "3f11b32f887ef4bb4405eea7", "event": "committed", "cid": "grid4x5_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.57, "est_reserved": 0.57, "tag": "G4-v2-bench", "attempt": 1}
+{"t": 1792872812.524448, "key": "3f11b32f887ef4bb4405eea7", "event": "submitted", "job_id": "FQwIhvivLZnsHEol", "quote": 0.57}
+{"t": 1792872822.212544, "key": "0d93e853f5d48087a045aefc", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792872834.506028, "key": "6413124b10a56ed960aa9b73", "event": "committed", "cid": "Duke_G4_21", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792872835.627116, "key": "0d93e853f5d48087a045aefc", "event": "submitted", "job_id": "N0crOhxaVBS66qxY", "quote": 25.0}
+{"t": 1792872839.3526971, "key": "0d93e853f5d48087a045aefc", "event": "failed", "cost": 0.0, "error": "cancelled: submit quote $25.00 would cross the cap (CANCELED)"}
+{"t": 1792872840.295035, "key": "6413124b10a56ed960aa9b73", "event": "committed", "cid": "Duke_G4_21", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792872842.035109, "key": "6413124b10a56ed960aa9b73", "event": "submitted", "job_id": "H6LeO4N7jH6cfdpS", "quote": 25.0}
+{"t": 1792872845.895757, "key": "6413124b10a56ed960aa9b73", "event": "failed", "cost": 0.0, "error": "cancelled: submit quote $25.00 would cross the cap (CANCELED)"}
+{"t": 1792872847.226881, "key": "02675fb10f7bf2858f7caf0d", "event": "committed", "cid": "Duke_G4_37", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792872847.936149, "key": "6413124b10a56ed960aa9b73", "event": "submitted", "job_id": "9W3uvkql2QsAShAh", "quote": 25.0}
+{"t": 1792872848.423587, "key": "02675fb10f7bf2858f7caf0d", "event": "submitted", "job_id": "sGJobrSwg72f2iHt", "quote": 25.0}
+{"t": 1792872849.546438, "key": "6413124b10a56ed960aa9b73", "event": "failed", "cost": 0.0, "error": "cancelled: submit quote $25.00 would cross the cap (CANCELED)"}
+{"t": 1792872850.330108, "key": "02675fb10f7bf2858f7caf0d", "event": "committed", "cid": "Duke_G4_37", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792872852.3366091, "key": "02675fb10f7bf2858f7caf0d", "event": "failed", "cost": 0.0, "error": "cancelled: submit quote $25.00 would cross the cap (CANCELED)"}
+{"t": 1792872852.503448, "key": "02675fb10f7bf2858f7caf0d", "event": "submitted", "job_id": "utJYdQvR48cgFnEk", "quote": 25.0}
+{"t": 1792872855.2531772, "key": "02675fb10f7bf2858f7caf0d", "event": "failed", "cost": 0.0, "error": "cancelled: submit quote $25.00 would cross the cap (CANCELED)"}
+{"t": 1792873194.21095, "key": "9abfd6d3b2195d61e5fab7c6", "event": "completed", "value": 0.11945923059182233, "cost": 0.0}
+{"t": 1792873195.4906151, "key": "3305a33425f5a4b8b8382345", "event": "committed", "cid": "Duke_G4_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792873197.577426, "key": "3305a33425f5a4b8b8382345", "event": "submitted", "job_id": "kUNPgNK17yrV7Vlx", "quote": 0.79}
+{"t": 1792873393.991445, "key": "3305a33425f5a4b8b8382345", "event": "completed", "value": 0.5582407476968132, "cost": 0.0}
+{"t": 1792873395.1467001, "key": "db3d74582ccb8b862d6df106", "event": "committed", "cid": "Duke_G4_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792873396.5721018, "key": "db3d74582ccb8b862d6df106", "event": "submitted", "job_id": "kkhfdj8bxEKi3Zel", "quote": 0.79}
+{"t": 1792873759.060472, "key": "db3d74582ccb8b862d6df106", "event": "completed", "value": 0.6491034039865105, "cost": 0.0}
+{"t": 1792873760.061853, "key": "120e7446f0f31978da43db7d", "event": "committed", "cid": "Duke_G4_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792873761.989644, "key": "120e7446f0f31978da43db7d", "event": "submitted", "job_id": "OeMnj5hwShFEwNAA", "quote": 0.79}
+{"t": 1792873946.1960618, "key": "1e6e34abb20931285281233f", "event": "completed", "value": -0.04632662264458192, "cost": 0.0}
+{"t": 1792873946.30081, "key": "32e3aba787222b126ccc8001", "event": "completed", "value": -0.05826256900514267, "cost": 0.0}
+{"t": 1792873946.401786, "key": "d3494203894b8f8a6deef407", "event": "completed", "value": -0.03758929623263413, "cost": 0.0}
+{"t": 1792873946.5818439, "key": "3f11b32f887ef4bb4405eea7", "event": "completed", "value": -0.10030997413548548, "cost": 0.0}
+{"t": 1792873991.602314, "key": "0d93e853f5d48087a045aefc", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 2}
+{"t": 1792873993.591516, "key": "0d93e853f5d48087a045aefc", "event": "submitted", "job_id": "Ic6Iklad1Dme8Sq9", "quote": 25.0}
+{"t": 1792873993.592334, "key": "0d93e853f5d48087a045aefc", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792874013.900194, "key": "0d93e853f5d48087a045aefc", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792874014.746878, "key": "6413124b10a56ed960aa9b73", "event": "committed", "cid": "Duke_G4_21", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 2}
+{"t": 1792874015.962825, "key": "6413124b10a56ed960aa9b73", "event": "submitted", "job_id": "AfQy4HONqaNdvRqx", "quote": 25.0}
+{"t": 1792874015.963723, "key": "6413124b10a56ed960aa9b73", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792874046.358517, "key": "6413124b10a56ed960aa9b73", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792874047.1751199, "key": "02675fb10f7bf2858f7caf0d", "event": "committed", "cid": "Duke_G4_37", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 2}
+{"t": 1792874048.462579, "key": "02675fb10f7bf2858f7caf0d", "event": "submitted", "job_id": "sfKQYgC844KysRHa", "quote": 25.0}
+{"t": 1792874048.4634721, "key": "02675fb10f7bf2858f7caf0d", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792874077.092299, "key": "02675fb10f7bf2858f7caf0d", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792874115.294712, "key": "957c376c5a33b8e66e206a30", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792874135.2797241, "key": "957c376c5a33b8e66e206a30", "event": "submitted", "job_id": "I6406qQBeApqdNth", "quote": 25.0}
+{"t": 1792874135.281145, "key": "957c376c5a33b8e66e206a30", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792874163.5297978, "key": "120e7446f0f31978da43db7d", "event": "completed", "value": 0.47868977761601395, "cost": 0.0}
+{"t": 1792874164.848285, "key": "43bb3e16e57b57b92d9f6da0", "event": "committed", "cid": "Duke_G4_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792874166.547176, "key": "43bb3e16e57b57b92d9f6da0", "event": "submitted", "job_id": "tYFdhIs00GiyI0Fr", "quote": 0.79}
+{"t": 1792874287.343102, "key": "957c376c5a33b8e66e206a30", "event": "completed", "value": 0.0, "cost": 0.0}
+{"t": 1792874298.073018, "key": "3b60761f9b229f13814ed600", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path", "options": {"pauli_path_truncation_threshold": 3e-05}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792874307.896415, "key": "3b60761f9b229f13814ed600", "event": "submitted", "job_id": "ArorVohSVa3IXh5T", "quote": 25.0}
+{"t": 1792874307.8984818, "key": "3b60761f9b229f13814ed600", "event": "submitted", "est_reserved": 25.0}
+{"t": 1792874393.165917, "key": "43bb3e16e57b57b92d9f6da0", "event": "completed", "value": 0.3557376811259585, "cost": 0.0}
+{"t": 1792874394.0544791, "key": "679c01e6e89070f33faf844e", "event": "committed", "cid": "Duke_G4_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.79, "est_reserved": 0.79, "tag": "G4-v2", "attempt": 1}
+{"t": 1792874395.8434482, "key": "679c01e6e89070f33faf844e", "event": "submitted", "job_id": "eYBM2J7mxcouhWY5", "quote": 0.79}
+{"t": 1792874736.001705, "key": "3b60761f9b229f13814ed600", "event": "failed", "cost": 0.0, "error": "CANCELED: Canceled by user"}
+{"t": 1792874736.0789099, "key": "679c01e6e89070f33faf844e", "event": "failed", "cost": 0.0, "error": "CANCELED: Canceled by user"}
+{"t": 1792875132.630537, "key": "95c718a8788ceb53d183f39a", "event": "committed", "cid": "Duke_G4_0", "device": "mps.gpu", "options": {"mps_bond_dimension": 256}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 7.33, "est_reserved": 7.33, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792875133.8535628, "key": "95c718a8788ceb53d183f39a", "event": "submitted", "job_id": "0GCp4Lh6YaxlxnFM", "quote": 7.33}
+{"t": 1792875281.124204, "key": "95c718a8788ceb53d183f39a", "event": "completed", "value": 0.03026706938843132, "cost": 0.2}
+{"t": 1792878275.563798, "key": "09d18e921ea8625164745660", "event": "committed", "cid": "Duke_G4_4", "device": "mps.gpu", "options": {"mps_bond_dimension": 256}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 7.33, "est_reserved": 7.33, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792878277.141918, "key": "0d6c7449d02030f75aababd4", "event": "committed", "cid": "chain30_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792878277.2324831, "key": "09d18e921ea8625164745660", "event": "submitted", "job_id": "WBEjd8Ax53Bt5Jyv", "quote": 7.33}
+{"t": 1792878279.1651351, "key": "3a80c31955be833ae76af5e6", "event": "committed", "cid": "chain30_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792878281.910639, "key": "4b6ac81d8fa69fd81c6a3a43", "event": "committed", "cid": "chain30_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792878283.430903, "key": "d8582714d29e8992f2134abf", "event": "committed", "cid": "chain30_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792878283.4320052, "key": "0d6c7449d02030f75aababd4", "event": "submitted", "job_id": "TjTI0On31VjSTFr1", "quote": 0.0}
+{"t": 1792878283.439208, "key": "3a80c31955be833ae76af5e6", "event": "submitted", "job_id": "a40oJAKkisBwZdRz", "quote": 0.0}
+{"t": 1792878284.4787, "key": "4b6ac81d8fa69fd81c6a3a43", "event": "submitted", "job_id": "Dl8HB2txIvcFs2xV", "quote": 0.0}
+{"t": 1792878287.016593, "key": "d8582714d29e8992f2134abf", "event": "submitted", "job_id": "IczHGemT8awliger", "quote": 0.0}
+{"t": 1792878292.6221619, "key": "d8582714d29e8992f2134abf", "event": "completed", "value": 0.7133388198725202, "cost": 0.0}
+{"t": 1792878295.873695, "key": "2962eb4139871b922d038c03", "event": "committed", "cid": "chain30_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879197.715206, "key": "09d18e921ea8625164745660", "event": "completed", "value": 0.5561300153916875, "cost": 0.2}
+{"t": 1792879199.026003, "key": "52e809fa794fadf202a8ac83", "event": "committed", "cid": "Duke_G4_11", "device": "mps.gpu", "options": {"mps_bond_dimension": 256}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 7.33, "est_reserved": 7.33, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792879200.264825, "key": "52e809fa794fadf202a8ac83", "event": "submitted", "job_id": "ZnwBLeO3FIv8xyCN", "quote": 7.33}
+{"t": 1792879200.2877178, "key": "4b6ac81d8fa69fd81c6a3a43", "event": "completed", "value": 0.6685408776156792, "cost": 0.0}
+{"t": 1792879202.6698291, "key": "6f784ba1fd80be37c03f9b9d", "event": "committed", "cid": "chain30_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879202.673588, "key": "3a80c31955be833ae76af5e6", "event": "completed", "value": 0.9851829424142541, "cost": 0.0}
+{"t": 1792879205.5977721, "key": "02f773b6a07063d4b989acea", "event": "committed", "cid": "chain30_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879205.5992918, "key": "6f784ba1fd80be37c03f9b9d", "event": "submitted", "job_id": "6vYkJWaphbjzp9pX", "quote": 0.0}
+{"t": 1792879207.933942, "key": "02f773b6a07063d4b989acea", "event": "submitted", "job_id": "phlBLDxOYnG9VduL", "quote": 0.0}
+{"t": 1792879481.6001039, "key": "6f784ba1fd80be37c03f9b9d", "event": "completed", "value": 0.3994570113786199, "cost": 0.0}
+{"t": 1792879484.2096891, "key": "a3a9a3e111de0f68b0755be4", "event": "committed", "cid": "chain30_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879484.210932, "key": "02f773b6a07063d4b989acea", "event": "completed", "value": 0.3761987911111224, "cost": 0.0}
+{"t": 1792879486.0252328, "key": "52e809fa794fadf202a8ac83", "event": "completed", "value": 0.6148506017223728, "cost": 0.2}
+{"t": 1792879486.1293929, "key": "08f5aa10979925e3af03f910", "event": "committed", "cid": "chain30_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879487.277751, "key": "a3a9a3e111de0f68b0755be4", "event": "submitted", "job_id": "WkY2emk6SoU2OC04", "quote": 0.0}
+{"t": 1792879488.322867, "key": "08f5aa10979925e3af03f910", "event": "submitted", "job_id": "qEEMOc9YLK5P0v1x", "quote": 0.0}
+{"t": 1792879498.0481632, "key": "0d6c7449d02030f75aababd4", "event": "completed", "value": 0.9448192709185436, "cost": 0.0}
+{"t": 1792879499.9480588, "key": "9e20f68db9cb4e25ac398664", "event": "committed", "cid": "chain30_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879502.727807, "key": "9e20f68db9cb4e25ac398664", "event": "submitted", "job_id": "D9Div3d49Hd76Mll", "quote": 0.0}
+{"t": 1792879503.8716109, "key": "08f5aa10979925e3af03f910", "event": "completed", "value": 0.1535503624060247, "cost": 0.0}
+{"t": 1792879506.5473542, "key": "3504d6192a9e4f9ddd2196da", "event": "committed", "cid": "chain30_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879508.1814451, "key": "a3a9a3e111de0f68b0755be4", "event": "completed", "value": 0.2814659465501157, "cost": 0.0}
+{"t": 1792879510.673076, "key": "d011ef61df67e1c303cfcc0f", "event": "committed", "cid": "chain30_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879510.674674, "key": "3504d6192a9e4f9ddd2196da", "event": "submitted", "job_id": "ypSSBoy8PbPqJcp1", "quote": 0.0}
+{"t": 1792879512.541034, "key": "d011ef61df67e1c303cfcc0f", "event": "submitted", "job_id": "jRcTlMl0CcyxoTXV", "quote": 0.0}
+{"t": 1792879518.4321978, "key": "9e20f68db9cb4e25ac398664", "event": "completed", "value": -0.04343899252068412, "cost": 0.0}
+{"t": 1792879520.275892, "key": "5094da5fb810922e8e4f2249", "event": "committed", "cid": "chain30_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879522.965444, "key": "5094da5fb810922e8e4f2249", "event": "submitted", "job_id": "NDWKfKLyLQvSqo1c", "quote": 0.0}
+{"t": 1792879854.479285, "key": "d011ef61df67e1c303cfcc0f", "event": "completed", "value": -0.0072896211666196985, "cost": 0.0}
+{"t": 1792879856.466723, "key": "5c12a31319c9c796fe0cc393", "event": "committed", "cid": "chain30_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879856.4680269, "key": "5094da5fb810922e8e4f2249", "event": "completed", "value": 0.024226600964781027, "cost": 0.0}
+{"t": 1792879858.7194262, "key": "201870531f8d8fb7f8e251c3", "event": "committed", "cid": "chain30_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879858.721354, "key": "3504d6192a9e4f9ddd2196da", "event": "completed", "value": 0.012763913507470569, "cost": 0.0}
+{"t": 1792879861.010161, "key": "386eab98088dc8270c985b10", "event": "committed", "cid": "chain30_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879861.012022, "key": "5c12a31319c9c796fe0cc393", "event": "submitted", "job_id": "04IEzFMlIORfTpWK", "quote": 0.0}
+{"t": 1792879862.101501, "key": "201870531f8d8fb7f8e251c3", "event": "submitted", "job_id": "NjR1GRFp4Dmwg1Ld", "quote": 0.0}
+{"t": 1792879864.644764, "key": "386eab98088dc8270c985b10", "event": "submitted", "job_id": "WwNxkEywkJEc1zFp", "quote": 0.0}
+{"t": 1792879871.464753, "key": "5c12a31319c9c796fe0cc393", "event": "completed", "value": 0.02677920321865266, "cost": 0.0}
+{"t": 1792879874.0968251, "key": "e30a3ab06c6448089390e33a", "event": "committed", "cid": "chain30_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879876.354812, "key": "e30a3ab06c6448089390e33a", "event": "submitted", "job_id": "XcVLTEeLtiknnEsg", "quote": 0.0}
+{"t": 1792879877.689965, "key": "201870531f8d8fb7f8e251c3", "event": "completed", "value": -0.0040321432385571464, "cost": 0.0}
+{"t": 1792879880.7439969, "key": "754bb23f5f766e8c03f1b231", "event": "committed", "cid": "chain30_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879882.882292, "key": "754bb23f5f766e8c03f1b231", "event": "submitted", "job_id": "me4IYKEUN92j6vhA", "quote": 0.0}
+{"t": 1792879885.416333, "key": "386eab98088dc8270c985b10", "event": "completed", "value": 0.007881330774497253, "cost": 0.0}
+{"t": 1792879887.943956, "key": "dcdcc5d6e6b495cedf85fdeb", "event": "committed", "cid": "chain30_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879889.731267, "key": "dcdcc5d6e6b495cedf85fdeb", "event": "submitted", "job_id": "HiuJku1aW3CPOp57", "quote": 0.0}
+{"t": 1792879891.930652, "key": "e30a3ab06c6448089390e33a", "event": "completed", "value": 0.04210583178468939, "cost": 0.0}
+{"t": 1792879893.806988, "key": "eb105ffb51236143449503be", "event": "committed", "cid": "chain30_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879895.7757592, "key": "eb105ffb51236143449503be", "event": "submitted", "job_id": "RQ9jQ5nMeExElCjY", "quote": 0.0}
+{"t": 1792879898.492723, "key": "754bb23f5f766e8c03f1b231", "event": "completed", "value": -0.027093251392545502, "cost": 0.0}
+{"t": 1792879902.7083871, "key": "cb75e59e72b722708e923a1b", "event": "committed", "cid": "chain30_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879905.138195, "key": "cb75e59e72b722708e923a1b", "event": "submitted", "job_id": "M2IlAKmxu5JCOuqB", "quote": 0.0}
+{"t": 1792879910.41776, "key": "cb75e59e72b722708e923a1b", "event": "completed", "value": 0.004221016618489339, "cost": 0.0}
+{"t": 1792879912.633989, "key": "d0126f297c77c91688d7ffb2", "event": "committed", "cid": "chain30_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879912.786192, "key": "dcdcc5d6e6b495cedf85fdeb", "event": "completed", "value": 0.03872592615559726, "cost": 0.0}
+{"t": 1792879915.081407, "key": "bcb61ed3b482d24ff2100217", "event": "committed", "cid": "chain30_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879915.0833511, "key": "d0126f297c77c91688d7ffb2", "event": "submitted", "job_id": "LGMDkkoLxmoJLFAK", "quote": 0.0}
+{"t": 1792879917.913598, "key": "bcb61ed3b482d24ff2100217", "event": "submitted", "job_id": "WOQ3GtXz9baIr2l1", "quote": 0.0}
+{"t": 1792879918.257958, "key": "eb105ffb51236143449503be", "event": "completed", "value": 0.12295218161567016, "cost": 0.0}
+{"t": 1792879920.815073, "key": "6293e33f6db2adc67dc91daf", "event": "committed", "cid": "chain30_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879922.703945, "key": "6293e33f6db2adc67dc91daf", "event": "submitted", "job_id": "AnqSy4CEW4cf8FXD", "quote": 0.0}
+{"t": 1792879923.208986, "key": "bcb61ed3b482d24ff2100217", "event": "completed", "value": 0.2121130819867612, "cost": 0.0}
+{"t": 1792879925.54487, "key": "8337f4058d7bbd20d644a982", "event": "committed", "cid": "chain30_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879927.9600582, "key": "6293e33f6db2adc67dc91daf", "event": "completed", "value": 0.561959948038118, "cost": 0.0}
+{"t": 1792879928.077201, "key": "8337f4058d7bbd20d644a982", "event": "submitted", "job_id": "Y9rkySCst5ehTTJu", "quote": 0.0}
+{"t": 1792879929.575881, "key": "68c4dff45d627b7315b04597", "event": "committed", "cid": "chain30_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879932.071114, "key": "68c4dff45d627b7315b04597", "event": "submitted", "job_id": "eHxv4Lo3zMrVuKxm", "quote": 0.0}
+{"t": 1792879933.380432, "key": "8337f4058d7bbd20d644a982", "event": "completed", "value": 0.5831143287471434, "cost": 0.0}
+{"t": 1792879935.511708, "key": "253be1843e9a6dc26daa14c9", "event": "committed", "cid": "chain30_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879935.946317, "key": "d0126f297c77c91688d7ffb2", "event": "completed", "value": 0.07483741230654828, "cost": 0.0}
+{"t": 1792879939.2294762, "key": "0ad2c2effcb7939f7cc44512", "event": "committed", "cid": "chain30_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879939.231403, "key": "253be1843e9a6dc26daa14c9", "event": "submitted", "job_id": "wuZiwlYqLRUKsTQK", "quote": 0.0}
+{"t": 1792879939.237761, "key": "68c4dff45d627b7315b04597", "event": "completed", "value": 0.5038543136383108, "cost": 0.0}
+{"t": 1792879942.118776, "key": "2adaa85c495a715970cd5172", "event": "committed", "cid": "chain30_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879942.120266, "key": "0ad2c2effcb7939f7cc44512", "event": "submitted", "job_id": "6rpfAWuPRM3AAwxE", "quote": 0.0}
+{"t": 1792879944.091074, "key": "2adaa85c495a715970cd5172", "event": "submitted", "job_id": "dnUTLF2qmYjo4JPU", "quote": 0.0}
+{"t": 1792879944.548695, "key": "253be1843e9a6dc26daa14c9", "event": "completed", "value": 0.8817523541444368, "cost": 0.0}
+{"t": 1792879946.3059862, "key": "18db75da6137b6c1bfbed74e", "event": "committed", "cid": "chain30_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 32}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.2, "est_reserved": 0.2, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792879948.279562, "key": "18db75da6137b6c1bfbed74e", "event": "submitted", "job_id": "TvriP9CjYbABNDt2", "quote": 0.0}
+{"t": 1792880935.476734, "key": "2adaa85c495a715970cd5172", "event": "completed", "value": 0.9541355520627139, "cost": 0.0}
+{"t": 1792880937.8961952, "key": "0ad2c2effcb7939f7cc44512", "event": "completed", "value": 0.9280476941302307, "cost": 0.0}
+{"t": 1792880938.9283772, "key": "18db75da6137b6c1bfbed74e", "event": "completed", "value": 0.9620484262530618, "cost": 0.0}
+{"t": 1792881735.0446699, "key": "2962eb4139871b922d038c03", "event": "submitted", "job_id": "0QwlpDY4BXBYw0MM", "quote": 0.0}
+{"t": 1792881761.216201, "key": "2962eb4139871b922d038c03", "event": "completed", "value": 0.6073383580854114, "cost": 0.0}
+{"t": 1792882484.656034, "key": "cf1db6d65c754b3de451f6b1", "event": "committed", "cid": "chain30_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792882486.745905, "key": "c17d9627b955a9b618ce7e61", "event": "committed", "cid": "chain30_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792882488.224425, "key": "056bad223f546ddfa02c9e45", "event": "committed", "cid": "chain30_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792882490.0173671, "key": "109dbadf31d32da2fc258c26", "event": "committed", "cid": "chain30_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792882490.0188532, "key": "cf1db6d65c754b3de451f6b1", "event": "submitted", "job_id": "WGSYl29VVO9SPOAU", "quote": 0.58}
+{"t": 1792882490.047168, "key": "c17d9627b955a9b618ce7e61", "event": "submitted", "job_id": "kFOBUE325fn1LCsc", "quote": 0.58}
+{"t": 1792882490.30578, "key": "056bad223f546ddfa02c9e45", "event": "submitted", "job_id": "LXHb9sr0x9zMs4om", "quote": 0.58}
+{"t": 1792882491.997032, "key": "109dbadf31d32da2fc258c26", "event": "submitted", "job_id": "WnkdEN0wx1gvs1M5", "quote": 0.58}
+{"t": 1792882516.118391, "key": "c17d9627b955a9b618ce7e61", "event": "completed", "value": 0.8876177623650033, "cost": 0.0}
+{"t": 1792882519.131541, "key": "31406b27d7cf7a00fcf85fbc", "event": "committed", "cid": "chain30_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792882520.9420748, "key": "31406b27d7cf7a00fcf85fbc", "event": "submitted", "job_id": "RUDoCtKyn6oCRSkG", "quote": 0.58}
+{"t": 1792882526.5604448, "key": "056bad223f546ddfa02c9e45", "event": "completed", "value": 0.5544947876438056, "cost": 0.0}
+{"t": 1792882528.640993, "key": "ab7a6022b006096285b2db5f", "event": "committed", "cid": "chain30_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792883520.326553, "key": "ab7a6022b006096285b2db5f", "event": "submitted", "job_id": "LszYftxG0AAZjMiM", "quote": 0.58}
+{"t": 1792883521.151073, "key": "109dbadf31d32da2fc258c26", "event": "completed", "value": 0.49717579225902053, "cost": 0.0}
+{"t": 1792883523.823165, "key": "46dceefc2f3d4097a02a07e2", "event": "committed", "cid": "chain30_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792883525.48223, "key": "46dceefc2f3d4097a02a07e2", "event": "submitted", "job_id": "B0rT5xv9i4AnDUd4", "quote": 0.58}
+{"t": 1792883537.5151548, "key": "cf1db6d65c754b3de451f6b1", "event": "completed", "value": 0.9645004413157029, "cost": 0.0}
+{"t": 1792883539.87482, "key": "f1be37dc8aead72fac3b3a22", "event": "committed", "cid": "chain30_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792883541.832721, "key": "f1be37dc8aead72fac3b3a22", "event": "submitted", "job_id": "TzKGNo5G3zKBRgOP", "quote": 0.58}
+{"t": 1792883549.202604, "key": "31406b27d7cf7a00fcf85fbc", "event": "completed", "value": 0.41427113015713773, "cost": 0.0}
+{"t": 1792883551.601981, "key": "398f26cf5f7edf6318634ef7", "event": "committed", "cid": "chain30_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792883554.364694, "key": "398f26cf5f7edf6318634ef7", "event": "submitted", "job_id": "flRjLG5tEj8YyiiE", "quote": 0.58}
+{"t": 1792885109.2071521, "key": "398f26cf5f7edf6318634ef7", "event": "completed", "value": 0.04724169631142824, "cost": 0.0}
+{"t": 1792885111.6433349, "key": "876b674a5a0ec01d775f2eb1", "event": "committed", "cid": "chain30_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885111.6453602, "key": "ab7a6022b006096285b2db5f", "event": "completed", "value": 0.19446798714367072, "cost": 0.0}
+{"t": 1792885113.693755, "key": "0a6d88d2da180bf1b7748c1b", "event": "committed", "cid": "chain30_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885113.763925, "key": "876b674a5a0ec01d775f2eb1", "event": "submitted", "job_id": "j4glJV09cJVbhwJZ", "quote": 0.58}
+{"t": 1792885115.99306, "key": "0a6d88d2da180bf1b7748c1b", "event": "submitted", "job_id": "fuyqQyehVCxCsIQB", "quote": 0.58}
+{"t": 1792885156.2336571, "key": "876b674a5a0ec01d775f2eb1", "event": "completed", "value": -0.022905519730729733, "cost": 0.0}
+{"t": 1792885157.7420318, "key": "dc8f8a986dd6a4952e40f102", "event": "committed", "cid": "chain30_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885159.106831, "key": "f1be37dc8aead72fac3b3a22", "event": "completed", "value": 0.0993911548518293, "cost": 0.0}
+{"t": 1792885160.957601, "key": "23241b0a72f247b670e08d4e", "event": "committed", "cid": "chain30_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885160.9594529, "key": "dc8f8a986dd6a4952e40f102", "event": "submitted", "job_id": "8xWoFS8vJr6wk5j7", "quote": 0.58}
+{"t": 1792885163.750722, "key": "23241b0a72f247b670e08d4e", "event": "submitted", "job_id": "aimsYxPjwHWMZv9V", "quote": 0.58}
+{"t": 1792885189.466305, "key": "0a6d88d2da180bf1b7748c1b", "event": "completed", "value": -0.0207046419362785, "cost": 0.0}
+{"t": 1792885191.280056, "key": "ac10ea2cfae15737de26cbf8", "event": "committed", "cid": "chain30_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885193.9167511, "key": "ac10ea2cfae15737de26cbf8", "event": "submitted", "job_id": "CHB2P1InVVkXmFFY", "quote": 0.58}
+{"t": 1792885550.932081, "key": "dc8f8a986dd6a4952e40f102", "event": "completed", "value": -0.018013756833862082, "cost": 0.0}
+{"t": 1792885553.0479941, "key": "17fd344dd2cb6d09ffd91c37", "event": "committed", "cid": "chain30_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885553.049387, "key": "ac10ea2cfae15737de26cbf8", "event": "completed", "value": 0.030013366985314028, "cost": 0.0}
+{"t": 1792885555.199744, "key": "d3eb3ce8f0f7b5b243020a34", "event": "committed", "cid": "chain30_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885555.2009, "key": "23241b0a72f247b670e08d4e", "event": "completed", "value": -0.0010484392357896233, "cost": 0.0}
+{"t": 1792885557.240256, "key": "298df7e040ceb9a7dde390a2", "event": "committed", "cid": "chain30_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885557.242111, "key": "17fd344dd2cb6d09ffd91c37", "event": "submitted", "job_id": "ZFotQ0bfc1zrgvyT", "quote": 0.58}
+{"t": 1792885557.660334, "key": "d3eb3ce8f0f7b5b243020a34", "event": "submitted", "job_id": "4NfXV3SEcHXI629Z", "quote": 0.58}
+{"t": 1792885557.812416, "key": "46dceefc2f3d4097a02a07e2", "event": "completed", "value": 0.18998061330221594, "cost": 0.0}
+{"t": 1792885560.254217, "key": "7d4372579a6eec0c90fce133", "event": "committed", "cid": "chain30_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792885560.256276, "key": "298df7e040ceb9a7dde390a2", "event": "submitted", "job_id": "0KP8i0LjnPD9xF6T", "quote": 0.58}
+{"t": 1792885562.463287, "key": "7d4372579a6eec0c90fce133", "event": "submitted", "job_id": "iyV7C1rFpJnAvED8", "quote": 0.58}
+{"t": 1792886451.536917, "key": "298df7e040ceb9a7dde390a2", "event": "completed", "value": -0.012458144775283272, "cost": 0.0}
+{"t": 1792886454.60932, "key": "497e7681a91f616faf83af4e", "event": "committed", "cid": "chain30_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886454.611095, "key": "d3eb3ce8f0f7b5b243020a34", "event": "completed", "value": 0.011878026748854697, "cost": 0.0}
+{"t": 1792886457.891606, "key": "5a8d383f6739c2b7de7e413c", "event": "committed", "cid": "chain30_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886457.8936388, "key": "497e7681a91f616faf83af4e", "event": "submitted", "job_id": "DLu0CBoVzDDZtNfV", "quote": 0.58}
+{"t": 1792886460.099241, "key": "5a8d383f6739c2b7de7e413c", "event": "submitted", "job_id": "qkAf75PAeyAY9x0n", "quote": 0.58}
+{"t": 1792886465.7993321, "key": "17fd344dd2cb6d09ffd91c37", "event": "completed", "value": -0.00826866846549558, "cost": 0.0}
+{"t": 1792886467.801186, "key": "10e65be872366dde0112b692", "event": "committed", "cid": "chain30_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886469.648716, "key": "10e65be872366dde0112b692", "event": "submitted", "job_id": "PwfFjigpJeyd6uRW", "quote": 0.58}
+{"t": 1792886475.200394, "key": "7d4372579a6eec0c90fce133", "event": "completed", "value": -0.010157225976864057, "cost": 0.0}
+{"t": 1792886476.7021859, "key": "903f4f3d4c64afb2e1231e6b", "event": "committed", "cid": "chain30_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886478.46014, "key": "903f4f3d4c64afb2e1231e6b", "event": "submitted", "job_id": "pM7gzXjX052Bg0Ae", "quote": 0.58}
+{"t": 1792886631.432714, "key": "10e65be872366dde0112b692", "event": "completed", "value": -0.07451687940271122, "cost": 0.0}
+{"t": 1792886632.963047, "key": "a6fdc30d7584929bb86ce0a2", "event": "committed", "cid": "chain30_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886632.9640589, "key": "5a8d383f6739c2b7de7e413c", "event": "completed", "value": 0.05474098593178431, "cost": 0.0}
+{"t": 1792886635.557753, "key": "4fd0505d08b798f50e11dcfa", "event": "committed", "cid": "chain30_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886635.558992, "key": "903f4f3d4c64afb2e1231e6b", "event": "completed", "value": 0.005585728831406601, "cost": 0.0}
+{"t": 1792886635.566769, "key": "497e7681a91f616faf83af4e", "event": "completed", "value": 0.03741048767886243, "cost": 0.0}
+{"t": 1792886638.311596, "key": "b0704012526a3963af831bf2", "event": "committed", "cid": "chain30_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886640.428973, "key": "518f83ae36e829e355260408", "event": "committed", "cid": "chain30_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792886640.430954, "key": "a6fdc30d7584929bb86ce0a2", "event": "submitted", "job_id": "qYjO4NNvLLDdcPgS", "quote": 0.58}
+{"t": 1792886640.454435, "key": "4fd0505d08b798f50e11dcfa", "event": "submitted", "job_id": "fwrgZpsFxsHeybsi", "quote": 0.58}
+{"t": 1792886641.1865559, "key": "b0704012526a3963af831bf2", "event": "submitted", "job_id": "IFzJ4tXmmcIkDpwQ", "quote": 0.58}
+{"t": 1792886643.2509801, "key": "518f83ae36e829e355260408", "event": "submitted", "job_id": "yfeZBoPEwlDsm6cf", "quote": 0.58}
+{"t": 1792887667.115526, "key": "518f83ae36e829e355260408", "event": "completed", "value": 0.3042850494378694, "cost": 0.0}
+{"t": 1792887667.12747, "key": "a6fdc30d7584929bb86ce0a2", "event": "completed", "value": 0.07578148704188509, "cost": 0.0}
+{"t": 1792887669.072148, "key": "7361bbe0c3630f5fab0b118e", "event": "committed", "cid": "chain30_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792887672.716293, "key": "2deb8e6a440d0f275d6104f2", "event": "committed", "cid": "chain30_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792887672.717876, "key": "4fd0505d08b798f50e11dcfa", "event": "completed", "value": 0.3692151121082569, "cost": 0.0}
+{"t": 1792887672.725645, "key": "b0704012526a3963af831bf2", "event": "completed", "value": 0.3993272448593168, "cost": 0.0}
+{"t": 1792887672.814768, "key": "7361bbe0c3630f5fab0b118e", "event": "submitted", "job_id": "8q7qsrjHml0dO3iL", "quote": 0.58}
+{"t": 1792887675.5715148, "key": "928977e20bd3841d825dd20e", "event": "committed", "cid": "chain30_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792887677.308492, "key": "320ac30c5478fd2af78d594c", "event": "committed", "cid": "chain30_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 64}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.58, "est_reserved": 0.58, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792887677.310431, "key": "2deb8e6a440d0f275d6104f2", "event": "submitted", "job_id": "TMTPTAj2iwGSSy3n", "quote": 0.58}
+{"t": 1792887677.37838, "key": "928977e20bd3841d825dd20e", "event": "submitted", "job_id": "jH6vJoBFB0M0YiLg", "quote": 0.58}
+{"t": 1792887679.513899, "key": "320ac30c5478fd2af78d594c", "event": "submitted", "job_id": "PhXjMPzLMslRNqj3", "quote": 0.58}
+{"t": 1792887693.658595, "key": "7361bbe0c3630f5fab0b118e", "event": "completed", "value": 0.738529761989842, "cost": 0.0}
+{"t": 1792889142.017288, "key": "2deb8e6a440d0f275d6104f2", "event": "completed", "value": 0.8230156786216295, "cost": 0.0}
+{"t": 1792889143.508522, "key": "320ac30c5478fd2af78d594c", "event": "completed", "value": 0.9056385117349446, "cost": 0.0}
+{"t": 1792889687.065762, "key": "928977e20bd3841d825dd20e", "event": "completed", "value": 0.8895514676330617, "cost": 0.0}
+{"t": 1792889691.359589, "key": "7973a1fe165bc76aadd73a90", "event": "committed", "cid": "chain30_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792889693.102175, "key": "7c90f08bf2ebbd625f6e14fe", "event": "committed", "cid": "chain30_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792889695.196234, "key": "68eb863eae10b40bc6b54e8a", "event": "committed", "cid": "chain30_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792889696.751539, "key": "3b91a80cc4abd20904afbff4", "event": "committed", "cid": "chain30_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792889696.753531, "key": "7973a1fe165bc76aadd73a90", "event": "submitted", "job_id": "8jmH33uh9CubB8k5", "quote": 1.85}
+{"t": 1792889696.77454, "key": "7c90f08bf2ebbd625f6e14fe", "event": "submitted", "job_id": "FRp0u2386lgEHkuS", "quote": 1.85}
+{"t": 1792889697.472318, "key": "68eb863eae10b40bc6b54e8a", "event": "submitted", "job_id": "zEuuEmOx3RIBUSBN", "quote": 1.85}
+{"t": 1792889698.400117, "key": "3b91a80cc4abd20904afbff4", "event": "submitted", "job_id": "JNAt70MUQQlMSwqo", "quote": 1.85}
+{"t": 1792890024.9131808, "key": "7c90f08bf2ebbd625f6e14fe", "event": "completed", "value": 0.8302214022036737, "cost": 0.0}
+{"t": 1792890027.9941728, "key": "ca5b9e838106eeed5a73fb10", "event": "committed", "cid": "chain30_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792890027.996222, "key": "7973a1fe165bc76aadd73a90", "event": "completed", "value": 0.9383566638356763, "cost": 0.0}
+{"t": 1792890028.018476, "key": "68eb863eae10b40bc6b54e8a", "event": "completed", "value": 0.3509217586665709, "cost": 0.0}
+{"t": 1792890028.112382, "key": "3b91a80cc4abd20904afbff4", "event": "completed", "value": 0.41675984967064655, "cost": 0.0}
+{"t": 1792890030.667419, "key": "e048c6f1514459fc41ad4971", "event": "committed", "cid": "chain30_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792890032.395902, "key": "07b4af4c5b58cbf6e85a5975", "event": "committed", "cid": "chain30_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792890033.9038599, "key": "2400ef5d1611d800b87b941e", "event": "committed", "cid": "chain30_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792890033.905866, "key": "ca5b9e838106eeed5a73fb10", "event": "submitted", "job_id": "UruNUFxTcOlY5dtV", "quote": 1.85}
+{"t": 1792890033.929483, "key": "e048c6f1514459fc41ad4971", "event": "submitted", "job_id": "CKRnGIwFoftMf1JZ", "quote": 1.85}
+{"t": 1792890035.556119, "key": "07b4af4c5b58cbf6e85a5975", "event": "submitted", "job_id": "Tl8qAFrkfVkH30DC", "quote": 1.85}
+{"t": 1792890036.876191, "key": "2400ef5d1611d800b87b941e", "event": "submitted", "job_id": "QrJP68Mc99RzI2dQ", "quote": 1.85}
+{"t": 1792892838.9407082, "key": "4f4f593cc5f63de9d4283b53", "event": "committed", "cid": "chain30_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792892841.0854988, "key": "b094bcebbde402bab70945ba", "event": "committed", "cid": "chain30_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792892843.961592, "key": "860406611ccaf5aae939df50", "event": "committed", "cid": "chain30_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792892843.9635031, "key": "2400ef5d1611d800b87b941e", "event": "completed", "value": -0.007280619616550743, "cost": 0.0}
+{"t": 1792892843.9842072, "key": "4f4f593cc5f63de9d4283b53", "event": "submitted", "job_id": "eNet0Q33eZrquwJm", "quote": 1.85}
+{"t": 1792892844.080052, "key": "b094bcebbde402bab70945ba", "event": "submitted", "job_id": "AO0m2mwx1LeBC6iO", "quote": 1.85}
+{"t": 1792892846.1814919, "key": "25d692ab21770007a056e8b4", "event": "committed", "cid": "chain30_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792892846.811004, "key": "860406611ccaf5aae939df50", "event": "submitted", "job_id": "sIsdWIRYnp1A1J58", "quote": 1.85}
+{"t": 1792892849.314403, "key": "25d692ab21770007a056e8b4", "event": "submitted", "job_id": "gtedokilK5PGFdG7", "quote": 1.85}
+{"t": 1792893280.1230679, "key": "860406611ccaf5aae939df50", "event": "completed", "value": -0.011653074434693085, "cost": 0.0}
+{"t": 1792893283.2798731, "key": "72ddff005ba067d4d431f7ee", "event": "committed", "cid": "chain30_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893283.2820039, "key": "4f4f593cc5f63de9d4283b53", "event": "completed", "value": 0.013327060330940171, "cost": 0.0}
+{"t": 1792893283.3107588, "key": "b094bcebbde402bab70945ba", "event": "completed", "value": -0.02527267600900804, "cost": 0.0}
+{"t": 1792893283.4083688, "key": "25d692ab21770007a056e8b4", "event": "completed", "value": -0.012476400290983241, "cost": 0.0}
+{"t": 1792893287.186971, "key": "b03fb3e929e4855ee63fecfa", "event": "committed", "cid": "chain30_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893289.4283252, "key": "703662a442d0203e04fdf082", "event": "committed", "cid": "chain30_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893292.035773, "key": "51a3973301249abf19ddfe3c", "event": "committed", "cid": "chain30_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893292.0378711, "key": "72ddff005ba067d4d431f7ee", "event": "submitted", "job_id": "xYG30KUy9DzepwKX", "quote": 1.85}
+{"t": 1792893292.0612102, "key": "703662a442d0203e04fdf082", "event": "submitted", "job_id": "c8L35ujw7GSdF4Op", "quote": 1.85}
+{"t": 1792893292.104521, "key": "b03fb3e929e4855ee63fecfa", "event": "submitted", "job_id": "wBIxWKOvZfezQGaw", "quote": 1.85}
+{"t": 1792893294.0461178, "key": "51a3973301249abf19ddfe3c", "event": "submitted", "job_id": "E9V3FGBVMlBClemI", "quote": 1.85}
+{"t": 1792893365.966538, "key": "703662a442d0203e04fdf082", "event": "completed", "value": 0.005842667935217232, "cost": 0.0}
+{"t": 1792893369.4803069, "key": "c69428119a797bb946f010e7", "event": "committed", "cid": "chain30_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893371.3114371, "key": "c69428119a797bb946f010e7", "event": "submitted", "job_id": "5uywH3aA9S8mArFl", "quote": 1.85}
+{"t": 1792893375.7905679, "key": "b03fb3e929e4855ee63fecfa", "event": "completed", "value": 0.007779892086751414, "cost": 0.0}
+{"t": 1792893378.432385, "key": "deb22ed1a13ede346c3d7d3a", "event": "committed", "cid": "chain30_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893378.434122, "key": "72ddff005ba067d4d431f7ee", "event": "completed", "value": 0.0035152757086376746, "cost": 0.0}
+{"t": 1792893381.538578, "key": "0a45eb3b1fb8083e98900832", "event": "committed", "cid": "chain30_18", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893381.540432, "key": "deb22ed1a13ede346c3d7d3a", "event": "submitted", "job_id": "wtbyu1i3dq9WqnOy", "quote": 1.85}
+{"t": 1792893383.979295, "key": "0a45eb3b1fb8083e98900832", "event": "submitted", "job_id": "YGV2sTipuLEllgeT", "quote": 1.85}
+{"t": 1792893384.761594, "key": "51a3973301249abf19ddfe3c", "event": "completed", "value": 0.004168131584448043, "cost": 0.0}
+{"t": 1792893386.777718, "key": "b94b9d7354b2267ae48bd9ae", "event": "committed", "cid": "chain30_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893493.739296, "key": "0a45eb3b1fb8083e98900832", "event": "completed", "value": 0.023260168892541816, "cost": 0.0}
+{"t": 1792893497.0228941, "key": "57da7e20c9668ead25aad41d", "event": "committed", "cid": "chain30_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893497.024668, "key": "deb22ed1a13ede346c3d7d3a", "event": "completed", "value": -0.009802032125579079, "cost": 0.0}
+{"t": 1792893497.053243, "key": "c69428119a797bb946f010e7", "event": "completed", "value": -0.012014914639745699, "cost": 0.0}
+{"t": 1792893497.1438458, "key": "b94b9d7354b2267ae48bd9ae", "event": "submitted", "job_id": "wDzpCJBg0MOD421T", "quote": 1.85}
+{"t": 1792893499.572106, "key": "65da9c749b9c139378a1f2bd", "event": "committed", "cid": "chain30_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893502.254702, "key": "c9a7460ae179f6e7d59d5ff2", "event": "committed", "cid": "chain30_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893502.256623, "key": "b94b9d7354b2267ae48bd9ae", "event": "completed", "value": 0.011203022200725794, "cost": 0.0}
+{"t": 1792893502.294732, "key": "57da7e20c9668ead25aad41d", "event": "submitted", "job_id": "1pfP4oN7dxjC5th1", "quote": 1.85}
+{"t": 1792893502.3737888, "key": "65da9c749b9c139378a1f2bd", "event": "submitted", "job_id": "hCIEOU016kQYWdUH", "quote": 1.85}
+{"t": 1792893505.8062432, "key": "2cabb8f13843166192a3c56a", "event": "committed", "cid": "chain30_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893505.808161, "key": "c9a7460ae179f6e7d59d5ff2", "event": "submitted", "job_id": "KQylrD3I0ofOMz7J", "quote": 1.85}
+{"t": 1792893509.137305, "key": "2cabb8f13843166192a3c56a", "event": "submitted", "job_id": "S724ImoLMUwqSSok", "quote": 1.85}
+{"t": 1792893641.1122088, "key": "57da7e20c9668ead25aad41d", "event": "completed", "value": -0.09569109218382688, "cost": 0.0}
+{"t": 1792893644.914855, "key": "901dc2f6462c3df38adc0a02", "event": "committed", "cid": "chain30_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893644.916651, "key": "65da9c749b9c139378a1f2bd", "event": "completed", "value": 0.007120483716263915, "cost": 0.0}
+{"t": 1792893644.9225202, "key": "2cabb8f13843166192a3c56a", "event": "completed", "value": 0.2014789870800519, "cost": 0.0}
+{"t": 1792893648.528925, "key": "7c8eb503c0347b4ec2d3bc62", "event": "committed", "cid": "chain30_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893650.905932, "key": "437de9b74b30829e76abb44a", "event": "committed", "cid": "chain30_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893650.9077928, "key": "c9a7460ae179f6e7d59d5ff2", "event": "completed", "value": -0.009987986357725936, "cost": 0.0}
+{"t": 1792893650.941504, "key": "901dc2f6462c3df38adc0a02", "event": "submitted", "job_id": "qOlO9AJE23vyBpcu", "quote": 1.85}
+{"t": 1792893651.004276, "key": "7c8eb503c0347b4ec2d3bc62", "event": "submitted", "job_id": "scHaMwTowm6Ty3rV", "quote": 1.85}
+{"t": 1792893653.394955, "key": "e3ac5815070b3b2b83508519", "event": "committed", "cid": "chain30_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893653.396427, "key": "437de9b74b30829e76abb44a", "event": "submitted", "job_id": "ZfHOT1muMMjA0g5D", "quote": 1.85}
+{"t": 1792893655.604521, "key": "e3ac5815070b3b2b83508519", "event": "submitted", "job_id": "rNNMU9GLMF0xSqo9", "quote": 1.85}
+{"t": 1792893737.841171, "key": "7c8eb503c0347b4ec2d3bc62", "event": "completed", "value": 0.6008751093124964, "cost": 0.0}
+{"t": 1792893740.191783, "key": "18684ab017025a39583c909d", "event": "committed", "cid": "chain30_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893740.19378, "key": "437de9b74b30829e76abb44a", "event": "completed", "value": 0.13874113279104805, "cost": 0.0}
+{"t": 1792893742.560983, "key": "eee11fd8283978e19b00d2a2", "event": "committed", "cid": "chain30_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 1.85, "est_reserved": 1.85, "tag": "G2-v1-bench", "attempt": 1}
+{"t": 1792893742.563148, "key": "e3ac5815070b3b2b83508519", "event": "completed", "value": 0.7118005953776201, "cost": 0.0}
+{"t": 1792893742.7980359, "key": "18684ab017025a39583c909d", "event": "submitted", "job_id": "h59awh0XsP8g5sfT", "quote": 1.85}
+{"t": 1792893744.886019, "key": "eee11fd8283978e19b00d2a2", "event": "submitted", "job_id": "vP2B08w41bn8WHFB", "quote": 1.85}
+{"t": 1792893770.2003572, "key": "901dc2f6462c3df38adc0a02", "event": "completed", "value": 0.238530469646503, "cost": 0.0}
+{"t": 1792893794.076931, "key": "18684ab017025a39583c909d", "event": "completed", "value": 0.8211502561508549, "cost": 0.0}
+{"t": 1792893806.0025752, "key": "eee11fd8283978e19b00d2a2", "event": "completed", "value": 0.8431967705292082, "cost": 0.0}
+{"t": 1792908852.7642581, "key": "ca5b9e838106eeed5a73fb10", "event": "completed", "value": 0.24635402400215428, "cost": 0.0}
+{"t": 1792908852.93087, "key": "e048c6f1514459fc41ad4971", "event": "completed", "value": 0.07723689537501245, "cost": 0.0}
+{"t": 1792908853.148615, "key": "07b4af4c5b58cbf6e85a5975", "event": "completed", "value": 0.06215420182789813, "cost": 0.0}
+{"t": 1792908868.8535979, "key": "ce5a228ecd75fd523a339e48", "event": "committed", "cid": "Duke_G2_0", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908870.7882, "key": "1ce56d219d02141fabd9d76c", "event": "committed", "cid": "Duke_G2_1", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908872.523241, "key": "b0d728389e330326d2040bee", "event": "committed", "cid": "Duke_G2_2", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908874.8167539, "key": "a49109036e32ce6e40daa2cf", "event": "committed", "cid": "Duke_G2_3", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908874.817961, "key": "ce5a228ecd75fd523a339e48", "event": "submitted", "job_id": "hc0aHPwn7dh1th5P", "quote": 3.02}
+{"t": 1792908874.818899, "key": "1ce56d219d02141fabd9d76c", "event": "submitted", "job_id": "nIBJqxdOaFW8YP6g", "quote": 3.02}
+{"t": 1792908874.819891, "key": "b0d728389e330326d2040bee", "event": "submitted", "job_id": "AnvlKHfDxmxpEwHQ", "quote": 3.02}
+{"t": 1792908877.4432588, "key": "a49109036e32ce6e40daa2cf", "event": "submitted", "job_id": "GxQh1tk1gFxO2wqI", "quote": 3.02}
+{"t": 1792908950.840915, "key": "ce5a228ecd75fd523a339e48", "event": "completed", "value": 0.9969978919142016, "cost": 0.0}
+{"t": 1792908952.763317, "key": "85ced0c2e9c9dfac0412fb77", "event": "committed", "cid": "Duke_G2_4", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908955.488466, "key": "85ced0c2e9c9dfac0412fb77", "event": "submitted", "job_id": "mCPPvcKcoz17xlgc", "quote": 3.02}
+{"t": 1792908965.9450822, "key": "b0d728389e330326d2040bee", "event": "completed", "value": 0.9156574099163206, "cost": 0.0}
+{"t": 1792908967.3566568, "key": "36e6c8fad7d6e61ed3f16cf7", "event": "committed", "cid": "Duke_G2_5", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792908969.771221, "key": "36e6c8fad7d6e61ed3f16cf7", "event": "submitted", "job_id": "2XgDckIPAtVL49Cs", "quote": 3.02}
+{"t": 1792908996.1770399, "key": "1ce56d219d02141fabd9d76c", "event": "completed", "value": 0.9938676258728648, "cost": 0.0}
+{"t": 1792908997.8846421, "key": "710edc134f937071c2b3a2d9", "event": "committed", "cid": "Duke_G2_6", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909000.0104692, "key": "710edc134f937071c2b3a2d9", "event": "submitted", "job_id": "V1byGpB5zjgut85H", "quote": 3.02}
+{"t": 1792909005.8601658, "key": "398921539ab15cb82f317269", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792909007.6017091, "key": "398921539ab15cb82f317269", "event": "submitted", "job_id": "EJXKz5uHbeIwMa5N", "quote": 0.67}
+{"t": 1792909028.9486, "key": "a49109036e32ce6e40daa2cf", "event": "completed", "value": 0.9483331855625672, "cost": 0.0}
+{"t": 1792909030.8853, "key": "ed49b1cbc5eaf9a51c6ecd9a", "event": "committed", "cid": "Duke_G2_7", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909033.3386428, "key": "ed49b1cbc5eaf9a51c6ecd9a", "event": "submitted", "job_id": "JKaLNg4Ig4XTpQE4", "quote": 3.02}
+{"t": 1792909058.245184, "key": "398921539ab15cb82f317269", "event": "completed", "value": 0.0035559193039671113, "cost": 0.2}
+{"t": 1792909059.368421, "key": "a16b22988cffdb9f84e34f92", "event": "committed", "cid": "Duke_G4_21", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792909061.6388228, "key": "a16b22988cffdb9f84e34f92", "event": "submitted", "job_id": "nUOd985lXI8ZlHY8", "quote": 0.67}
+{"t": 1792909075.5340102, "key": "36e6c8fad7d6e61ed3f16cf7", "event": "completed", "value": 0.6244706855017934, "cost": 0.0}
+{"t": 1792909077.54685, "key": "0822aaee09d1250102998d96", "event": "committed", "cid": "Duke_G2_8", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909079.232403, "key": "0822aaee09d1250102998d96", "event": "submitted", "job_id": "CvGPnHFe0dTzsIT1", "quote": 3.02}
+{"t": 1792909106.899327, "key": "85ced0c2e9c9dfac0412fb77", "event": "completed", "value": 0.7307280908829952, "cost": 0.0}
+{"t": 1792909108.1165388, "key": "d6088039a1cd4a6d3c58878b", "event": "committed", "cid": "Duke_G2_9", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909110.113774, "key": "d6088039a1cd4a6d3c58878b", "event": "submitted", "job_id": "ocWxCSX5cSD3vGqK", "quote": 3.02}
+{"t": 1792909112.377998, "key": "a16b22988cffdb9f84e34f92", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909112.847334, "key": "1d58c7d5b935938332cfa030", "event": "committed", "cid": "Duke_G4_37", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792909114.303139, "key": "1d58c7d5b935938332cfa030", "event": "submitted", "job_id": "eZmEwlhQS9qnnPRD", "quote": 0.67}
+{"t": 1792909139.299298, "key": "ed49b1cbc5eaf9a51c6ecd9a", "event": "completed", "value": 0.4173452203524123, "cost": 0.0}
+{"t": 1792909140.461601, "key": "d26539cc7fde424f12823287", "event": "committed", "cid": "Duke_G2_10", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909141.6126761, "key": "d26539cc7fde424f12823287", "event": "submitted", "job_id": "a8aQ6rYxrWumxmcT", "quote": 3.02}
+{"t": 1792909154.85423, "key": "1d58c7d5b935938332cfa030", "event": "completed", "value": 0.02355848939555379, "cost": 0.2}
+{"t": 1792909166.27934, "key": "710edc134f937071c2b3a2d9", "event": "completed", "value": 0.4007412478551923, "cost": 0.0}
+{"t": 1792909167.4101, "key": "a7442ccfb3ef663476826151", "event": "committed", "cid": "Duke_G2_11", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909168.8678138, "key": "a7442ccfb3ef663476826151", "event": "submitted", "job_id": "cJzmrkUpyhd2cydo", "quote": 3.02}
+{"t": 1792909200.2258089, "key": "0822aaee09d1250102998d96", "event": "completed", "value": 0.10646066180210809, "cost": 0.0}
+{"t": 1792909200.2913768, "key": "1547340b8635cb7c5fd37f1f", "event": "committed", "cid": "Duke_G4_1", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909201.5285928, "key": "1547340b8635cb7c5fd37f1f", "event": "submitted", "job_id": "nhrOMZjSYd8xPbbp", "quote": 0.67}
+{"t": 1792909202.18099, "key": "65b47e755bf71644ffdf4d19", "event": "committed", "cid": "Duke_G2_12", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909203.581277, "key": "65b47e755bf71644ffdf4d19", "event": "submitted", "job_id": "2byIODn0PK97uRPz", "quote": 3.02}
+{"t": 1792909231.0499468, "key": "d6088039a1cd4a6d3c58878b", "event": "completed", "value": 0.10835526790117216, "cost": 0.0}
+{"t": 1792909232.729673, "key": "c8c0e59e8a6bb4067f34fe63", "event": "committed", "cid": "Duke_G2_13", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909234.740774, "key": "c8c0e59e8a6bb4067f34fe63", "event": "submitted", "job_id": "AwVUqV9rzL66EdsD", "quote": 3.02}
+{"t": 1792909246.9526799, "key": "1547340b8635cb7c5fd37f1f", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909247.478272, "key": "d26539cc7fde424f12823287", "event": "completed", "value": 0.10315235933202457, "cost": 0.0}
+{"t": 1792909247.7443242, "key": "657b5fb5315f4e749c6aa714", "event": "committed", "cid": "Duke_G4_2", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909248.8365839, "key": "f96d8606388c0596572f405c", "event": "committed", "cid": "Duke_G2_14", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909249.9108548, "key": "657b5fb5315f4e749c6aa714", "event": "submitted", "job_id": "oekmLAn4BAK6Smo6", "quote": 0.67}
+{"t": 1792909251.1636631, "key": "f96d8606388c0596572f405c", "event": "submitted", "job_id": "vf7XXjXKxQ3Qiinv", "quote": 3.02}
+{"t": 1792909295.286447, "key": "657b5fb5315f4e749c6aa714", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909296.0048032, "key": "b3acee2bea352a20be785299", "event": "committed", "cid": "Duke_G4_3", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909297.2286668, "key": "b3acee2bea352a20be785299", "event": "submitted", "job_id": "3sjdMx1jjVKGeBJ3", "quote": 0.67}
+{"t": 1792909342.591467, "key": "b3acee2bea352a20be785299", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909343.5564742, "key": "dc77b7a0751e87cb15d538eb", "event": "committed", "cid": "Duke_G4_4", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909344.819191, "key": "dc77b7a0751e87cb15d538eb", "event": "submitted", "job_id": "wfTVJgpcKvjoGDKK", "quote": 0.67}
+{"t": 1792909354.8885021, "key": "65b47e755bf71644ffdf4d19", "event": "completed", "value": 0.005508891622570049, "cost": 0.0}
+{"t": 1792909356.462118, "key": "3123ae91d3d2f11a881f5798", "event": "committed", "cid": "Duke_G2_15", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909358.174137, "key": "3123ae91d3d2f11a881f5798", "event": "submitted", "job_id": "JiRELy2PYOdWk8et", "quote": 3.02}
+{"t": 1792909380.6508958, "key": "a7442ccfb3ef663476826151", "event": "completed", "value": 0.09783600040728668, "cost": 0.0}
+{"t": 1792909381.63821, "key": "8448cc03ad0fcbcb9603a19b", "event": "committed", "cid": "Duke_G2_16", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909383.460024, "key": "8448cc03ad0fcbcb9603a19b", "event": "submitted", "job_id": "5oBG5mH3ZXXKCUUP", "quote": 3.02}
+{"t": 1792909390.61824, "key": "dc77b7a0751e87cb15d538eb", "event": "completed", "value": -0.0068811114914823, "cost": 0.2}
+{"t": 1792909391.172728, "key": "a02b7844e9c75df667b7472c", "event": "committed", "cid": "Duke_G4_5", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909393.17127, "key": "a02b7844e9c75df667b7472c", "event": "submitted", "job_id": "Zejn0f9Im9bsB6Tn", "quote": 0.67}
+{"t": 1792909417.812005, "key": "f96d8606388c0596572f405c", "event": "completed", "value": 0.008159409224324697, "cost": 0.0}
+{"t": 1792909418.6373289, "key": "b0b2817acf9f8cd512b0b1b5", "event": "committed", "cid": "Duke_G2_17", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909420.435282, "key": "b0b2817acf9f8cd512b0b1b5", "event": "submitted", "job_id": "ENdNAUy8GsUGifC5", "quote": 3.02}
+{"t": 1792909431.364293, "key": "c8c0e59e8a6bb4067f34fe63", "event": "completed", "value": 0.011824833220970749, "cost": 0.0}
+{"t": 1792909433.020829, "key": "4d5f1dcc0ccf54a8f54ab9e0", "event": "committed", "cid": "Duke_G2_19", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909435.284416, "key": "4d5f1dcc0ccf54a8f54ab9e0", "event": "submitted", "job_id": "nLWYlGAiSIYHoodS", "quote": 3.02}
+{"t": 1792909438.555239, "key": "a02b7844e9c75df667b7472c", "event": "completed", "value": -0.0013364896752985267, "cost": 0.2}
+{"t": 1792909439.31487, "key": "c39d510d37d6d443a1c6bc9d", "event": "committed", "cid": "Duke_G4_6", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909440.4497228, "key": "c39d510d37d6d443a1c6bc9d", "event": "submitted", "job_id": "YwDoJvkaiNSsQOtP", "quote": 0.67}
+{"t": 1792909479.213535, "key": "3123ae91d3d2f11a881f5798", "event": "completed", "value": 0.002519779612095494, "cost": 0.0}
+{"t": 1792909480.2503839, "key": "9e94f39810d227bc5597c448", "event": "committed", "cid": "Duke_G2_20", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909482.487194, "key": "9e94f39810d227bc5597c448", "event": "submitted", "job_id": "TBEs0cCSpixorSMw", "quote": 3.02}
+{"t": 1792909485.848913, "key": "c39d510d37d6d443a1c6bc9d", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909487.288051, "key": "4213df112f546b3cd37eb2b6", "event": "committed", "cid": "Duke_G4_7", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909506.989606, "key": "4213df112f546b3cd37eb2b6", "event": "submitted", "job_id": "BzmJevJo00KrBvfT", "quote": 0.67}
+{"t": 1792909519.527235, "key": "8448cc03ad0fcbcb9603a19b", "event": "completed", "value": -0.007996728053551077, "cost": 0.0}
+{"t": 1792909521.0903838, "key": "391494ee126872d7dcd05fb3", "event": "committed", "cid": "Duke_G2_21", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909522.3959029, "key": "391494ee126872d7dcd05fb3", "event": "submitted", "job_id": "Kxy2t0iaClBQCbg8", "quote": 3.02}
+{"t": 1792909552.4533849, "key": "4213df112f546b3cd37eb2b6", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909553.77091, "key": "a3429276ff9333b445674376", "event": "committed", "cid": "Duke_G4_8", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909555.0372732, "key": "a3429276ff9333b445674376", "event": "submitted", "job_id": "uCiWOBlLVUYTfYAK", "quote": 0.67}
+{"t": 1792909572.029088, "key": "b0b2817acf9f8cd512b0b1b5", "event": "completed", "value": 0.003354142620953557, "cost": 0.0}
+{"t": 1792909573.8424041, "key": "587e89f00b67cc4637d190a2", "event": "committed", "cid": "Duke_G2_22", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909575.845094, "key": "587e89f00b67cc4637d190a2", "event": "submitted", "job_id": "sDu2i93C2KgShjCk", "quote": 3.02}
+{"t": 1792909586.509203, "key": "4d5f1dcc0ccf54a8f54ab9e0", "event": "completed", "value": 0.003992926128141634, "cost": 0.0}
+{"t": 1792909588.011061, "key": "ac4d033d133b5f473f08ca4f", "event": "committed", "cid": "Duke_G2_23", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909589.832744, "key": "ac4d033d133b5f473f08ca4f", "event": "submitted", "job_id": "v6g2l4Qw87TIQ3sO", "quote": 3.02}
+{"t": 1792909600.504547, "key": "a3429276ff9333b445674376", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909601.222014, "key": "4e59b2ac687896050ed1e573", "event": "committed", "cid": "Duke_G4_9", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909602.406414, "key": "4e59b2ac687896050ed1e573", "event": "submitted", "job_id": "sKJv3zWqk4fak9KM", "quote": 0.67}
+{"t": 1792909603.475426, "key": "9e94f39810d227bc5597c448", "event": "completed", "value": 0.0014105326364427374, "cost": 0.0}
+{"t": 1792909604.548332, "key": "4ac1ce5b39799e08fb7b03f7", "event": "committed", "cid": "Duke_G2_24", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909606.296221, "key": "4ac1ce5b39799e08fb7b03f7", "event": "submitted", "job_id": "r1FQ9qaVfekopmxu", "quote": 3.02}
+{"t": 1792909648.00189, "key": "4e59b2ac687896050ed1e573", "event": "completed", "value": -0.003708969925195137, "cost": 0.2}
+{"t": 1792909649.260351, "key": "5d9e70339a3e4789fa7d2568", "event": "committed", "cid": "Duke_G4_10", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909650.387409, "key": "5d9e70339a3e4789fa7d2568", "event": "submitted", "job_id": "89xBQ4nmBW4K1QhQ", "quote": 0.67}
+{"t": 1792909658.4887009, "key": "391494ee126872d7dcd05fb3", "event": "completed", "value": 0.010821837995167416, "cost": 0.0}
+{"t": 1792909660.0552452, "key": "84cc1e3cf2e79ac3df59ebe1", "event": "committed", "cid": "Duke_G2_25", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909662.760376, "key": "84cc1e3cf2e79ac3df59ebe1", "event": "submitted", "job_id": "0RTl1pqXcUJCeOlj", "quote": 3.02}
+{"t": 1792909695.8027022, "key": "5d9e70339a3e4789fa7d2568", "event": "completed", "value": 0.0034223439710543003, "cost": 0.2}
+{"t": 1792909696.113108, "key": "ac4d033d133b5f473f08ca4f", "event": "completed", "value": 0.010059017144929653, "cost": 0.0}
+{"t": 1792909696.580739, "key": "e4ac644cad4bd2fb12b9676e", "event": "committed", "cid": "Duke_G4_11", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909697.331684, "key": "fcc98226cd6394185eb98906", "event": "committed", "cid": "Duke_G2_26", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909697.8059552, "key": "e4ac644cad4bd2fb12b9676e", "event": "submitted", "job_id": "Yojd6QSYBmHxaFpI", "quote": 0.67}
+{"t": 1792909699.0087512, "key": "fcc98226cd6394185eb98906", "event": "submitted", "job_id": "YIbAP9xnrOwBmVtc", "quote": 3.02}
+{"t": 1792909712.0315552, "key": "587e89f00b67cc4637d190a2", "event": "completed", "value": 0.004137638963326206, "cost": 0.0}
+{"t": 1792909713.1704772, "key": "eadf078092858e8357e65575", "event": "committed", "cid": "Duke_G2_27", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909715.121781, "key": "eadf078092858e8357e65575", "event": "submitted", "job_id": "O4I2jvgf11GSw4g2", "quote": 3.02}
+{"t": 1792909742.4369678, "key": "4ac1ce5b39799e08fb7b03f7", "event": "completed", "value": 0.013567060511906277, "cost": 0.0}
+{"t": 1792909743.299951, "key": "e4ac644cad4bd2fb12b9676e", "event": "completed", "value": -0.011581273164776591, "cost": 0.2}
+{"t": 1792909744.038353, "key": "6019f3a2e37bed2fcbb1af7c", "event": "committed", "cid": "Duke_G4_12", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909744.35269, "key": "496968fca4f31cbb388db842", "event": "committed", "cid": "Duke_G2_28", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909745.214132, "key": "6019f3a2e37bed2fcbb1af7c", "event": "submitted", "job_id": "T3pvXDuE9Elu08bE", "quote": 0.67}
+{"t": 1792909746.190036, "key": "496968fca4f31cbb388db842", "event": "submitted", "job_id": "W9uj4am05ZnqQZiD", "quote": 3.02}
+{"t": 1792909790.6026921, "key": "6019f3a2e37bed2fcbb1af7c", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909791.242343, "key": "23d8d6be0c8a6803a16b1218", "event": "committed", "cid": "Duke_G4_13", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909792.5001442, "key": "23d8d6be0c8a6803a16b1218", "event": "submitted", "job_id": "fIkeWVi5DIIKSJmD", "quote": 0.67}
+{"t": 1792909799.007919, "key": "84cc1e3cf2e79ac3df59ebe1", "event": "completed", "value": 0.007772620923940722, "cost": 0.0}
+{"t": 1792909800.21982, "key": "e0ef6c309d0e11c788598343", "event": "committed", "cid": "Duke_G2_29", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909802.7730591, "key": "e0ef6c309d0e11c788598343", "event": "submitted", "job_id": "pSnER3ySD3mBJt8f", "quote": 3.02}
+{"t": 1792909837.951471, "key": "23d8d6be0c8a6803a16b1218", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792909839.101408, "key": "89c9e1423e503fce3de0dad9", "event": "committed", "cid": "Duke_G4_14", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909841.471061, "key": "89c9e1423e503fce3de0dad9", "event": "submitted", "job_id": "6BLxNHhvPhkcd29Y", "quote": 0.67}
+{"t": 1792909850.279979, "key": "fcc98226cd6394185eb98906", "event": "completed", "value": 0.027055551439346997, "cost": 0.0}
+{"t": 1792909851.9909499, "key": "c628cb454f5b72fbb336c81c", "event": "committed", "cid": "Duke_G2_30", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909851.995743, "key": "eadf078092858e8357e65575", "event": "completed", "value": 0.05545869149013874, "cost": 0.0}
+{"t": 1792909853.749783, "key": "df23c471161c77f47ba77f9f", "event": "committed", "cid": "Duke_G2_31", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909854.052741, "key": "c628cb454f5b72fbb336c81c", "event": "submitted", "job_id": "o4wqupuf1cqndPmN", "quote": 3.02}
+{"t": 1792909855.3003101, "key": "df23c471161c77f47ba77f9f", "event": "submitted", "job_id": "PKfs3o9KHzvo29lo", "quote": 3.02}
+{"t": 1792909882.3674428, "key": "496968fca4f31cbb388db842", "event": "completed", "value": -0.12351751061312802, "cost": 0.0}
+{"t": 1792909883.75145, "key": "f39ee3a7db3c46a5ee9aad08", "event": "committed", "cid": "Duke_G2_32", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909885.737035, "key": "f39ee3a7db3c46a5ee9aad08", "event": "submitted", "job_id": "WWbzeZXBS7KtPkUI", "quote": 3.02}
+{"t": 1792909902.1723871, "key": "89c9e1423e503fce3de0dad9", "event": "completed", "value": 0.0019372676988269, "cost": 0.2}
+{"t": 1792909903.337473, "key": "bec96f3f2c71d615e15efeba", "event": "committed", "cid": "Duke_G4_15", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792909904.907365, "key": "bec96f3f2c71d615e15efeba", "event": "submitted", "job_id": "jA1Fw1jd3yoGle7l", "quote": 0.67}
+{"t": 1792909923.68441, "key": "e0ef6c309d0e11c788598343", "event": "completed", "value": -0.023178016601034104, "cost": 0.0}
+{"t": 1792909926.0771751, "key": "158991e7476b53a89f5dbb92", "event": "committed", "cid": "Duke_G2_33", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909928.3638778, "key": "158991e7476b53a89f5dbb92", "event": "submitted", "job_id": "bI2jlyuX52nOXCnO", "quote": 3.02}
+{"t": 1792909975.23566, "key": "c628cb454f5b72fbb336c81c", "event": "completed", "value": 0.31045798060214, "cost": 0.0}
+{"t": 1792909976.9362402, "key": "53c3829bcb27a31bafa72f14", "event": "committed", "cid": "Duke_G2_34", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909976.937069, "key": "df23c471161c77f47ba77f9f", "event": "completed", "value": 0.2833101823456115, "cost": 0.0}
+{"t": 1792909978.947372, "key": "12ded9ce79fee4fe8c2cd94a", "event": "committed", "cid": "Duke_G2_35", "device": "mps.cpu", "options": {"mps_bond_dimension": 128}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 3.02, "est_reserved": 3.02, "tag": "G2-v2", "attempt": 1}
+{"t": 1792909979.9534788, "key": "53c3829bcb27a31bafa72f14", "event": "submitted", "job_id": "YWB006WtNqh50toJ", "quote": 3.02}
+{"t": 1792909982.053174, "key": "12ded9ce79fee4fe8c2cd94a", "event": "submitted", "job_id": "jahBW437K0ZxmkW4", "quote": 3.02}
+{"t": 1792909992.134727, "key": "f39ee3a7db3c46a5ee9aad08", "event": "completed", "value": 0.8501876361510263, "cost": 0.0}
+{"t": 1792910019.640082, "key": "158991e7476b53a89f5dbb92", "event": "completed", "value": 0.7850472068404165, "cost": 0.0}
+{"t": 1792910041.809899, "key": "bec96f3f2c71d615e15efeba", "event": "completed", "value": 0.000475558201708773, "cost": 0.2}
+{"t": 1792910042.3932679, "key": "3c4993e39c22f5dfdc8765e5", "event": "committed", "cid": "Duke_G4_16", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910043.529869, "key": "3c4993e39c22f5dfdc8765e5", "event": "submitted", "job_id": "DqtDFTHMAkdDpbmz", "quote": 0.67}
+{"t": 1792910070.670569, "key": "53c3829bcb27a31bafa72f14", "event": "completed", "value": 0.9936415301055355, "cost": 0.0}
+{"t": 1792910073.032894, "key": "12ded9ce79fee4fe8c2cd94a", "event": "completed", "value": 0.9926930178583107, "cost": 0.0}
+{"t": 1792910104.161539, "key": "3c4993e39c22f5dfdc8765e5", "event": "completed", "value": 0.00017743745896935332, "cost": 0.2}
+{"t": 1792910105.5059369, "key": "87730d33321428c0c4f0a183", "event": "committed", "cid": "Duke_G4_17", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910106.835736, "key": "87730d33321428c0c4f0a183", "event": "submitted", "job_id": "4kJmrxOMiciWYH5h", "quote": 0.67}
+{"t": 1792910134.226178, "key": "381ea987c2c06ad6dbfadd63", "event": "committed", "cid": "Duke_G2_6", "device": "mps.gpu", "options": {"mps_bond_dimension": 256}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIZIIIIII", 1.0]], "est": 8.22, "est_reserved": 8.22, "tag": "G2-pilot", "attempt": 1}
+{"t": 1792910141.8041012, "key": "381ea987c2c06ad6dbfadd63", "event": "submitted", "job_id": "dcLAex6ilvarnOu1"}
+{"t": 1792910141.90703, "key": "381ea987c2c06ad6dbfadd63", "event": "failed", "cost": 0.0, "error": "HACKATHON_PARALLEL_JOBS_LIMIT: Hackathon limit: you can run at most 1 GPU job(s) at the same time, and you already have 1 pending or running. Wait for one to finish, then resubmit."}
+{"t": 1792910167.4663339, "key": "87730d33321428c0c4f0a183", "event": "completed", "value": 0.0030776019264064946, "cost": 0.2}
+{"t": 1792910168.344216, "key": "8be64c204fe00da936cdff9d", "event": "committed", "cid": "Duke_G4_18", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910169.6893618, "key": "8be64c204fe00da936cdff9d", "event": "submitted", "job_id": "X4kHQvSdcf3pI6O6", "quote": 0.67}
+{"t": 1792910245.875078, "key": "8be64c204fe00da936cdff9d", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792910246.7678442, "key": "22f11aec9b8f97e18163463b", "event": "committed", "cid": "Duke_G4_19", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910248.42505, "key": "22f11aec9b8f97e18163463b", "event": "submitted", "job_id": "wrYpxQbT7XK9J6jm", "quote": 0.67}
+{"t": 1792910324.117749, "key": "22f11aec9b8f97e18163463b", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792910326.033824, "key": "76fa6c73766d1c50fe0e8f94", "event": "committed", "cid": "Duke_G4_20", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910327.113787, "key": "76fa6c73766d1c50fe0e8f94", "event": "submitted", "job_id": "pqu3Ijm12WPlB99O", "quote": 0.67}
+{"t": 1792910387.719199, "key": "76fa6c73766d1c50fe0e8f94", "event": "completed", "value": 0.0, "cost": 0.2}
+{"t": 1792910388.511779, "key": "3e36f529a9efe044dd999bbb", "event": "committed", "cid": "Duke_G4_22", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910389.55532, "key": "3e36f529a9efe044dd999bbb", "event": "submitted", "job_id": "mbZLytSceHFu7WI8", "quote": 0.67}
+{"t": 1792910510.5689652, "key": "3e36f529a9efe044dd999bbb", "event": "completed", "value": 0.008702800692433099, "cost": 0.2}
+{"t": 1792910511.4068391, "key": "fa63c905caf2fdcbb5551e6c", "event": "committed", "cid": "Duke_G4_23", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910513.745164, "key": "fa63c905caf2fdcbb5551e6c", "event": "submitted", "job_id": "996E5EA0GebZeAan", "quote": 0.67}
+{"t": 1792910574.24879, "key": "fa63c905caf2fdcbb5551e6c", "event": "completed", "value": 0.0038833840333238464, "cost": 0.2}
+{"t": 1792910575.0946188, "key": "d8f5fd5f852e25276cc8b162", "event": "committed", "cid": "Duke_G4_24", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910576.3634932, "key": "d8f5fd5f852e25276cc8b162", "event": "submitted", "job_id": "Y2X3UTsq9n9fYBaw", "quote": 0.67}
+{"t": 1792910652.5932758, "key": "d8f5fd5f852e25276cc8b162", "event": "completed", "value": -0.0017244163223126313, "cost": 0.2}
+{"t": 1792910653.566319, "key": "72a57e569921e7d282e2e348", "event": "committed", "cid": "Duke_G4_25", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910654.316297, "key": "72a57e569921e7d282e2e348", "event": "submitted", "job_id": "ZqTGPZZ8OjlX0vq2", "quote": 0.67}
+{"t": 1792910729.8452768, "key": "72a57e569921e7d282e2e348", "event": "completed", "value": 0.004125908569937148, "cost": 0.2}
+{"t": 1792910730.7872589, "key": "f06071f67ae1b8760d8a697c", "event": "committed", "cid": "Duke_G4_26", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910731.9160728, "key": "f06071f67ae1b8760d8a697c", "event": "submitted", "job_id": "AqRkX29iOQltto1a", "quote": 0.67}
+{"t": 1792910807.489323, "key": "f06071f67ae1b8760d8a697c", "event": "completed", "value": 0.0114181743775334, "cost": 0.2}
+{"t": 1792910809.154334, "key": "9609757e905ff9ccd9311471", "event": "committed", "cid": "Duke_G4_27", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910810.278733, "key": "9609757e905ff9ccd9311471", "event": "submitted", "job_id": "0DXwVYnLAbnu3UyD", "quote": 0.67}
+{"t": 1792910885.903116, "key": "9609757e905ff9ccd9311471", "event": "completed", "value": -0.005068971967231436, "cost": 0.2}
+{"t": 1792910886.671676, "key": "b108d169a082f31e67b66f71", "event": "committed", "cid": "Duke_G4_28", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910888.31333, "key": "b108d169a082f31e67b66f71", "event": "submitted", "job_id": "6Dasf2PTShEOwjJm", "quote": 0.67}
+{"t": 1792910963.948211, "key": "b108d169a082f31e67b66f71", "event": "completed", "value": 0.05022185253883144, "cost": 0.2}
+{"t": 1792910964.720835, "key": "23dd20c2bdfb7651a4eaadbc", "event": "committed", "cid": "Duke_G4_29", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792910965.883322, "key": "23dd20c2bdfb7651a4eaadbc", "event": "submitted", "job_id": "1YKTzijprRVO0ayd", "quote": 0.67}
+{"t": 1792911041.414342, "key": "23dd20c2bdfb7651a4eaadbc", "event": "completed", "value": 0.05529836204519348, "cost": 0.2}
+{"t": 1792911042.441484, "key": "117880c09d7328a26f87baa1", "event": "committed", "cid": "Duke_G4_30", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911044.188003, "key": "117880c09d7328a26f87baa1", "event": "submitted", "job_id": "ewu4cj7dgUlk1Nyg", "quote": 0.67}
+{"t": 1792911119.7224672, "key": "117880c09d7328a26f87baa1", "event": "completed", "value": 0.004031025573165656, "cost": 0.2}
+{"t": 1792911120.9819279, "key": "d86138383a2bab30d01280f1", "event": "committed", "cid": "Duke_G4_31", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911121.990762, "key": "d86138383a2bab30d01280f1", "event": "submitted", "job_id": "JjaE039zRTcLp2pc", "quote": 0.67}
+{"t": 1792911197.5922701, "key": "d86138383a2bab30d01280f1", "event": "completed", "value": 0.005208288807284933, "cost": 0.2}
+{"t": 1792911198.313886, "key": "eadb47a4dc8301013228439b", "event": "committed", "cid": "Duke_G4_32", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911199.815382, "key": "eadb47a4dc8301013228439b", "event": "submitted", "job_id": "FuJl2iuyEoR6DJPP", "quote": 0.67}
+{"t": 1792911260.266765, "key": "eadb47a4dc8301013228439b", "event": "completed", "value": 0.005848284755015391, "cost": 0.2}
+{"t": 1792911261.150754, "key": "70dca7ae980dceefacc78736", "event": "committed", "cid": "Duke_G4_33", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911262.949983, "key": "70dca7ae980dceefacc78736", "event": "submitted", "job_id": "SReZH2RTxYLS2TIo", "quote": 0.67}
+{"t": 1792911338.530588, "key": "70dca7ae980dceefacc78736", "event": "completed", "value": 0.0013654343456521083, "cost": 0.2}
+{"t": 1792911339.324806, "key": "47c33413848279f0c64a76ff", "event": "committed", "cid": "Duke_G4_34", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911340.4598222, "key": "47c33413848279f0c64a76ff", "event": "submitted", "job_id": "3XlIq3tQX4YZ5ili", "quote": 0.67}
+{"t": 1792911416.0177789, "key": "47c33413848279f0c64a76ff", "event": "completed", "value": -0.02022681503250819, "cost": 0.2}
+{"t": 1792911416.8007329, "key": "6492d15fbb91594c7804063b", "event": "committed", "cid": "Duke_G4_35", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IIZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911418.023819, "key": "6492d15fbb91594c7804063b", "event": "submitted", "job_id": "JdyCaANG3KtYJEXe", "quote": 0.67}
+{"t": 1792911463.371597, "key": "6492d15fbb91594c7804063b", "event": "completed", "value": 0.00450340727441976, "cost": 0.2}
+{"t": 1792911464.718136, "key": "a1c837a288cbdfef75ce3ec4", "event": "committed", "cid": "Duke_G4_36", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["IZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-v3", "attempt": 1}
+{"t": 1792911466.055424, "key": "a1c837a288cbdfef75ce3ec4", "event": "submitted", "job_id": "TOJlE6yY6EPZYoCL", "quote": 0.67}
+{"t": 1792911571.897561, "key": "a1c837a288cbdfef75ce3ec4", "event": "completed", "value": 0.030003179499957604, "cost": 0.2}

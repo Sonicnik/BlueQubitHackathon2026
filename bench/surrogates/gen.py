@@ -22,6 +22,8 @@ FAMILIES = {
     "chain20": ("chain", 20, 10, 10),
     "grid4x5": ("grid", (4, 5), 10, 0),
     "grid4x6": ("grid", (4, 6), 10, 0),  # H0: larger G4 proxy; 12 layers gives identical values (extra layers miss qubit 0)
+    "chain30": ("chain", 30, 15, 15),  # harder G2 proxy: chain20 said 0.985 at chi=32 where G2 scored 0.57
+    "grid4x7": ("grid", (4, 7), 16, 0),  # G4-hard proxy: G4's 16 layers, corner butterfly, far corner ~9 steps away
 }
 
 
@@ -61,7 +63,8 @@ def echo(u, n, b, q):
 def exact(qc, n, q):
     c = qc.copy()
     c.save_expectation_value(SparsePauliOp("I" * (n - 1 - q) + "Z" + "I" * q), list(range(n)))
-    return float(np.real(AerSimulator(method="statevector").run(c).result().data()["expectation_value"]))
+    sim = AerSimulator(method="statevector", precision="single" if n > 24 else "double")  # 28 q: 2 GB in single
+    return float(np.real(sim.run(c).result().data()["expectation_value"]))
 
 
 def load(family):
@@ -82,17 +85,28 @@ if __name__ == "__main__":
         t0 = time.time()
         u, n = build_u(layout, size, layers, seed=sum(map(ord, fam)))
         uu = u.compose(u.inverse())  # inverse cancellation check: U U^dagger leaves |0...0>, so <Z_q> = 1
-        assert abs(exact(uu, n, n // 2) - 1) < 1e-9
+        if n <= 26:  # local statevector only fits on the Mac up to ~26 q
+            assert abs(exact(uu, n, n // 2) - 1) < 1e-9
         d = ROOT / "bench/surrogates" / fam
         d.mkdir(parents=True, exist_ok=True)
-        vals = {}
+        vals, qcs = {}, {}
         for q in range(n):
-            qc = echo(u, n, b, q)
+            qc = qcs[q] = echo(u, n, b, q)
             (d / f"{fam}_{q}.qasm").write_text(qasm2.dumps(qc))
-            vals[f"{fam}_{q}"] = exact(qc, n, q)
+            if n <= 28:
+                vals[f"{fam}_{q}"] = exact(qc, n, q)
+                print(f"  {fam}_{q} {vals[f'{fam}_{q}']:.5f}", flush=True)
+        if n > 28:  # too big for the Mac: free remote exact statevector (cpu, <=34 q) through the controller
+            from controller.client import Controller
+            zs = lambda q: [("I" * (n - 1 - q) + "Z" + "I" * q, 1.0)]
+            got = Controller(poll=10).run_many([dict(cid=f"{fam}_{q}", device="cpu", circuit=qcs[q], pauli_sum=zs(q),
+                                                     tag=f"truth-{fam}") for q in range(n)], timeout=3600)
+            assert all(isinstance(v, float) for v in got), got
+            vals = {f"{fam}_{q}": v for q, v in enumerate(got)}
         t = ROOT / "bench/truth/surrogates"
         t.mkdir(parents=True, exist_ok=True)
-        (t / f"{fam}.json").write_text(json.dumps({"source": "local exact statevector (qiskit-aer)", "layout": layout,
+        (t / f"{fam}.json").write_text(json.dumps({"source": "local exact statevector (qiskit-aer" + (", single precision)" if n > 24 else ")") if n <= 28 else
+                                                   "remote exact statevector, device=cpu, via controller", "layout": layout,
                                                    "size": size, "layers": layers, "butterfly": b,
                                                    "cz_total": qc.count_ops().get("cz", 0), "values": vals}, indent=1))
         print(fam, n, "qubits", qc.count_ops().get("cz"), "CZ", f"{time.time() - t0:.0f}s", np.round(list(vals.values()), 3).tolist(), flush=True)

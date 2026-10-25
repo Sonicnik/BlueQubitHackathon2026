@@ -89,7 +89,9 @@ class BQBackend:
         return self._view(self.bq.get(job_id))
 
     def find_by_name(self, name, since):
-        hits = [self._view(j) for j in self.bq.search(created_later_than=since) if j.job_name == name]
+        import datetime
+        after = datetime.datetime.fromtimestamp(since, datetime.timezone.utc)  # SDK rejects a bare float
+        hits = [self._view(j) for j in self.bq.search(created_later_than=after) if j.job_name == name]
         return hits[0] if hits else None
 
 

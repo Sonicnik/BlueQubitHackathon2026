@@ -1,27 +1,21 @@
-# Status
+# Status: final handover
 
-Updated 2026-10-24, ~2:15 p.m. ET. Phases 0 to 3 done; ready for Phase 4 (the loop). Target: G2 and G4 (see PLAN.md). Spend so far: **$0.00** of $27. Outstanding jobs: none.
+Updated 2026-10-25, 10:05 a.m. ET (freeze 10:30, submissions close 11:30). Spend: **$8.20 actual** of the $27 cap (GPU jobs at $0.20; every CPU job was $0). Outstanding jobs: none.
 
-## Candidates ready to submit
+## Submit these
 
-| File | Method | Proxy accuracy (same remote method on a sample with exact answers) | Cost | Confidence |
+| Problem | File | Method note (paste the first paragraph) | Evidence | Confidence |
 |---|---|---|---|---|
-| `candidates/G2_v1.csv` (+ `.md` note) | mps.cpu, χ=32 | S2 (16-q chain): corr² 1.0000, MAE 0.0009 | $0.00 | Moderate. Same family, but G2 is 36 q and 18 layers, so the truncation error is larger and unmeasured. The profile looks physical: ~0 near butterfly 18, rising to ~1 at the chain ends. |
-| `candidates/G4_v1.csv` (+ `.md` note) | mps.cpu, χ=32 | S3 (30-q grid, Clifford+Rz): corr² 0.43, MAE 0.26 | $0.00 | **Low.** Values reach 0.96, but the challenge says G4's true values are mostly within ±0.1. MPS isn't converged on the grid. Submit only as an early placeholder. |
+| G2 | `final/G2.csv` (= `candidates/G2_v2.csv`) | `final/G2.md` | mps.cpu chi=128. The 30-q Haar-chain surrogate scored corr2 0.73 / 0.87 / 0.96 at chi 32 / 64 / 128; v1 (chi=32) scored 342/600 on the platform. corr(v1, v2) = 0.94, with the transition region sharpened. | Moderate to good. Should beat 342; 600 is not assured. |
+| G4 | `final/G4.csv` (= `candidates/G4_v3.csv`) | `final/G4.md` | pauli-path.gpu, threshold 3e-4, transpilation level 3. 12 of 38 IDs are exactly 0; the rest are within ±0.06, matching G4's stated regime. Level 2 gave all zeros; MPS (chi 32-256) stuck at 0.5-0.6 and v1 scored 0/1000. | Low. Partial signal only; it has not been scored against exact values on a G4-hard surrogate. |
 
-Both pass `evaluate.py validate`. Job IDs are in each `.md` note and in `ledger/jobs.jsonl`. Agreement between approximations is not accuracy; these are single-rung estimates.
+## Earlier candidates
 
-## Findings that change the plan
+- `candidates/G2_v1`: scored 342/600. `candidates/G4_v1`: scored 0/1000 (recorded in `ledger/submissions.tsv`).
+- `candidates/G4_v2` (mps chi=64) was stopped at 13/38 and never written.
 
-- MPS and Pauli-path jobs at these sizes have **cost $0.00** in practice (82 jobs so far), even though `estimate` says $0.20 to $0.91 per ID. The submit-time quote for MPS was also $0.00.
-- Pauli-path at 1e-3 returned exactly 0.0 on G4, and its submit-time quote was $25 / 100 h. It's unused until the controller fix in QUESTIONS.md #2 is decided.
-- Remote MPS χ=32 is far better than local qiskit-aer MPS at the same χ on S2 (corr² 1.00 vs 0.96). Local MPS is a pessimistic proxy for the remote one.
+## Not done (time ran out)
 
-## Benchmark (Phase 3)
-
-`evaluate.py benchmark`, strategy v1: chain20 (G2 proxy) corr² 0.985, grid4x5 (G4 proxy) corr² **0.129**. The grid is where the loop should spend its effort.
-
-## Next (the loop)
-
-1. G4 is the priority (1,000 pts, low confidence). Probe whether larger χ (64, 128, 256) is still free and finishes. Check convergence on S3 and on Haar-grid surrogates.
-2. G2: a χ=64 rung to confirm convergence (expected free).
+- G4 at threshold 1e-4, level 3 (next rung): GPU jobs run one at a time, and the Mac stopped between ~2:40 and 10:00 a.m., so it never ran.
+- Scoring the G4 method on `grid4x7` (28 q, 16 layers, exact truth now in `bench/truth/surrogates/grid4x7.json`).
+- Open in QUESTIONS.md #1: team and account rules.

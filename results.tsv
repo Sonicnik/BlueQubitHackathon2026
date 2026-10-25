@@ -2,3 +2,17 @@ time	status	hypothesis	chain20_corr2	chain20_mae	grid4x5_corr2	grid4x5_mae	cost_
 2026-10-24T14:10	baseline	strategy v1: mps.cpu chi=32 for G2 and G4	0.9854	0.0302	0.1291	0.2157	0.00	Phase 3 benchmark baseline; S2 corr2 1.00, S3 0.43 with same method
 2026-10-24T14:55	baseline	H0: add grid4x6 surrogate (24 q, 10 layers); strategy v1 unchanged	0.9854	0.0302	0.1291	0.2157	0.00	grid4x6 corr2=0.4724 mae=0.2999 (new column-less family, see notes)
 2026-10-24T14:55	probe	G4_0 / G2_18 mps.cpu chi ladder (pre-H3 cost probe)					0.00	G4_0: chi32 0.270, chi64 0.098, chi128 0.058 (shrinking toward G4 regime); G2_18: chi64 -0.008, chi128 -0.003; all $0, submit quote $0
+2026-10-24T15:08	calibrate	{"device": "mps.cpu", "options": {"mps_bond_dimension": 64}}					0.00	grid4x5 corr2=0.2775 mae=0.1420 std=0.2360 t=342s; grid4x6 corr2=0.6085 mae=0.2212 std=0.2821 t=551s
+2026-10-24T15:13	calibrate	{"device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0003}}					0.00	grid4x5 corr2=0.6841 mae=0.0433 std=0.0242 t=1166s
+2026-10-24T16:10	calibrate	{"device": "pauli-path", "options": {"pauli_path_truncation_threshold": 0.0001}}					0.00	grid4x5 corr2=0.6844 mae=0.0408 std=0.0467 t=3421s
+2026-10-24T16:10	H1-calibrate	pauli-path 3e-4 vs 1e-4 on grid4x5			0.6841 (3e-4) / 0.6844 (1e-4)	0.0433 / 0.0408	0.00	3e-4 ~60 s/job, 1e-4 ~170 s/job; quote $25 each, cost $0; vs mps chi64 0.2775. Pilot at 3e-4 (coarsest that scored well)
+2026-10-24T16:10	H3-calibrate	mps.cpu chi=64 on grids			0.2775 (4x5)	0.1420	0.00	grid4x6 0.6085 mae 0.2212 (chi32: 0.4724); chi=128 deferred behind the pilot
+2026-10-24T16:40	H1-pilot	G4 pauli-path 3e-4 on ids 0,21,37					0.00	all three exactly 0.0 (23-32 s each, quote $25, cost $0): truncation removes every term on G4; grid4x5 surrogate (0.68) overstated the method
+2026-10-24T16:50	H1-stop	pauli-path G4_0 1e-4 -> 0.0, 3e-5 cancelled; G4_v2 (mps chi64) stopped at 13/38					0.00	user asked to stop near-zero runs; v2 chi64 corr 0.90 with v1 (0/1000) on 12 ids
+2026-10-24T16:58	G4-gpu-probe	mps.gpu chi=256 on G4_0					0.20	value 0.030 (chi32/64/128/256: 0.270/0.098/0.058/0.030), quote $7.33, actual $0.20, 152 s: first paid job
+2026-10-24T18:42	calibrate	{"device": "mps.cpu", "options": {"mps_bond_dimension": 32}}					0.20	chain30 corr2=0.7271 mae=0.2139 std=0.3662 t=3488s
+2026-10-24T20:54	calibrate	{"device": "mps.cpu", "options": {"mps_bond_dimension": 64}}					0.60	chain30 corr2=0.8725 mae=0.1263 std=0.3396 t=7925s
+2026-10-25T02:15	H3-G4	mps.gpu chi=256 on G4_4, G4_11					0.60	G4_4 0.332/0.493/0.556, G4_11 0.726/0.649/0.615 at chi 32/64/256: stuck far outside G4 +-0.1 regime; MPS stopped for G4
+2026-10-25T02:15	G2-calibrate	mps.cpu on chain30	0.7271 (chi32) / 0.8725 (chi64)	0.2139 / 0.1263			0.00	chain30 at chi32 (0.73) now resembles real G2 v1 (0.57); chi128 hit network errors (Mac likely slept)
+2026-10-25T02:14	calibrate	{"device": "mps.cpu", "options": {"mps_bond_dimension": 128}}					0.60	chain30 corr2=0.9625 mae=0.0608 std=0.3144 t=4s
+2026-10-25T02:20	H2-pilot	pauli-path.gpu 3e-4 level 3 on G4 0,21,37					0.60	G4_0 0.0036, G4_21 0.0, G4_37 0.0236 (level 2: all 0.0); quote $0.67, cost $0.20 each, 42-54 s. Full G4 run as v3

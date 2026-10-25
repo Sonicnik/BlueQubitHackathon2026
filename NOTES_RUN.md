@@ -97,3 +97,26 @@ More MPS (per ID): S3 mps.cpu χ=512 $14.80; mps.gpu χ=512 $10.39; G4 mps.gpu �
   - 12 layers give values identical to 10, because the extra layers never touch qubit 0 and cancel in U† X₀ U. Expect the same depth saving on G4 (butterfly 0).
 - Benchmark (strategy v1, mps.cpu χ=32): chain20 0.985, grid4x5 0.129, **grid4x6 0.472** (MAE 0.300). 24 jobs, $0, max submit quote $0.
 - MPS χ probe on G4_0: 0.270 / 0.098 / 0.058 at χ = 32 / 64 / 128. Values shrink toward G4's ±0.1 regime as χ grows. All $0.
+
+### Paper check (g4_hypotheses.md sources, abstracts fetched 2026-10-24 ~3:00 p.m. ET)
+
+- arXiv 2505.21606, Rudolph, Jones, Teng, Angrisani, Holmes: exists. A review of Pauli propagation (bit-level ops, tree search, uses) plus the PauliPropagation.jl package. The user's PDF is at `paper/2505.21606v2.pdf`.
+- arXiv 2607.09882, Mazumder, Karapetyan, … Gharibyan, Tepanyan: exists. Benchmarks MPS and Pauli-path on BlueQubit against Braket, Quantum Rings, Qiskit and Julia. Up to ~1,700x GPU speedup on IBM 127-q kicked Ising; GPUs were the only backends to reach the tightest accuracy.
+- arXiv 2604.15427, Bermejo, Villalonga, Ware, Vidal, Szasz: exists. Belief-propagation tensor networks can't feasibly simulate Google's echo OTOCs, because of heavy entanglement and 2D connectivity.
+- arXiv 2607.25998, Barron, … Kandala: exists. Validating quantum observable estimates without classical ground truth, via an "operator Loschmidt echo".
+- Google Quantum AI, Nature 2025 (constructive interference at the edge of ergodicity): the user's PDF is at `paper/s41586-025-09526-6.pdf`. I didn't fetch it separately.
+- Implication for the loop: the BlueQubit benchmark says GPU backends reach accuracy that CPU ones don't. `mps.gpu` and `pauli-path.gpu` are worth a quote check in H1 and H3.
+- **Platform limit found:** "Hackathon limit: you can run at most 5 SMALL2 job(s) at the same time". The controller runs 4 at a time per run, so overlapping runs must total at most 5 in flight. A refused job costs $0 and counts as one attempt.
+- **Controller bug fixed (protected file, crash-recovery path):** `BQBackend.find_by_name` passed a float to `bq.search(created_later_than=)`, which the SDK rejects. It now converts to a UTC datetime, verified against the real SDK. The fake-backend tests couldn't catch it. 11/11 pass. Found when the first G4 pilot attempt hit a half-written ledger record, after I killed a queue script mid-commit.
+- First G4 pilot attempt: G4_21 and G4_37 were cancelled by the quote guard at $0, because orphaned MPS reservations ($3.27) plus a $25 quote crossed the cap. The guard worked. The pilot is re-running with nothing else reserved.
+
+## Overnight G4 focus (2026-10-25, from ~2:40 a.m. ET)
+
+- User: G2 done for now (G2_v2, mps.cpu chi=128, is the G2 file); work on G4 only.
+- **Platform limit: one GPU job at a time** ("Hackathon limit: you can run at most 1 GPU job(s) at the same time"). All pauli-path.gpu and mps.gpu work is serial.
+- CPU pauli-path is quoted $25 per job at submit. With actual spend above $2, the guard can no longer admit one (spend + $25 > $27), so Pauli-path runs on GPU only ($0.20 actual, $0.67 quote, about 1 min at 3e-4 with level 3).
+- G2_v2 (chi=128) vs v1 (chi=32): corr 0.936. The transition region sharpened (qubits 4-11 and 28-33), as the chain30 ladder predicted (0.73 / 0.87 / 0.96 at chi 32 / 64 / 128).
+- G4_v3 done: 38 GPU jobs, ~$7.60. 12/38 exactly 0, max |v| 0.055, std 0.014.
+- The Mac stopped between ~2:40 and ~10:00 a.m. (a 25-min heartbeat took 7 h), most likely lid-closed sleep despite `caffeinate -dims`. The 1e-4 rung never ran.
+- `grid4x7` exact truth (28 q, single precision, local) finished, but there was no time to score Pauli-path on it.
+- Phase 5: `final/G2.csv` = G2_v2 and `final/G4.csv` = G4_v3, both validated.
