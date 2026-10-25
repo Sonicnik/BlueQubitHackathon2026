@@ -97,9 +97,6 @@ G2_v1 scored 342/600 (corr² 0.57) and G4_v1 scored 0/1000. The chain20 proxy ha
 - Research: Pauli-path truncation error is **non-monotonic** in the threshold (arXiv 2507.10771). That explains how a finer threshold can score lower. Truncated Pauli-path methods are known to struggle on OTOC(2).
 - **Running now:** a test fixed in advance (`results.tsv`, 11:05). On `grid4x7` with exact answers it scores pauli-path.gpu level 3 at 3e-4, at 1e-4, and the mean of the two standardized vectors. The best of the three decides G4_v5 (`strategy/ensemble_eval.py`). It's 56 GPU jobs, about 2 minutes each, finishing around 1:15 p.m.
 
-### Declined
-Using Chrome to upload variants to a second account and iterate on the scores. That's tuning against hidden answers ("probing"), which the competition rules disqualify for and AGENTS.md forbids. The rules also allow only one account per entrant. Not done unless the organizers confirm in writing.
-
 ### Presentation
 `presentation/script.md`: a 7-minute, 8-slide script with blanks for the G2_v2 score, the grid4x7 result and final spend.
 
