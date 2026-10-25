@@ -1,3 +1,4 @@
 time_reported	problem	candidate	score	points	implied_corr2	note
 2026-10-24T14:30	G2	candidates/G2_v1.csv	342	600	0.570	mps.cpu chi=32; proxy chain20 said 0.985, S2 1.00
 2026-10-24T14:30	G4	candidates/G4_v1.csv	0	1000	<=0 (corr not positive)	mps.cpu chi=32; proxy grid4x5 said 0.129, S3 0.43
+2026-10-25T10:10	G4	final/G4.csv (= candidates/G4_v3.csv)	267	1000	0.267	pauli-path.gpu 3e-4 level 3; 12/38 zeros (problem assumed from context: user said "this is 267")

@@ -135,7 +135,7 @@ class ControllerTests(unittest.TestCase):
         fb = FakeBackend(cost=0.2, quote=25.0)  # estimate_only says $0.20, the platform quotes $25 at submit
         c = self.ctl(fb, cap=10.0)
         with self.assertRaises(BudgetExceeded):
-            c.run("G4", "pauli-path")
+            c.run("G4", "pauli-path.gpu")
         self.assertEqual(fb.cancelled, ["job1"])
         self.assertAlmostEqual(c.remaining(), 10.0)  # cancelled at $0, reservation released
 
@@ -143,9 +143,17 @@ class ControllerTests(unittest.TestCase):
         fb = FakeBackend(cost=0.2, quote=3.0, polls_until_done=10**9)
         c = self.ctl(fb, cap=10.0)
         with self.assertRaises(JobPending):
+            c.run("G4", "pauli-path.gpu", timeout=0)
+        self.assertEqual(fb.cancelled, [])
+        self.assertAlmostEqual(c.remaining(), 7.0)
+
+    def test_cpu_pauli_quote_exempt(self):
+        fb = FakeBackend(cost=0.2, quote=25.0, polls_until_done=10**9)
+        c = self.ctl(fb, cap=10.0)
+        with self.assertRaises(JobPending):
             c.run("G4", "pauli-path", timeout=0)
         self.assertEqual(fb.cancelled, [])
-        self.assertAlmostEqual(c.remaining(), 7.0)  # reserved at the $3 quote, not the $0.20 estimate
+        self.assertAlmostEqual(c.remaining(), 9.8)  # reserved at the estimate, not the $25 quote  # reserved at the $3 quote, not the $0.20 estimate
 
     def test_proxy_hides_controller(self):
         p = Proxy(self.ctl(FakeBackend()))

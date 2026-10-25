@@ -15,7 +15,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-CAP_USD = 27.00
+CAP_USD = 30.00  # raised by the user 2026-10-25 ~10:25 ET (was 27.00)
 CONCURRENCY = 4
 RETRIES = 2
 ROOT = Path(__file__).resolve().parent.parent
@@ -193,7 +193,9 @@ class Controller:
         """Raise the reservation to the platform's submit-time quote; cancel at once if that crosses the cap."""
         with self._lock:
             r = self.state[key]
-            if quote <= r.get("est_reserved", 0.0):
+            # user-approved 2026-10-25 10:22 ET: CPU pauli-path is always quoted $25 but has cost $0 in every run;
+            # keep its estimate as the reservation. The cap on actual charges still applies.
+            if quote <= r.get("est_reserved", 0.0) or r.get("device") == "pauli-path":
                 return
             if self.spent() - r.get("est_reserved", 0.0) + quote <= self.cap + 1e-9:
                 self._append({"key": key, "event": "submitted", "est_reserved": quote})

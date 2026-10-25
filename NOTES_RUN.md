@@ -120,3 +120,5 @@ More MPS (per ID): S3 mps.cpu χ=512 $14.80; mps.gpu χ=512 $10.39; G4 mps.gpu �
 - The Mac stopped between ~2:40 and ~10:00 a.m. (a 25-min heartbeat took 7 h), most likely lid-closed sleep despite `caffeinate -dims`. The 1e-4 rung never ran.
 - `grid4x7` exact truth (28 q, single precision, local) finished, but there was no time to score Pauli-path on it.
 - Phase 5: `final/G2.csv` = G2_v2 and `final/G4.csv` = G4_v3, both validated.
+- Cap raised to $30 by the user (~10:25 a.m.); CPU pauli-path quote exempted from the guard (user-approved ~10:22).
+- **CPU pauli-path on G4 refused:** 'NOT_ENOUGH_FUNDS: To use pauli-path with more than 1000 gates (after transpilation), please top up'. It's a paid-balance feature on this account, so G4 Pauli-path is GPU-only and strictly serial.

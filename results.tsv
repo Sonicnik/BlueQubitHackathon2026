@@ -16,3 +16,4 @@ time	status	hypothesis	chain20_corr2	chain20_mae	grid4x5_corr2	grid4x5_mae	cost_
 2026-10-25T02:15	G2-calibrate	mps.cpu on chain30	0.7271 (chi32) / 0.8725 (chi64)	0.2139 / 0.1263			0.00	chain30 at chi32 (0.73) now resembles real G2 v1 (0.57); chi128 hit network errors (Mac likely slept)
 2026-10-25T02:14	calibrate	{"device": "mps.cpu", "options": {"mps_bond_dimension": 128}}					0.60	chain30 corr2=0.9625 mae=0.0608 std=0.3144 t=4s
 2026-10-25T02:20	H2-pilot	pauli-path.gpu 3e-4 level 3 on G4 0,21,37					0.60	G4_0 0.0036, G4_21 0.0, G4_37 0.0236 (level 2: all 0.0); quote $0.67, cost $0.20 each, 42-54 s. Full G4 run as v3
+2026-10-25T10:55	G4-v4	pauli-path.gpu 1e-4 level 3, all 38 ids					~7.4	corr(v3,v4)=0.892; zeros 12 -> 4; std 0.014 -> 0.028; several sign flips at small values
