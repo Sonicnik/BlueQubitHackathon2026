@@ -1793,3 +1793,11 @@
 {"t": 1792940005.732276, "key": "3e5d6b9be5fe756e29e7c3c4", "event": "committed", "cid": "Duke_G4_37", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0001, "pauli_path_circuit_transpilation_level": 3}, "pauli_sum": [["ZIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
 {"t": 1792940006.999237, "key": "3e5d6b9be5fe756e29e7c3c4", "event": "submitted", "job_id": "6tLhMCm23EV3xcYc", "quote": 0.67}
 {"t": 1792940047.6237419, "key": "3e5d6b9be5fe756e29e7c3c4", "event": "completed", "value": 0.09782416628063506, "cost": 0.2}
+{"t": 1792940409.78008, "key": "4c195981b0ccfbe5037dc2fa", "event": "committed", "cid": "Duke_G4_0", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3, "pauli_path_weight_cutoff": 12}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZ", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792940411.547374, "key": "4c195981b0ccfbe5037dc2fa", "event": "submitted", "job_id": "2ZR5qOR2VHLplSJw", "quote": 0.67}
+{"t": 1792940492.6195168, "key": "4c195981b0ccfbe5037dc2fa", "event": "completed", "value": 0.0035559193039671113, "cost": 0.2}
+{"t": 1792940493.490844, "key": "3c5322565d47633fd355021c", "event": "committed", "cid": "Duke_G4_1", "device": "pauli-path.gpu", "options": {"pauli_path_truncation_threshold": 0.0003, "pauli_path_circuit_transpilation_level": 3, "pauli_path_weight_cutoff": 12}, "pauli_sum": [["IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZI", 1.0]], "est": 0.67, "est_reserved": 0.67, "tag": "G4-pilot", "attempt": 1}
+{"t": 1792940494.355871, "key": "3c5322565d47633fd355021c", "event": "submitted", "job_id": "f9QIQTe8WPl9FzmG", "quote": 0.67}
+{"t": 1792940526.219848, "key": "b8b503cada6636989588a53f", "event": "submitted", "job_id": "JPWIePgRmgAhYFsz"}
+{"t": 1792940526.346784, "key": "b8b503cada6636989588a53f", "event": "failed", "cost": 0.0, "error": "HACKATHON_PARALLEL_JOBS_LIMIT: Hackathon limit: you can run at most 1 GPU job(s) at the same time, and you already have 1 pending or running. Wait for one to finish, then resubmit."}
+{"t": 1792940526.5085728, "key": "3c5322565d47633fd355021c", "event": "failed", "cost": 0.2, "error": "CANCELED: Canceled by user"}
